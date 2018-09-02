@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF42391277": {
+    "contest_id": 1037,
+    "language": "GNU C++11",
+    "path": "codeforces\\1037\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Packets",
+    "problem_url": "https://codeforces.com/contest/1037/problem/A",
+    "submission_id": "CF42391277",
+    "submission_url": "https://codeforces.com/contest/1037/submission/42391277",
+    "tags": [
+      "constructive algorithms",
+      "greedy",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Sep/02/2018 21:49"
+  },
   "CF42402857": {
     "contest_id": 1037,
     "language": "GNU C++11",
