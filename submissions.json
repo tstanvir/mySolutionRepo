@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF42421796": {
+    "contest_id": 158,
+    "language": "GNU C++11",
+    "path": "codeforces\\158\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Next Round",
+    "problem_url": "https://codeforces.com/contest/158/problem/A",
+    "submission_id": "CF42421796",
+    "submission_url": "https://codeforces.com/contest/158/submission/42421796",
+    "tags": [
+      "*special problem",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Sep/03/2018 16:41"
+  },
   "CF42434545": {
     "contest_id": 558,
     "language": "GNU C++11",
