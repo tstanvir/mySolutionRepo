@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF42473563": {
+    "contest_id": 567,
+    "language": "GNU C++11",
+    "path": "codeforces\\567\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Berland National Library",
+    "problem_url": "https://codeforces.com/contest/567/problem/B",
+    "submission_id": "CF42473563",
+    "submission_url": "https://codeforces.com/contest/567/submission/42473563",
+    "tags": [
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Sep/05/2018 02:05"
+  },
   "CF42489418": {
     "contest_id": 276,
     "language": "GNU C++11",
