@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF42929029": {
+    "contest_id": 1041,
+    "language": "GNU C++14",
+    "path": "codeforces\\1041\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Buying a TV Set",
+    "problem_url": "https://codeforces.com/contest/1041/problem/B",
+    "submission_id": "CF42929029",
+    "submission_url": "https://codeforces.com/contest/1041/submission/42929029",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Sep/16/2018 17:05"
+  },
   "CF43015521": {
     "contest_id": 1042,
     "language": "GNU C++14",
