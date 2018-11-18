@@ -8072,6 +8072,21 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF45938342": {
+    "contest_id": 1079,
+    "language": "GNU C++14",
+    "path": "codeforces\\1079\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Personalized Cup",
+    "problem_url": "https://codeforces.com/contest/1079/problem/B",
+    "submission_id": "CF45938342",
+    "submission_url": "https://codeforces.com/contest/1079/submission/45938342",
+    "tags": [
+      "*1200"
+    ],
+    "timestamp": "Nov/18/2018 23:58"
+  },
   "CF46068015": {
     "contest_id": 1061,
     "language": "GNU C++14",
