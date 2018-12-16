@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF47095768": {
+    "contest_id": 1093,
+    "language": "GNU C++14",
+    "path": "codeforces\\1093\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dice Rolling",
+    "problem_url": "https://codeforces.com/contest/1093/problem/A",
+    "submission_id": "CF47095768",
+    "submission_url": "https://codeforces.com/contest/1093/submission/47095768",
+    "tags": [
+      "math",
+      "*800"
+    ],
+    "timestamp": "Dec/16/2018 14:21"
+  },
   "CF47096930": {
     "contest_id": 1090,
     "language": "GNU C++14",
