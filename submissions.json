@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF47096930": {
+    "contest_id": 1090,
+    "language": "GNU C++14",
+    "path": "codeforces\\1090\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Company Merging",
+    "problem_url": "https://codeforces.com/contest/1090/problem/A",
+    "submission_id": "CF47096930",
+    "submission_url": "https://codeforces.com/contest/1090/submission/47096930",
+    "tags": [
+      "greedy",
+      "*1300"
+    ],
+    "timestamp": "Dec/16/2018 14:53"
+  },
   "CF47202945": {
     "contest_id": 1092,
     "language": "GNU C++14",
