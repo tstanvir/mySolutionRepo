@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF47853120": {
+    "contest_id": 1005,
+    "language": "GNU C++14",
+    "path": "codeforces\\1005\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Delete from the Left",
+    "problem_url": "https://codeforces.com/contest/1005/problem/B",
+    "submission_id": "CF47853120",
+    "submission_url": "https://codeforces.com/contest/1005/submission/47853120",
+    "tags": [
+      "brute force",
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Jan/03/2019 01:11"
+  },
   "CF47877413": {
     "contest_id": 4,
     "language": "GNU C++14",
