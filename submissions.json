@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF48945502": {
+    "contest_id": 898,
+    "language": "GNU C++14",
+    "path": "codeforces\\898\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rounding",
+    "problem_url": "https://codeforces.com/contest/898/problem/A",
+    "submission_id": "CF48945502",
+    "submission_url": "https://codeforces.com/contest/898/submission/48945502",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Jan/26/2019 00:52"
+  },
   "CF48992431": {
     "contest_id": 742,
     "language": "Java 8",
