@@ -27,17 +27,27 @@ int main()
 
 {
 	IOS;
-	int p1,p2,p3,p4;
-	while(cin>>p1>>p2>>p3>>p4){
-    int arr[4]={p1,p2,p3,p4};
-	int a,b;
-	cin>>a>>b;
-	sort(arr,arr+4);
-	if(arr[0]-a<0) cout<<0<<endl;
-	else if(arr[0]>b) cout<<(b-a)+1<<endl;
-	else cout<<arr[0]-a<<endl;
+	int p1,p2,p3,p4,a,b;
+	while(cin>>p1>>p2>>p3>>p4>>a>>b)
+    {
+        int arr[4]={p1,p2,p3,p4};
+        int cnt=0;
+        int fx;
+        while(b>=a){
+            do{
+                fx=(((b%arr[0])%arr[1])%arr[2])%arr[3];
+                if(fx==b)
+                {
+                    cnt++;
+                    break;
+                }
+            }
+            while(next_permutation(arr,arr+4));
+            b--;
+        }
+        cout<<cnt<<endl;
+    }
 
-	}
 	 return 0;
 
 }
