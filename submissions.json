@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF49214118": {
+    "contest_id": 59,
+    "language": "GNU C++14",
+    "path": "codeforces\\59\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Fortune Telling",
+    "problem_url": "https://codeforces.com/contest/59/problem/B",
+    "submission_id": "CF49214118",
+    "submission_url": "https://codeforces.com/contest/59/submission/49214118",
+    "tags": [
+      "implementation",
+      "number theory",
+      "*1200"
+    ],
+    "timestamp": "Jan/30/2019 22:35"
+  },
   "CF49215530": {
     "contest_id": 68,
     "language": "GNU C++14",
