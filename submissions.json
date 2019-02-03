@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF49407102": {
+    "contest_id": 1111,
+    "language": "GNU C++14",
+    "path": "codeforces\\1111\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Superhero Transformation",
+    "problem_url": "https://codeforces.com/contest/1111/problem/A",
+    "submission_id": "CF49407102",
+    "submission_url": "https://codeforces.com/contest/1111/submission/49407102",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1000"
+    ],
+    "timestamp": "Feb/03/2019 21:44"
+  },
   "CF49473392": {
     "contest_id": 1076,
     "language": "GNU C++14",
