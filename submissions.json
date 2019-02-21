@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF50290510": {
+    "contest_id": 1036,
+    "language": "GNU C++14",
+    "path": "codeforces\\1036\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Function Height",
+    "problem_url": "https://codeforces.com/contest/1036/problem/A",
+    "submission_id": "CF50290510",
+    "submission_url": "https://codeforces.com/contest/1036/submission/50290510",
+    "tags": [
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Feb/21/2019 23:11"
+  },
   "CF50295801": {
     "contest_id": 867,
     "language": "GNU C++14",
