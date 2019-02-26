@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF50532295": {
+    "contest_id": 975,
+    "language": "GNU C++14",
+    "path": "codeforces\\975\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Aramic script",
+    "problem_url": "https://codeforces.com/contest/975/problem/A",
+    "submission_id": "CF50532295",
+    "submission_url": "https://codeforces.com/contest/975/submission/50532295",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Feb/26/2019 20:09"
+  },
   "CF50654678": {
     "contest_id": 94,
     "language": "GNU C++14",
