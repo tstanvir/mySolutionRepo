@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF50882697": {
+    "contest_id": 729,
+    "language": "GNU C++14",
+    "path": "codeforces\\729\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Interview with Oleg",
+    "problem_url": "https://codeforces.com/contest/729/problem/A",
+    "submission_id": "CF50882697",
+    "submission_url": "https://codeforces.com/contest/729/submission/50882697",
+    "tags": [
+      "implementation",
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Mar/06/2019 15:38"
+  },
   "CF50893126": {
     "contest_id": 981,
     "language": "GNU C++14",
