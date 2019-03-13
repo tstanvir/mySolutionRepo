@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF51252560": {
+    "contest_id": 1136,
+    "language": "GNU C++14",
+    "path": "codeforces\\1136\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Nastya Is Transposing Matrices",
+    "problem_url": "https://codeforces.com/contest/1136/problem/C",
+    "submission_id": "CF51252560",
+    "submission_url": "https://codeforces.com/contest/1136/submission/51252560",
+    "tags": [
+      "constructive algorithms",
+      "sortings",
+      "*1500"
+    ],
+    "timestamp": "Mar/13/2019 15:30"
+  },
   "CF51268386": {
     "contest_id": 1130,
     "language": "GNU C++14",
