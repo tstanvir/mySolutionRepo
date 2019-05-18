@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF54355418": {
+    "contest_id": 1166,
+    "language": "GNU C++14",
+    "path": "codeforces\\1166\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "All the Vowels Please",
+    "problem_url": "https://codeforces.com/contest/1166/problem/B",
+    "submission_id": "CF54355418",
+    "submission_url": "https://codeforces.com/contest/1166/submission/54355418",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1100"
+    ],
+    "timestamp": "May/18/2019 23:18"
+  },
   "CF54360557": {
     "contest_id": 1166,
     "language": "GNU C++14",
