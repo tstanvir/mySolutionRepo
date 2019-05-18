@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF54360557": {
+    "contest_id": 1166,
+    "language": "GNU C++14",
+    "path": "codeforces\\1166\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "A Tale of Two Lands",
+    "problem_url": "https://codeforces.com/contest/1166/problem/C",
+    "submission_id": "CF54360557",
+    "submission_url": "https://codeforces.com/contest/1166/submission/54360557",
+    "tags": [
+      "binary search",
+      "sortings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "May/19/2019 02:20"
+  },
   "CF54392823": {
     "contest_id": 1167,
     "language": "GNU C++14",
