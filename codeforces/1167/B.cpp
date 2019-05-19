@@ -37,7 +37,7 @@ int main()
         printf("? %d %d\n",q[i].first,q[i].second);
         fflush(stdout);
         cin>>product[i];
-        //assert(product[i]);
+        assert(product[i]);
     }
     do{
         bool pos=true;
