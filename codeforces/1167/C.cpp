@@ -29,15 +29,8 @@ int roots[maxN];
 int cnts[maxN];
 int Find(int x)
 {
-   // cout<<"Root["<<x<<"]: "<<roots[x]<<endl;
-   while(x!=roots[x])
-   {
-       roots[x]=roots[roots[x]];
-       x=roots[x];
-   }
-   return x;
-    //if(x==roots[x]) return x;
-    //return roots[x]=Find(roots[x]);
+    if(x==roots[x]) return x;
+    return roots[x]=Find(roots[x]);
 }
 void Union(int u,int v)
 {
