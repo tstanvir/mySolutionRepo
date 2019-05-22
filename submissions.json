@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF54494886": {
+    "contest_id": 1146,
+    "language": "GNU C++14",
+    "path": "codeforces\\1146\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Love \"A\"",
+    "problem_url": "https://codeforces.com/contest/1146/problem/A",
+    "submission_id": "CF54494886",
+    "submission_url": "https://codeforces.com/contest/1146/submission/54494886",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "May/22/2019 23:14"
+  },
   "CF54516426": {
     "contest_id": 918,
     "language": "GNU C++14",
