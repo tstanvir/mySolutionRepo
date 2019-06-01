@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF54915854": {
+    "contest_id": 228,
+    "language": "GNU C++14",
+    "path": "codeforces\\228\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Is your horseshoe on the other hoof?",
+    "problem_url": "https://codeforces.com/contest/228/problem/A",
+    "submission_id": "CF54915854",
+    "submission_url": "https://codeforces.com/contest/228/submission/54915854",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jun/01/2019 19:46"
+  },
   "CF54916308": {
     "contest_id": 510,
     "language": "GNU C++14",
