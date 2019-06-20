@@ -82,7 +82,7 @@ int main()
                     ans[i]=cnt;
 
                 }
-
+                else ans[i]=0;
             }
         }
         for(int i=0;i<n;i++) cout<<ans[i]<<" ";
