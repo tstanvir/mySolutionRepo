@@ -8072,6 +8072,25 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF56011991": {
+    "contest_id": 384,
+    "language": "GNU C++14",
+    "path": "codeforces\\384\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Multitasking",
+    "problem_url": "https://codeforces.com/contest/384/problem/B",
+    "submission_id": "CF56011991",
+    "submission_url": "https://codeforces.com/contest/384/submission/56011991",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Jun/25/2019 00:37"
+  },
   "CF56012295": {
     "contest_id": 688,
     "language": "GNU C++14",
