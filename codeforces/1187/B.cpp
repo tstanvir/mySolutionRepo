@@ -14,7 +14,7 @@ int main()
     cin>>n;
     string s;
     cin>>s;
-    vector<int>arr[26];
+    vector<int>arr[100005];
     for(int i=0;i<n;i++)
     {
         arr[s[i]-'a'].pb(i+1);

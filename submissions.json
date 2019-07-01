@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF56405484": {
+    "contest_id": 1187,
+    "language": "GNU C++14",
+    "path": "codeforces\\1187\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Letters Shop",
+    "problem_url": "https://codeforces.com/contest/1187/problem/B",
+    "submission_id": "CF56405484",
+    "submission_url": "https://codeforces.com/contest/1187/submission/56405484",
+    "tags": [
+      "binary search",
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jul/02/2019 01:07"
+  },
   "CF56417760": {
     "contest_id": 1187,
     "language": "GNU C++14",
