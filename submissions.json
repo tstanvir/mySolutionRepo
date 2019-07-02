@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF56451229": {
+    "contest_id": 959,
+    "language": "GNU C++14",
+    "path": "codeforces\\959\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Mahmoud and Ehab and the message",
+    "problem_url": "https://codeforces.com/contest/959/problem/B",
+    "submission_id": "CF56451229",
+    "submission_url": "https://codeforces.com/contest/959/submission/56451229",
+    "tags": [
+      "dsu",
+      "greedy",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Jul/03/2019 04:41"
+  },
   "CF56452118": {
     "contest_id": 617,
     "language": "GNU C++14",
