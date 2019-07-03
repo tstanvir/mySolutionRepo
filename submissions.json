@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF56477157": {
+    "contest_id": 978,
+    "language": "GNU C++14",
+    "path": "codeforces\\978\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Remove Duplicates",
+    "problem_url": "https://codeforces.com/contest/978/problem/A",
+    "submission_id": "CF56477157",
+    "submission_url": "https://codeforces.com/contest/978/submission/56477157",
+    "tags": [
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Jul/03/2019 19:40"
+  },
   "CF56482433": {
     "contest_id": 628,
     "language": "GNU C++14",
