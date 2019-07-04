@@ -20,8 +20,6 @@ const long long MOD = 1000000007;
 #define np std::string::npos
 #define for0(i,n) for(int i=0;i<n;i++)
 #define forn(i,n) for(int i=n-1;i>=0;i--)
-#define highest(x) numeric_limits<x>::max()
-#define lowest(x) numeric_limits<x>::min()
 typedef long long ll;
 
 
@@ -50,7 +48,7 @@ int main()
 	cin>>x1>>y1;
 	int n;
 	cin>>n;
-    double mini=highest(double);
+    double mini=(double)INT_MAX;
     while(n--){
         double x2,y2,v;
         cin>>x2>>y2>>v;
