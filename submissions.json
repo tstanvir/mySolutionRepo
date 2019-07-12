@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF56889270": {
+    "contest_id": 78,
+    "language": "GNU C++14",
+    "path": "codeforces\\78\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Haiku",
+    "problem_url": "https://codeforces.com/contest/78/problem/A",
+    "submission_id": "CF56889270",
+    "submission_url": "https://codeforces.com/contest/78/submission/56889270",
+    "tags": [
+      "implementation",
+      "strings",
+      "*800"
+    ],
+    "timestamp": "Jul/12/2019 20:14"
+  },
   "CF56895236": {
     "contest_id": 1191,
     "language": "GNU C++14",
