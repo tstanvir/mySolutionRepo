@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF57200778": {
+    "contest_id": 166,
+    "language": "GNU C++14",
+    "path": "codeforces\\166\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Rank List",
+    "problem_url": "https://codeforces.com/contest/166/problem/A",
+    "submission_id": "CF57200778",
+    "submission_url": "https://codeforces.com/contest/166/submission/57200778",
+    "tags": [
+      "binary search",
+      "implementation",
+      "sortings",
+      "*1100"
+    ],
+    "timestamp": "Jul/17/2019 19:39"
+  },
   "CF57201398": {
     "contest_id": 1131,
     "language": "GNU C++14",
