@@ -49,10 +49,8 @@ int main()
 	IOS;
 	int n;
 	while(cin>>n){
-        if(n%2){
-            cout<<"YES"<<endl;
-            vector<int>left,right;
-            for(int i=1;i<=n;i++){
+	    vector<int>left,right;
+        for(int i=1;i<=n;i++){
             if(i%2){
                 left.pb((i*2)-1);
                 right.pb((i*2));
@@ -62,11 +60,41 @@ int main()
                 right.pb((i*2)-1);
             }
         }
-        for(int i=0;i<n;i++) cout<<left[i]<<" ";
-        for(int i=0;i<n;i++) cout<<right[i]<<" ";
-        cout<<endl;
+        ll sum=0;
+       // for(int i=0;i<left.size();i++) cout<<left[i]<<" ";
+        //cout<<endl;
+        for(int i=0;i<left.size();i++) sum+=left[i];
+       // cout<<sum<<endl;
+        set<ll>bal;
+        bal.insert(sum);
+      //  vector<int>heda;
+        for(int i=0;i<2*n;i++){
+            if(i<n){
+                sum+=right[i%n];
+                sum-=left[i%n];
+                bal.insert(sum);
+                //heda.pb(sum);
+            }
+            else {
+                sum+=left[i%n];
+                sum-=right[i%n];
+                bal.insert(sum);
+                //heda.pb(sum);
+            }
         }
-        else cout<<"NO"<<endl;
+        if(bal.size()>2) cout<<"NO"<<endl;
+        else{
+            auto it=bal.begin();
+            it++;
+            if(abs((*bal.begin())-(*it))!=1) cout<<"NO"<<endl;
+            else {
+                cout<<"YES"<<endl;
+                for(int i=0;i<n;i++) cout<<left[i]<<" ";
+                for(int i=0;i<n;i++) cout<<right[i]<<" ";
+                cout<<endl;
+            }
+        }
+
 	}
 
 	 return 0;
