@@ -8072,6 +8072,25 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF59361414": {
+    "contest_id": 1203,
+    "language": "GNU C++14",
+    "path": "codeforces\\1203\\D2.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D2",
+    "problem_name": "Remove the Substring (hard version)",
+    "problem_url": "https://codeforces.com/contest/1203/problem/D2",
+    "submission_id": "CF59361414",
+    "submission_url": "https://codeforces.com/contest/1203/submission/59361414",
+    "tags": [
+      "binary search",
+      "greedy",
+      "implementation",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Aug/23/2019 21:26"
+  },
   "CF59363655": {
     "contest_id": 1203,
     "language": "GNU C++14",
