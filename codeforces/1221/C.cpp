@@ -1,7 +1,7 @@
 #include<bits/stdc++.h>
-
+ 
 using namespace std;
-
+ 
 const long long MOD = 1000000007;
 #define SET(x) memset(x, 0, sizeof(x))
 #define SET2d(x,m,n) memset(x, 0, sizeof(x[0][0]) * m * n)
@@ -10,12 +10,12 @@ const long long MOD = 1000000007;
 #define mp make_pair
 #define PII pair<int, int>
 #define pf printf
-
+ 
 #define sf scanf
-
+ 
 #define ALL(x) x.begin(),x.end()
 #define pb push_back
-
+ 
 #define IOS ios::sync_with_stdio(false); cin.tie(0);
 #define np std::string::npos
 #define for0(i,n) for(int i=0;i<n;i++)
@@ -30,14 +30,14 @@ const long long MOD = 1000000007;
 typedef long long ll;
 int fx[]={0,0,-1,1,+1,-1,-1,+1};
 int fy[]={1,-1,0,0,+1,+1,-1,-1};
-
-
+ 
+ 
 //this fuction sorts vector pair according to first element in descending order.
 bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
 {
     return a.first>b.first;
 }
-
+ 
 template<typename T>inline T Bigmod(T base, T power, T MOD){
     T ret=1;
     while(power)
@@ -48,9 +48,9 @@ template<typename T>inline T Bigmod(T base, T power, T MOD){
     }
     return ret;
 }
-
+ 
 int main()
-
+ 
 {
 	IOS;
 	int q;
@@ -59,25 +59,18 @@ int main()
         int a,b,c;
         cin>>a>>b>>c;
         int mini=min(a,b);
-        int left=0,right=min(a,b);
-        int ans1=0;
-        while(left<=right){
-            int mid=(left+right)/2;
-           // if(mid*2==maxi || mid*1==maxi) break;
-            if(a+b+c-2*mid>=mid) {
-                    ans1=mid;
-                    left=mid+1;
-            }
-            else right=mid-1;
-             //cout<<left<<" "<<right<<endl;
-            //if(left==right) break;
-
-
-        }
-        cout<<ans1<<endl;
+        c+=(a-mini),c+=(b-mini);
+        a=mini,b=mini;
+        
+        //if(a==0 || b==0) {cout<<ans<<endl;continue;}
+        mini=min(a,min(c,b));
+        ll ans=mini;
+        a-=mini;
+        b-=mini;
+        ans+=((a+b)/3);
+        cout<<ans<<endl;
 	}
-
+ 
 	 return 0;
-
+ 
 }
-
