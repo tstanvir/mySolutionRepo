@@ -8208,6 +8208,22 @@
     ],
     "timestamp": "Sep/03/2019 22:09"
   },
+  "CF62407761": {
+    "contest_id": 622,
+    "language": "GNU C++17",
+    "path": "codeforces\\622\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "The Time",
+    "problem_url": "https://codeforces.com/contest/622/problem/B",
+    "submission_id": "CF62407761",
+    "submission_url": "https://codeforces.com/contest/622/submission/62407761",
+    "tags": [
+      "implementation",
+      "*900"
+    ],
+    "timestamp": "Oct/12/2019 15:30"
+  },
   "CF62409151": {
     "contest_id": 266,
     "language": "GNU C++17",
