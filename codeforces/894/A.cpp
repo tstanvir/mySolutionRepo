@@ -49,27 +49,6 @@ template<typename T>inline T Bigmod(T base, T power, T MOD){
     }
     return ret;
 }
-int cnt(string s,string t){
-    int m=s.size(),n=t.size();
-    int table[m+1][n+1]={{0}};
-    //SET2d(table,(m+1),(n+1));
-    for(int i=0;i<=n;i++){
-        table[0][i]=0;
-    }
-    for(int i=0;i<=m;i++){
-            //cout<<i<<endl;
-        table[i][0]=1;
-    }
-    for(int i=1;i<=m;i++){
-        for(int j=1;j<=n;j++){
-            if(s[i-1]==t[j-1]){
-                table[i][j]=table[i-1][j-1]+table[i-1][j];
-            }
-            else table[i][j]=table[i-1][j];
-        }
-    }
-    return table[m][n];
-}
 
 int main()
 
@@ -79,8 +58,20 @@ int main()
      //freopen("output.txt", "w", stdout);
      string s;
      while(cin>>s){
-        cout<<cnt(s,"QAQ")<<endl;;
-        //cout<<ans<<endl;
+        int n=s.size();
+        int ans=0;
+        for(int i=0;i<n;i++){
+            if(s[i]=='Q'){
+                for(int j=i+1;j<n;j++){
+                    if(s[j]=='A'){
+                        for(int k=j+1;k<n;k++){
+                            if(s[k]=='Q') ans++;
+                        }
+                    }
+                }
+            }
+        }
+        cout<<ans<<endl;
      }
 
 	 return 0;
