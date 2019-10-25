@@ -59,30 +59,17 @@ int main()
      //freopen("output.txt", "w", stdout);
      int n,m;
      while(cin>>n>>m){
-        vector<ll>vec;
+        vector<ll>vec1,vec2;
         for(int i=0;i<n;i++){
             ll a;
             cin>>a;
-            vec.pb(a);
+            vec1.pb(a);
         }
-        sort(ALL(vec));
+        sort(ALL(vec1));
         for(int i=0;i<m;i++){
             ll a;
             cin>>a;
-            int l=0,h=n-1;
-            int ans=-1;
-            while(l<=h){
-                int mid=(l+h)/2;
-                if(vec[mid]>a){
-                    h=mid-1;
-                }
-                else if(vec[mid]<=a){
-                    ans=mid;
-                    l=mid+1;
-                }
-            }
-            if(ans==-1) {cout<<0<<endl;continue;}
-            cout<<ans+1<<" ";
+            cout<<upper_bound(ALL(vec1),a)-vec1.begin()<<" ";
         }
         cout<<endl;
      }
