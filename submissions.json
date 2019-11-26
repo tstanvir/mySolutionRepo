@@ -8208,6 +8208,19 @@
     ],
     "timestamp": "Sep/03/2019 22:09"
   },
+  "CF65791510": {
+    "contest_id": 393,
+    "language": "GNU C++17",
+    "path": "codeforces\\393\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Nineteen",
+    "problem_url": "https://codeforces.com/contest/393/problem/A",
+    "submission_id": "CF65791510",
+    "submission_url": "https://codeforces.com/contest/393/submission/65791510",
+    "tags": [],
+    "timestamp": "Nov/27/2019 05:03"
+  },
   "CF65939417": {
     "contest_id": 1184,
     "language": "GNU C++17",
