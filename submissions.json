@@ -8208,6 +8208,23 @@
     ],
     "timestamp": "Sep/03/2019 22:09"
   },
+  "CF66293641": {
+    "contest_id": 1062,
+    "language": "GNU C++14",
+    "path": "codeforces\\1062\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "A Prank",
+    "problem_url": "https://codeforces.com/contest/1062/problem/A",
+    "submission_id": "CF66293641",
+    "submission_url": "https://codeforces.com/contest/1062/submission/66293641",
+    "tags": [
+      "greedy",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Dec/05/2019 07:53"
+  },
   "CF66294741": {
     "contest_id": 1111,
     "language": "GNU C++14",
