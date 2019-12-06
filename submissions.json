@@ -8208,6 +8208,22 @@
     ],
     "timestamp": "Sep/03/2019 22:09"
   },
+  "CF66373632": {
+    "contest_id": 939,
+    "language": "GNU C++14",
+    "path": "codeforces\\939\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Hamster Farm",
+    "problem_url": "https://codeforces.com/contest/939/problem/B",
+    "submission_id": "CF66373632",
+    "submission_url": "https://codeforces.com/contest/939/submission/66373632",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Dec/06/2019 06:48"
+  },
   "CF66373995": {
     "contest_id": 939,
     "language": "GNU C++14",
