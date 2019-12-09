@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF66524871": {
+    "contest_id": 208,
+    "language": "GNU C++14",
+    "path": "codeforces\\208\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Dubstep",
+    "problem_url": "https://codeforces.com/contest/208/problem/A",
+    "submission_id": "CF66524871",
+    "submission_url": "https://codeforces.com/contest/208/submission/66524871",
+    "tags": [
+      "strings",
+      "*900"
+    ],
+    "timestamp": "Dec/09/2019 09:44"
+  },
   "CF66533716": {
     "contest_id": 327,
     "language": "GNU C++14",
