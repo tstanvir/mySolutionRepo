@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF66840883": {
+    "contest_id": 1277,
+    "language": "GNU C++14",
+    "path": "codeforces\\1277\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Happy Birthday, Polycarp!",
+    "problem_url": "https://codeforces.com/contest/1277/problem/A",
+    "submission_id": "CF66840883",
+    "submission_url": "https://codeforces.com/contest/1277/submission/66840883",
+    "tags": [
+      "implementation",
+      "*1000"
+    ],
+    "timestamp": "Dec/14/2019 17:26"
+  },
   "CF66845452": {
     "contest_id": 1277,
     "language": "GNU C++14",
