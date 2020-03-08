@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF72734023": {
+    "contest_id": 1216,
+    "language": "GNU C++14",
+    "path": "codeforces\\1216\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Shooting",
+    "problem_url": "https://codeforces.com/contest/1216/problem/B",
+    "submission_id": "CF72734023",
+    "submission_url": "https://codeforces.com/contest/1216/submission/72734023",
+    "tags": [
+      "greedy",
+      "implementation",
+      "sortings",
+      "*900"
+    ],
+    "timestamp": "Mar/08/2020 20:12"
+  },
   "CF73084492": {
     "contest_id": 1324,
     "language": "GNU C++14",
