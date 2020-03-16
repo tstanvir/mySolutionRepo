@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF73437057": {
+    "contest_id": 570,
+    "language": "GNU C++14",
+    "path": "codeforces\\570\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/570/problem/A",
+    "submission_id": "CF73437057",
+    "submission_url": "https://codeforces.com/contest/570/submission/73437057",
+    "tags": [
+      "implementation",
+      "*1100"
+    ],
+    "timestamp": "Mar/17/2020 01:45"
+  },
   "CF73454231": {
     "contest_id": 357,
     "language": "GNU C++14",
