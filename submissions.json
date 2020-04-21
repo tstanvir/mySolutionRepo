@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF77445834": {
+    "contest_id": 479,
+    "language": "GNU C++17",
+    "path": "codeforces\\479\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Exams",
+    "problem_url": "https://codeforces.com/contest/479/problem/C",
+    "submission_id": "CF77445834",
+    "submission_url": "https://codeforces.com/contest/479/submission/77445834",
+    "tags": [
+      "greedy",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Apr/21/2020 14:36"
+  },
   "CF77453925": {
     "contest_id": 401,
     "language": "GNU C++17",
