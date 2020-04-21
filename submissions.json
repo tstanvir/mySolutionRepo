@@ -8072,6 +8072,26 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF77461342": {
+    "contest_id": 466,
+    "language": "GNU C++17",
+    "path": "codeforces\\466\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Number of Ways",
+    "problem_url": "https://codeforces.com/contest/466/problem/C",
+    "submission_id": "CF77461342",
+    "submission_url": "https://codeforces.com/contest/466/submission/77461342",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "dp",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Apr/21/2020 17:39"
+  },
   "CF77483238": {
     "contest_id": 1343,
     "language": "GNU C++17",
