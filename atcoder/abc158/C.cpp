@@ -92,20 +92,16 @@ int main()
     IOS;
     //freopen("input.txt", "r", stdin);
      //freopen("output.txt", "w", stdout);
-     double a,b;
+     int a,b;
      cin>>a>>b;
-     double aa=a+1;
-     double bb=b+1;
-     a*=100,b*=100;
-     a/=8;
-     b/=10;
-     aa*=100,bb*=100;
-     aa/=8,bb/=10;
-     if(aa<=b || bb<=a) {
-        cout<<-1<<endl;
-        return 0;
+     for(int i=1;i<=maxx;i++){
+        int aa=(i*0.08),bb=(i*0.1);
+        if(aa==a && bb==b) {
+            cout<<i<<endl;
+            return 0;
+        }
      }
-     cout<<max(ceil(a),ceil(b))<<endl;
+     cout<<-1<<endl;
 
      return 0;
 
