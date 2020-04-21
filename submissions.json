@@ -1,4 +1,20 @@
 {
+  "AC12200069": {
+    "contest_id": "abc158",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\abc158\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Station and Bus",
+    "problem_url": "https://atcoder.jp/contests/abc158/tasks/abc158_a",
+    "submission_id": "AC12200069",
+    "submission_url": "https://atcoder.jp/contests/abc158/submissions/12200069",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Apr/21/2020 19:05"
+  },
   "AC12201305": {
     "contest_id": "abc158",
     "language": "C++14 (GCC 5.4.1)",
