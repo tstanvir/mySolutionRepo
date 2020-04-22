@@ -106,10 +106,11 @@ int main()
         }
         vi pref(2*k+2);
         rep(i,n/2){
-            int lb=min(vec[i],vec[n-i-1])+1,ub=max(vec[i],vec[n-i-1])+k;
-            //assert(max(vec[i]+1,vec[n-i-1])<=min(vec[i]+k,vec[n-i-1]+k));
-            pref[lb]++;
-            pref[ub+1]--;
+            int l1 = 1 + vec[i], r1 = k + vec[i];
+			int l2 = 1 + vec[n - i - 1], r2 = k + vec[n - i - 1];
+			assert(max(l1, l2) <= min(r1, r2));
+			++pref[min(l1, l2)];
+			--pref[max(r1, r2) + 1];
         }
         rep1(i,1,2*k+1){
             pref[i]+=pref[i-1];
