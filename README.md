@@ -12,263 +12,264 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-260 | [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c) | [C++ (GCC 9.2.1)](./atcoder/abc197/C.cpp) | `AtCoder` `*300` | Mar/29/2021 01:57 | 
-259 | [B - Products of Min-Max](https://atcoder.jp/contests/arc116/tasks/arc116_b) | [C++ (GCC 9.2.1)](./atcoder/arc116/B.cpp) | `AtCoder` `*400` | Mar/29/2021 01:35 | 
-258 | [A - Odd vs Even](https://atcoder.jp/contests/arc116/tasks/arc116_a) | [C++ (GCC 9.2.1)](./atcoder/arc116/A.cpp) | `AtCoder` `*300` | Mar/28/2021 18:12 | 
-257 | [B - Visibility](https://atcoder.jp/contests/abc197/tasks/abc197_b) | [C++ (GCC 9.2.1)](./atcoder/abc197/B.cpp) | `AtCoder` `*200` | Mar/27/2021 18:06 | 
-256 | [A - Rotate](https://atcoder.jp/contests/abc197/tasks/abc197_a) | [C++ (GCC 9.2.1)](./atcoder/abc197/A.cpp) | `AtCoder` `*100` | Mar/27/2021 18:01 | 
-255 | [B - Round Down](https://atcoder.jp/contests/abc196/tasks/abc196_b) | [C++ (GCC 9.2.1)](./atcoder/abc196/B.cpp) | `AtCoder` `*200` | Mar/20/2021 18:03 | 
-254 | [A - Difference Max](https://atcoder.jp/contests/abc196/tasks/abc196_a) | [C++ (GCC 9.2.1)](./atcoder/abc196/A.cpp) | `AtCoder` `*100` | Mar/20/2021 18:01 | 
-253 | [C - Comma](https://atcoder.jp/contests/abc195/tasks/abc195_c) | [C++ (GCC 9.2.1)](./atcoder/abc195/C.cpp) | `AtCoder` `*300` | Mar/13/2021 19:13 | 
-252 | [B - Many Oranges](https://atcoder.jp/contests/abc195/tasks/abc195_b) | [C++ (GCC 9.2.1)](./atcoder/abc195/B.cpp) | `AtCoder` `*200` | Mar/13/2021 19:08 | 
-251 | [D - Shipping Center](https://atcoder.jp/contests/abc195/tasks/abc195_d) | [C++ (GCC 9.2.1)](./atcoder/abc195/D.cpp) | `AtCoder` `*400` | Mar/13/2021 18:56 | 
-250 | [A - Health M Death](https://atcoder.jp/contests/abc195/tasks/abc195_a) | [C++ (GCC 9.2.1)](./atcoder/abc195/A.cpp) | `AtCoder` `*100` | Mar/13/2021 18:01 | 
-249 | [B - 0 or 1 Swap](https://atcoder.jp/contests/abc135/tasks/abc135_b) | [C++ (GCC 9.2.1)](./atcoder/abc135/B.cpp) | `AtCoder` `*200` | Mar/11/2021 08:32 | 
-248 | [A - Harmony](https://atcoder.jp/contests/abc135/tasks/abc135_a) | [C++ (GCC 9.2.1)](./atcoder/abc135/A.cpp) | `AtCoder` `*100` | Mar/11/2021 08:26 | 
-247 | [C - Squared Error](https://atcoder.jp/contests/abc194/tasks/abc194_c) | [C++ (GCC 9.2.1)](./atcoder/abc194/C.cpp) | `AtCoder` `*300` | Mar/11/2021 05:59 | 
-246 | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [C++ (GCC 9.2.1)](./atcoder/dp/I.cpp) | `AtCoder` `*100` | Mar/11/2021 02:01 | 
-245 | [E - Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e) | [C++ (GCC 9.2.1)](./atcoder/abc194/E.cpp) | `AtCoder` `*500` | Mar/06/2021 19:47 | 
-244 | [B - Job Assignment](https://atcoder.jp/contests/abc194/tasks/abc194_b) | [C++ (GCC 9.2.1)](./atcoder/abc194/B.cpp) | `AtCoder` `*200` | Mar/06/2021 18:20 | 
-243 | [A - I Scream](https://atcoder.jp/contests/abc194/tasks/abc194_a) | [C++ (GCC 9.2.1)](./atcoder/abc194/A.cpp) | `AtCoder` `*100` | Mar/06/2021 18:04 | 
-242 | [C - Build Stairs](https://atcoder.jp/contests/abc136/tasks/abc136_c) | [Java (OpenJDK 11.0.6)](./atcoder/abc136/C.java) | `AtCoder` `*300` | Mar/02/2021 05:28 | 
-241 | [B - Uneven Numbers](https://atcoder.jp/contests/abc136/tasks/abc136_b) | [Java (OpenJDK 11.0.6)](./atcoder/abc136/B.java) | `AtCoder` `*200` | Mar/02/2021 05:18 | 
-240 | [A - Transfer](https://atcoder.jp/contests/abc136/tasks/abc136_a) | [Java (OpenJDK 11.0.6)](./atcoder/abc136/A.java) | `AtCoder` `*100` | Mar/02/2021 05:12 | 
-239 | [C - Unexpressed](https://atcoder.jp/contests/abc193/tasks/abc193_c) | [C++ (GCC 9.2.1)](./atcoder/abc193/C.cpp) | `AtCoder` `*300` | Feb/27/2021 18:39 | 
-238 | [B - Play Snuke](https://atcoder.jp/contests/abc193/tasks/abc193_b) | [C++ (GCC 9.2.1)](./atcoder/abc193/B.cpp) | `AtCoder` `*200` | Feb/27/2021 18:27 | 
-237 | [A - Discount](https://atcoder.jp/contests/abc193/tasks/abc193_a) | [C++ (GCC 9.2.1)](./atcoder/abc193/A.cpp) | `AtCoder` `*100` | Feb/27/2021 18:02 | 
-236 | [C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c) | [C++ (GCC 9.2.1)](./atcoder/abc137/C.cpp) | `AtCoder` `*300` | Feb/27/2021 17:34 | 
-235 | [B - One Clue](https://atcoder.jp/contests/abc137/tasks/abc137_b) | [C++ (GCC 9.2.1)](./atcoder/abc137/B.cpp) | `AtCoder` `*200` | Feb/27/2021 17:29 | 
-234 | [A - +-x](https://atcoder.jp/contests/abc137/tasks/abc137_a) | [C++ (GCC 9.2.1)](./atcoder/abc137/A.cpp) | `AtCoder` `*100` | Feb/27/2021 17:25 | 
-233 | [E - Strings of Impurity](https://atcoder.jp/contests/abc138/tasks/abc138_e) | [C++ (GCC 9.2.1)](./atcoder/abc138/E.cpp) | `AtCoder` `*500` | Feb/26/2021 00:37 | 
-232 | [D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d) | [C++ (GCC 9.2.1)](./atcoder/abc138/D.cpp) | `AtCoder` `*400` | Feb/25/2021 23:32 | 
-231 | [C - Alchemist](https://atcoder.jp/contests/abc138/tasks/abc138_c) | [C++ (GCC 9.2.1)](./atcoder/abc138/C.cpp) | `AtCoder` `*300` | Feb/25/2021 23:15 | 
-230 | [B - Resistors in Parallel](https://atcoder.jp/contests/abc138/tasks/abc138_b) | [C++ (GCC 9.2.1)](./atcoder/abc138/B.cpp) | `AtCoder` `*200` | Feb/25/2021 23:04 | 
-229 | [A - Red or Not](https://atcoder.jp/contests/abc138/tasks/abc138_a) | [C++ (GCC 9.2.1)](./atcoder/abc138/A.cpp) | `AtCoder` `*100` | Feb/25/2021 23:01 | 
-228 | [E - Train](https://atcoder.jp/contests/abc192/tasks/abc192_e) | [C++ (GCC 9.2.1)](./atcoder/abc192/E.cpp) | `AtCoder` `*500` | Feb/20/2021 20:00 | 
-227 | [C - Kaprekar Number](https://atcoder.jp/contests/abc192/tasks/abc192_c) | [C++ (GCC 9.2.1)](./atcoder/abc192/C.cpp) | `AtCoder` `*300` | Feb/20/2021 18:11 | 
-226 | [B - uNrEaDaBlE sTrInG](https://atcoder.jp/contests/abc192/tasks/abc192_b) | [C++ (GCC 9.2.1)](./atcoder/abc192/B.cpp) | `AtCoder` `*200` | Feb/20/2021 18:04 | 
-225 | [A - Star](https://atcoder.jp/contests/abc192/tasks/abc192_a) | [C++ (GCC 9.2.1)](./atcoder/abc192/A.cpp) | `AtCoder` `*100` | Feb/20/2021 18:01 | 
-224 | [C - Digital Graffiti](https://atcoder.jp/contests/abc191/tasks/abc191_c) | [C++ (GCC 9.2.1)](./atcoder/abc191/C.cpp) | `AtCoder` `*300` | Feb/06/2021 20:27 | 
-223 | [E - Come Back Quickly](https://atcoder.jp/contests/abc191/tasks/abc191_e) | [C++ (GCC 9.2.1)](./atcoder/abc191/E.cpp) | `AtCoder` `*500` | Feb/06/2021 19:18 | 
-222 | [B - Remove It](https://atcoder.jp/contests/abc191/tasks/abc191_b) | [C++ (GCC 9.2.1)](./atcoder/abc191/B.cpp) | `AtCoder` `*200` | Feb/06/2021 18:07 | 
-221 | [A - Vanishing Pitch](https://atcoder.jp/contests/abc191/tasks/abc191_a) | [C++ (GCC 9.2.1)](./atcoder/abc191/A.cpp) | `AtCoder` `*100` | Feb/06/2021 18:05 | 
-220 | [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f) | [C++ (GCC 9.2.1)](./atcoder/abc190/F.cpp) | `AtCoder` `*600` | Feb/02/2021 19:07 | 
-219 | [D - Staircase Sequences](https://atcoder.jp/contests/abc190/tasks/abc190_d) | [C++ (GCC 9.2.1)](./atcoder/abc190/D.cpp) | `AtCoder` `*400` | Jan/30/2021 20:42 | 
-218 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [C++ (GCC 9.2.1)](./atcoder/abc190/C.cpp) | `AtCoder` `*300` | Jan/30/2021 19:46 | 
-217 | [A - Very Very Primitive Game](https://atcoder.jp/contests/abc190/tasks/abc190_a) | [C++ (GCC 9.2.1)](./atcoder/abc190/A.cpp) | `AtCoder` `*100` | Jan/30/2021 18:45 | 
-216 | [B - Magic 3](https://atcoder.jp/contests/abc190/tasks/abc190_b) | [C++ (GCC 9.2.1)](./atcoder/abc190/B.cpp) | `AtCoder` `*200` | Jan/30/2021 18:34 | 
-215 | [D - Logical Expression](https://atcoder.jp/contests/abc189/tasks/abc189_d) | [C++ (GCC 9.2.1)](./atcoder/abc189/D.cpp) | `AtCoder` `*400` | Jan/24/2021 20:33 | 
-214 | [B - Alcoholic](https://atcoder.jp/contests/abc189/tasks/abc189_b) | [Python (3.8.2)](./atcoder/abc189/B.py) | `AtCoder` `*200` | Jan/23/2021 19:36 | 
-213 | [C - Mandarin Orange](https://atcoder.jp/contests/abc189/tasks/abc189_c) | [C++ (GCC 9.2.1)](./atcoder/abc189/C.cpp) | `AtCoder` `*300` | Jan/23/2021 18:32 | 
-212 | [A - Slot](https://atcoder.jp/contests/abc189/tasks/abc189_a) | [C++ (GCC 9.2.1)](./atcoder/abc189/A.cpp) | `AtCoder` `*100` | Jan/23/2021 18:01 | 
-211 | [F - +1-1x2](https://atcoder.jp/contests/abc188/tasks/abc188_f) | [C++ (GCC 9.2.1)](./atcoder/abc188/F.cpp) | `AtCoder` `*600` | Jan/12/2021 17:19 | 
-210 | [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e) | [C++ (GCC 9.2.1)](./atcoder/abc188/E.cpp) | `AtCoder` `*500` | Jan/12/2021 16:49 | 
-209 | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d) | [C++ (GCC 9.2.1)](./atcoder/abc188/D.cpp) | `AtCoder` `*400` | Jan/11/2021 21:41 | 
-208 | [C - ABC Tournament](https://atcoder.jp/contests/abc188/tasks/abc188_c) | [C++ (GCC 9.2.1)](./atcoder/abc188/C.cpp) | `AtCoder` `*300` | Jan/10/2021 22:03 | 
-207 | [B - Orthogonality](https://atcoder.jp/contests/abc188/tasks/abc188_b) | [C++ (GCC 9.2.1)](./atcoder/abc188/B.cpp) | `AtCoder` `*200` | Jan/10/2021 18:04 | 
-206 | [A - Three-Point Shot](https://atcoder.jp/contests/abc188/tasks/abc188_a) | [C++ (GCC 9.2.1)](./atcoder/abc188/A.cpp) | `AtCoder` `*100` | Jan/10/2021 18:02 | 
-205 | [E - Through Path](https://atcoder.jp/contests/abc187/tasks/abc187_e) | [C++ (GCC 9.2.1)](./atcoder/abc187/E.cpp) | `AtCoder` `*500` | Jan/04/2021 15:14 | 
-204 | [D - Choose Me](https://atcoder.jp/contests/abc187/tasks/abc187_d) | [C++ (GCC 9.2.1)](./atcoder/abc187/D.cpp) | `AtCoder` `*400` | Jan/03/2021 17:41 | 
-203 | [C - 1-SAT](https://atcoder.jp/contests/abc187/tasks/abc187_c) | [C++ (GCC 9.2.1)](./atcoder/abc187/C.cpp) | `AtCoder` `*300` | Jan/02/2021 18:21 | 
-202 | [B - Gentle Pairs](https://atcoder.jp/contests/abc187/tasks/abc187_b) | [C++ (GCC 9.2.1)](./atcoder/abc187/B.cpp) | `AtCoder` `*200` | Jan/02/2021 18:07 | 
-201 | [A - Large Digits](https://atcoder.jp/contests/abc187/tasks/abc187_a) | [C++ (GCC 9.2.1)](./atcoder/abc187/A.cpp) | `AtCoder` `*100` | Jan/02/2021 18:01 | 
-200 | [E - Sequence Matching](https://atcoder.jp/contests/abc185/tasks/abc185_e) | [C++ (GCC 9.2.1)](./atcoder/abc185/E.cpp) | `AtCoder` `*500` | Dec/23/2020 07:02 | 
-199 | [D - Sum of difference](https://atcoder.jp/contests/abc186/tasks/abc186_d) | [C++ (GCC 9.2.1)](./atcoder/abc186/D.cpp) | `AtCoder` `*400` | Dec/19/2020 20:34 | 
-198 | [C - Unlucky 7](https://atcoder.jp/contests/abc186/tasks/abc186_c) | [C++ (GCC 9.2.1)](./atcoder/abc186/C.cpp) | `AtCoder` `*300` | Dec/19/2020 18:11 | 
-197 | [B - Blocks on Grid](https://atcoder.jp/contests/abc186/tasks/abc186_b) | [C++ (GCC 9.2.1)](./atcoder/abc186/B.cpp) | `AtCoder` `*200` | Dec/19/2020 18:05 | 
-196 | [A - Brick](https://atcoder.jp/contests/abc186/tasks/abc186_a) | [C++ (GCC 9.2.1)](./atcoder/abc186/A.cpp) | `AtCoder` `*100` | Dec/19/2020 18:00 | 
-195 | [C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c) | [C++ (GCC 9.2.1)](./atcoder/abc075/C.cpp) | `AtCoder` `*300` | Dec/15/2020 05:14 | 
-194 | [D - Stamp](https://atcoder.jp/contests/abc185/tasks/abc185_d) | [C++ (GCC 9.2.1)](./atcoder/abc185/D.cpp) | `AtCoder` `*400` | Dec/13/2020 19:49 | 
-193 | [F - Range Xor Query](https://atcoder.jp/contests/abc185/tasks/abc185_f) | [C++ (GCC 9.2.1)](./atcoder/abc185/F.cpp) | `AtCoder` `*600` | Dec/13/2020 19:01 | 
-192 | [C - Duodecim Ferra](https://atcoder.jp/contests/abc185/tasks/abc185_c) | [C++ (GCC 9.2.1)](./atcoder/abc185/C.cpp) | `AtCoder` `*300` | Dec/13/2020 18:50 | 
-191 | [B - Smartphone Addiction](https://atcoder.jp/contests/abc185/tasks/abc185_b) | [C++ (GCC 9.2.1)](./atcoder/abc185/B.cpp) | `AtCoder` `*200` | Dec/13/2020 18:13 | 
-190 | [A - ABC Preparation](https://atcoder.jp/contests/abc185/tasks/abc185_a) | [C++ (GCC 9.2.1)](./atcoder/abc185/A.cpp) | `AtCoder` `*100` | Dec/13/2020 18:01 | 
-189 | [B - log](https://atcoder.jp/contests/arc109/tasks/arc109_b) | [Python (3.8.2)](./atcoder/arc109/B.py) | `AtCoder` `*400` | Nov/28/2020 19:51 | 
-188 | [A - Hands](https://atcoder.jp/contests/arc109/tasks/arc109_a) | [C++ (GCC 9.2.1)](./atcoder/arc109/A.cpp) | `AtCoder` `*300` | Nov/28/2020 18:48 | 
-187 | [C - Keep Graph Connected](https://atcoder.jp/contests/arc108/tasks/arc108_c) | [C++ (GCC 9.2.1)](./atcoder/arc108/C.cpp) | `AtCoder` `*500` | Nov/27/2020 09:45 | 
-186 | [B - Abbreviate Fox](https://atcoder.jp/contests/arc108/tasks/arc108_b) | [C++ (GCC 9.2.1)](./atcoder/arc108/B.cpp) | `AtCoder` `*400` | Nov/21/2020 18:22 | 
-185 | [A - Sum and Product](https://atcoder.jp/contests/arc108/tasks/arc108_a) | [C++ (GCC 9.2.1)](./atcoder/arc108/A.cpp) | `AtCoder` `*300` | Nov/21/2020 18:02 | 
-184 | [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b) | [C++ (GCC 9.2.1)](./atcoder/arc107/B.cpp) | `AtCoder` `*400` | Nov/21/2020 17:01 | 
-183 | [B - Billiards](https://atcoder.jp/contests/abc183/tasks/abc183_b) | [C++ (GCC 9.2.1)](./atcoder/abc183/B.cpp) | `AtCoder` `*200` | Nov/15/2020 22:23 | 
-182 | [D - Water Heater](https://atcoder.jp/contests/abc183/tasks/abc183_d) | [C++ (GCC 9.2.1)](./atcoder/abc183/D.cpp) | `AtCoder` `*400` | Nov/15/2020 18:45 | 
-181 | [C - Travel](https://atcoder.jp/contests/abc183/tasks/abc183_c) | [C++ (GCC 9.2.1)](./atcoder/abc183/C.cpp) | `AtCoder` `*300` | Nov/15/2020 18:14 | 
-180 | [A - ReLU](https://atcoder.jp/contests/abc183/tasks/abc183_a) | [C++ (GCC 9.2.1)](./atcoder/abc183/A.cpp) | `AtCoder` `*100` | Nov/15/2020 18:01 | 
-179 | [D - Wandering](https://atcoder.jp/contests/abc182/tasks/abc182_d) | [C++ (GCC 9.2.1)](./atcoder/abc182/D.cpp) | `AtCoder` `*400` | Nov/08/2020 19:30 | 
-178 | [C - To 3](https://atcoder.jp/contests/abc182/tasks/abc182_c) | [C++ (GCC 9.2.1)](./atcoder/abc182/C.cpp) | `AtCoder` `*300` | Nov/08/2020 18:22 | 
-177 | [B - Almost GCD](https://atcoder.jp/contests/abc182/tasks/abc182_b) | [C++ (GCC 9.2.1)](./atcoder/abc182/B.cpp) | `AtCoder` `*200` | Nov/08/2020 18:06 | 
-176 | [A - twiblr](https://atcoder.jp/contests/abc182/tasks/abc182_a) | [C++ (GCC 9.2.1)](./atcoder/abc182/A.cpp) | `AtCoder` `*100` | Nov/08/2020 18:02 | 
-175 | [D - Hachi](https://atcoder.jp/contests/abc181/tasks/abc181_d) | [C++ (GCC 9.2.1)](./atcoder/abc181/D.cpp) | `AtCoder` `*400` | Nov/01/2020 19:18 | 
-174 | [C - Collinearity](https://atcoder.jp/contests/abc181/tasks/abc181_c) | [C++ (GCC 9.2.1)](./atcoder/abc181/C.cpp) | `AtCoder` `*300` | Nov/01/2020 18:25 | 
-173 | [B - Trapezoid Sum](https://atcoder.jp/contests/abc181/tasks/abc181_b) | [C++ (GCC 9.2.1)](./atcoder/abc181/B.cpp) | `AtCoder` `*200` | Nov/01/2020 18:03 | 
-172 | [A - Heavy Rotation](https://atcoder.jp/contests/abc181/tasks/abc181_a) | [C++ (GCC 9.2.1)](./atcoder/abc181/A.cpp) | `AtCoder` `*100` | Nov/01/2020 18:01 | 
-171 | [A - Simple Math](https://atcoder.jp/contests/arc107/tasks/arc107_a) | [Python (3.8.2)](./atcoder/arc107/A.py) | `AtCoder` `*300` | Oct/31/2020 19:50 | 
-170 | [A - Plus Minus](https://atcoder.jp/contests/arc104/tasks/arc104_a) | [C++ (GCC 9.2.1)](./atcoder/arc104/A.cpp) | `AtCoder` `*100` | Oct/31/2020 17:06 | 
-169 | [S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s) | [C++ (GCC 9.2.1)](./atcoder/dp/S.cpp) | `AtCoder` `*100` | Oct/31/2020 15:57 | 
-168 | [E - Traveling Salesman among Aerial Cities](https://atcoder.jp/contests/abc180/tasks/abc180_e) | [C++ (GCC 9.2.1)](./atcoder/abc180/E.cpp) | `AtCoder` `*500` | Oct/31/2020 14:23 | 
-167 | [D - Takahashi Unevolved](https://atcoder.jp/contests/abc180/tasks/abc180_d) | [C++ (GCC 9.2.1)](./atcoder/abc180/D.cpp) | `AtCoder` `*400` | Oct/31/2020 12:05 | 
-166 | [C - Cream puff](https://atcoder.jp/contests/abc180/tasks/abc180_c) | [C++ (GCC 9.2.1)](./atcoder/abc180/C.cpp) | `AtCoder` `*300` | Oct/31/2020 11:19 | 
-165 | [B - Various distances](https://atcoder.jp/contests/abc180/tasks/abc180_b) | [C++ (GCC 9.2.1)](./atcoder/abc180/B.cpp) | `AtCoder` `*200` | Oct/31/2020 11:15 | 
-164 | [A - box](https://atcoder.jp/contests/abc180/tasks/abc180_a) | [C++ (GCC 9.2.1)](./atcoder/abc180/A.cpp) | `AtCoder` `*100` | Oct/31/2020 11:06 | 
-163 | [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b) | [C++ (GCC 9.2.1)](./atcoder/arc106/B.cpp) | `AtCoder` `*400` | Oct/25/2020 03:36 | 
-162 | [A - 106](https://atcoder.jp/contests/arc106/tasks/arc106_a) | [C++ (GCC 9.2.1)](./atcoder/arc106/A.cpp) | `AtCoder` `*300` | Oct/24/2020 18:18 | 
-161 | [A - Fourtune Cookies](https://atcoder.jp/contests/arc105/tasks/arc105_a) | [C++ (GCC 9.2.1)](./atcoder/arc105/A.cpp) | `AtCoder` `*200` | Oct/14/2020 00:11 | 
-160 | [C - A x B + C](https://atcoder.jp/contests/abc179/tasks/abc179_c) | [C++ (GCC 9.2.1)](./atcoder/abc179/C.cpp) | `AtCoder` `*300` | Sep/19/2020 22:38 | 
-159 | [B - Go to Jail](https://atcoder.jp/contests/abc179/tasks/abc179_b) | [C++ (GCC 9.2.1)](./atcoder/abc179/B.cpp) | `AtCoder` `*200` | Sep/19/2020 20:02 | 
-158 | [A - Plural Form](https://atcoder.jp/contests/abc179/tasks/abc179_a) | [C++ (GCC 9.2.1)](./atcoder/abc179/A.cpp) | `AtCoder` `*100` | Sep/19/2020 19:58 | 
-157 | [D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d) | [PyPy3 (7.3.0)](./atcoder/abc121/D.py) | `AtCoder` `*400` | Sep/17/2020 08:24 | 
-156 | [E - Multiplication 4](https://atcoder.jp/contests/abc173/tasks/abc173_e) | [C++ (GCC 9.2.1)](./atcoder/abc173/E.cpp) | `AtCoder` `*500` | Sep/16/2020 19:29 | 
-155 | [E - Logs](https://atcoder.jp/contests/abc174/tasks/abc174_e) | [C++ (GCC 9.2.1)](./atcoder/abc174/E.cpp) | `AtCoder` `*500` | Sep/16/2020 09:55 | 
-154 | [F - Contrast](https://atcoder.jp/contests/abc178/tasks/abc178_f) | [C++ (GCC 9.2.1)](./atcoder/abc178/F.cpp) | `AtCoder` `*600` | Sep/16/2020 06:21 | 
-153 | [E - Dist Max](https://atcoder.jp/contests/abc178/tasks/abc178_e) | [C++ (GCC 9.2.1)](./atcoder/abc178/E.cpp) | `AtCoder` `*500` | Sep/14/2020 23:22 | 
-152 | [D - Redistribution](https://atcoder.jp/contests/abc178/tasks/abc178_d) | [C++ (GCC 9.2.1)](./atcoder/abc178/D.cpp) | `AtCoder` `*400` | Sep/14/2020 22:56 | 
-151 | [C - Ubiquity](https://atcoder.jp/contests/abc178/tasks/abc178_c) | [C++ (GCC 9.2.1)](./atcoder/abc178/C.cpp) | `AtCoder` `*300` | Sep/14/2020 22:52 | 
-150 | [B - Product Max](https://atcoder.jp/contests/abc178/tasks/abc178_b) | [C++ (GCC 9.2.1)](./atcoder/abc178/B.cpp) | `AtCoder` `*200` | Sep/13/2020 18:34 | 
-149 | [A - Not](https://atcoder.jp/contests/abc178/tasks/abc178_a) | [C++ (GCC 9.2.1)](./atcoder/abc178/A.cpp) | `AtCoder` `*100` | Sep/13/2020 18:01 | 
-148 | [E - Coprime](https://atcoder.jp/contests/abc177/tasks/abc177_e) | [C++ (GCC 9.2.1)](./atcoder/abc177/E.cpp) | `AtCoder` `*500` | Aug/29/2020 19:52 | 
-147 | [B - Substring](https://atcoder.jp/contests/abc177/tasks/abc177_b) | [C++ (GCC 9.2.1)](./atcoder/abc177/B.cpp) | `AtCoder` `*200` | Aug/29/2020 18:34 | 
-146 | [C - Sum of product of pairs](https://atcoder.jp/contests/abc177/tasks/abc177_c) | [C++ (GCC 9.2.1)](./atcoder/abc177/C.cpp) | `AtCoder` `*300` | Aug/29/2020 18:29 | 
-145 | [D - Friends](https://atcoder.jp/contests/abc177/tasks/abc177_d) | [C++ (GCC 9.2.1)](./atcoder/abc177/D.cpp) | `AtCoder` `*400` | Aug/29/2020 18:16 | 
-144 | [A - Don't be late](https://atcoder.jp/contests/abc177/tasks/abc177_a) | [C++ (GCC 9.2.1)](./atcoder/abc177/A.cpp) | `AtCoder` `*100` | Aug/29/2020 18:02 | 
-143 | [B - Buffet](https://atcoder.jp/contests/abc140/tasks/abc140_b) | [C++ (GCC 9.2.1)](./atcoder/abc140/B.cpp) | `AtCoder` `*200` | Aug/28/2020 22:24 | 
-142 | [A - Password](https://atcoder.jp/contests/abc140/tasks/abc140_a) | [C++ (GCC 9.2.1)](./atcoder/abc140/A.cpp) | `AtCoder` `*100` | Aug/28/2020 21:45 | 
-141 | [E - Picking Goods](https://atcoder.jp/contests/abc175/tasks/abc175_e) | [C++ (GCC 9.2.1)](./atcoder/abc175/E.cpp) | `AtCoder` `*500` | Aug/25/2020 19:17 | 
-140 | [D - Moving Piece](https://atcoder.jp/contests/abc175/tasks/abc175_d) | [C++ (GCC 9.2.1)](./atcoder/abc175/D.cpp) | `AtCoder` `*400` | Aug/25/2020 18:42 | 
-139 | [E - Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e) | [C++ (GCC 9.2.1)](./atcoder/abc176/E.cpp) | `AtCoder` `*500` | Aug/23/2020 07:50 | 
-138 | [D - Wizard in Maze](https://atcoder.jp/contests/abc176/tasks/abc176_d) | [C++ (GCC 9.2.1)](./atcoder/abc176/D.cpp) | `AtCoder` `*400` | Aug/23/2020 06:25 | 
-137 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [C++ (GCC 9.2.1)](./atcoder/abc176/C.cpp) | `AtCoder` `*300` | Aug/23/2020 04:52 | 
-136 | [B - Multiple of 9](https://atcoder.jp/contests/abc176/tasks/abc176_b) | [C++ (GCC 9.2.1)](./atcoder/abc176/B.cpp) | `AtCoder` `*200` | Aug/23/2020 04:47 | 
-135 | [A - Takoyaki](https://atcoder.jp/contests/abc176/tasks/abc176_a) | [C++ (GCC 9.2.1)](./atcoder/abc176/A.cpp) | `AtCoder` `*100` | Aug/23/2020 04:45 | 
-134 | [C - Walking Takahashi](https://atcoder.jp/contests/abc175/tasks/abc175_c) | [C++ (GCC 9.2.1)](./atcoder/abc175/C.cpp) | `AtCoder` `*300` | Aug/16/2020 03:41 | 
-133 | [B - Making Triangle](https://atcoder.jp/contests/abc175/tasks/abc175_b) | [C++ (GCC 9.2.1)](./atcoder/abc175/B.cpp) | `AtCoder` `*200` | Aug/16/2020 03:23 | 
-132 | [A - Rainy Season](https://atcoder.jp/contests/abc175/tasks/abc175_a) | [C++ (GCC 9.2.1)](./atcoder/abc175/A.cpp) | `AtCoder` `*100` | Aug/16/2020 03:18 | 
-131 | [D - Alter Altar](https://atcoder.jp/contests/abc174/tasks/abc174_d) | [C++ (GCC 9.2.1)](./atcoder/abc174/D.cpp) | `AtCoder` `*400` | Aug/02/2020 20:47 | 
-130 | [F - Range Set Query](https://atcoder.jp/contests/abc174/tasks/abc174_f) | [C++ (GCC 9.2.1)](./atcoder/abc174/F.cpp) | `AtCoder` `*600` | Aug/02/2020 18:48 | 
-129 | [C - Repsept](https://atcoder.jp/contests/abc174/tasks/abc174_c) | [C++ (GCC 9.2.1)](./atcoder/abc174/C.cpp) | `AtCoder` `*300` | Aug/02/2020 18:29 | 
-128 | [B - Distance](https://atcoder.jp/contests/abc174/tasks/abc174_b) | [C++ (GCC 9.2.1)](./atcoder/abc174/B.cpp) | `AtCoder` `*200` | Aug/02/2020 18:03 | 
-127 | [A - Air Conditioner](https://atcoder.jp/contests/abc174/tasks/abc174_a) | [C++ (GCC 9.2.1)](./atcoder/abc174/A.cpp) | `AtCoder` `*100` | Aug/02/2020 18:00 | 
-126 | [D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d) | [C++ (GCC 9.2.1)](./atcoder/abc139/D.cpp) | `AtCoder` `*400` | Jul/17/2020 16:46 | 
-125 | [C - Lower](https://atcoder.jp/contests/abc139/tasks/abc139_c) | [C++ (GCC 9.2.1)](./atcoder/abc139/C.cpp) | `AtCoder` `*300` | Jul/17/2020 16:42 | 
-124 | [B - Power Socket](https://atcoder.jp/contests/abc139/tasks/abc139_b) | [C++ (GCC 9.2.1)](./atcoder/abc139/B.cpp) | `AtCoder` `*200` | Jul/17/2020 16:22 | 
-123 | [A - Tenki](https://atcoder.jp/contests/abc139/tasks/abc139_a) | [C++ (GCC 9.2.1)](./atcoder/abc139/A.cpp) | `AtCoder` `*100` | Jul/17/2020 16:06 | 
-122 | [D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d) | [C++ (GCC 9.2.1)](./atcoder/abc141/D.cpp) | `AtCoder` `*400` | Jul/16/2020 12:48 | 
-121 | [C - Attack Survival](https://atcoder.jp/contests/abc141/tasks/abc141_c) | [C++ (GCC 9.2.1)](./atcoder/abc141/C.cpp) | `AtCoder` `*300` | Jul/16/2020 09:24 | 
-120 | [B - Tap Dance](https://atcoder.jp/contests/abc141/tasks/abc141_b) | [C++ (GCC 9.2.1)](./atcoder/abc141/B.cpp) | `AtCoder` `*200` | Jul/16/2020 09:06 | 
-119 | [A - Weather Prediction](https://atcoder.jp/contests/abc141/tasks/abc141_a) | [C++ (GCC 9.2.1)](./atcoder/abc141/A.cpp) | `AtCoder` `*100` | Jul/16/2020 08:59 | 
-118 | [E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e) | [C++ (GCC 9.2.1)](./atcoder/abc142/E.cpp) | `AtCoder` `*500` | Jul/15/2020 14:43 | 
-117 | [D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d) | [C++ (GCC 9.2.1)](./atcoder/abc142/D.cpp) | `AtCoder` `*400` | Jul/15/2020 09:25 | 
-116 | [C - Go to School](https://atcoder.jp/contests/abc142/tasks/abc142_c) | [C++ (GCC 9.2.1)](./atcoder/abc142/C.cpp) | `AtCoder` `*300` | Jul/15/2020 08:43 | 
-115 | [B - Roller Coaster](https://atcoder.jp/contests/abc142/tasks/abc142_b) | [C++ (GCC 9.2.1)](./atcoder/abc142/B.cpp) | `AtCoder` `*200` | Jul/15/2020 08:38 | 
-114 | [A - Odds of Oddness](https://atcoder.jp/contests/abc142/tasks/abc142_a) | [C++ (GCC 9.2.1)](./atcoder/abc142/A.cpp) | `AtCoder` `*100` | Jul/15/2020 08:37 | 
-113 | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [C++ (GCC 9.2.1)](./atcoder/dp/G.cpp) | `AtCoder` `*100` | Jul/14/2020 18:22 | 
-112 | [E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e) | [C++ (GCC 9.2.1)](./atcoder/dp/E.cpp) | `AtCoder` `*100` | Jul/14/2020 12:33 | 
-111 | [D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d) | [C++ (GCC 9.2.1)](./atcoder/abc166/D.cpp) | `AtCoder` `*400` | Jul/13/2020 14:25 | 
-110 | [D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d) | [C++ (GCC 9.2.1)](./atcoder/abc143/D.cpp) | `AtCoder` `*400` | Jul/12/2020 12:59 | 
-109 | [C - Slimes](https://atcoder.jp/contests/abc143/tasks/abc143_c) | [C++ (GCC 9.2.1)](./atcoder/abc143/C.cpp) | `AtCoder` `*300` | Jul/12/2020 12:16 | 
-108 | [B - TAKOYAKI FESTIVAL 2019](https://atcoder.jp/contests/abc143/tasks/abc143_b) | [C++ (GCC 9.2.1)](./atcoder/abc143/B.cpp) | `AtCoder` `*200` | Jul/12/2020 12:08 | 
-107 | [A - Curtain](https://atcoder.jp/contests/abc143/tasks/abc143_a) | [C++ (GCC 9.2.1)](./atcoder/abc143/A.cpp) | `AtCoder` `*100` | Jul/12/2020 12:05 | 
-106 | [C - XYZ Triplets](https://atcoder.jp/contests/aising2020/tasks/aising2020_c) | [C++ (GCC 9.2.1)](./atcoder/aising2020/C.cpp) | `AtCoder` `*300` | Jul/11/2020 19:47 | 
-105 | [B - An Odd Problem](https://atcoder.jp/contests/aising2020/tasks/aising2020_b) | [C++ (GCC 9.2.1)](./atcoder/aising2020/B.cpp) | `AtCoder` `*200` | Jul/11/2020 18:03 | 
-104 | [A - Number of Multiples](https://atcoder.jp/contests/aising2020/tasks/aising2020_a) | [C++ (GCC 9.2.1)](./atcoder/aising2020/A.cpp) | `AtCoder` `*100` | Jul/11/2020 18:01 | 
-103 | [C - Walk on Multiplication Table](https://atcoder.jp/contests/abc144/tasks/abc144_c) | [C++ (GCC 9.2.1)](./atcoder/abc144/C.cpp) | `AtCoder` `*300` | Jul/11/2020 11:56 | 
-102 | [B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b) | [C++ (GCC 9.2.1)](./atcoder/abc144/B.cpp) | `AtCoder` `*200` | Jul/11/2020 11:29 | 
-101 | [A - 9x9](https://atcoder.jp/contests/abc144/tasks/abc144_a) | [C++ (GCC 9.2.1)](./atcoder/abc144/A.cpp) | `AtCoder` `*100` | Jul/11/2020 11:28 | 
-100 | [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d) | [C++ (GCC 9.2.1)](./atcoder/abc145/D.cpp) | `AtCoder` `*400` | Jul/10/2020 07:33 | 
-99 | [C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c) | [C++ (GCC 9.2.1)](./atcoder/abc145/C.cpp) | `AtCoder` `*300` | Jul/10/2020 04:52 | 
-98 | [B - Echo](https://atcoder.jp/contests/abc145/tasks/abc145_b) | [C++ (GCC 9.2.1)](./atcoder/abc145/B.cpp) | `AtCoder` `*200` | Jul/10/2020 04:40 | 
-97 | [A - Circle](https://atcoder.jp/contests/abc145/tasks/abc145_a) | [C++ (GCC 9.2.1)](./atcoder/abc145/A.cpp) | `AtCoder` `*100` | Jul/10/2020 04:36 | 
-96 | [D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d) | [C++ (GCC 9.2.1)](./atcoder/abc147/D.cpp) | `AtCoder` `*400` | Jul/09/2020 23:50 | 
-95 | [E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e) | [C++ (GCC 9.2.1)](./atcoder/abc148/E.cpp) | `AtCoder` `*500` | Jul/09/2020 22:17 | 
-94 | [D - Chat in a Circle](https://atcoder.jp/contests/abc173/tasks/abc173_d) | [C++ (GCC 9.2.1)](./atcoder/abc173/D.cpp) | `AtCoder` `*400` | Jul/08/2020 08:12 | 
-93 | [B - Judge Status Summary](https://atcoder.jp/contests/abc173/tasks/abc173_b) | [C++ (GCC 9.2.1)](./atcoder/abc173/B.cpp) | `AtCoder` `*200` | Jul/08/2020 07:44 | 
-92 | [A - Payment](https://atcoder.jp/contests/abc173/tasks/abc173_a) | [C++ (GCC 9.2.1)](./atcoder/abc173/A.cpp) | `AtCoder` `*100` | Jul/08/2020 07:40 | 
-91 | [C - H and V](https://atcoder.jp/contests/abc173/tasks/abc173_c) | [C++ (GCC 9.2.1)](./atcoder/abc173/C.cpp) | `AtCoder` `*300` | Jul/08/2020 07:35 | 
-90 | [D - Coloring Edges on Tree](https://atcoder.jp/contests/abc146/tasks/abc146_d) | [C++ (GCC 9.2.1)](./atcoder/abc146/D.cpp) | `AtCoder` `*400` | Jul/05/2020 22:44 | 
-89 | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c) | [C++ (GCC 9.2.1)](./atcoder/abc147/C.cpp) | `AtCoder` `*300` | Jul/05/2020 20:40 | 
-88 | [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c) | [C++ (GCC 9.2.1)](./atcoder/abc146/C.cpp) | `AtCoder` `*300` | Jul/04/2020 18:57 | 
-87 | [B - ROT N](https://atcoder.jp/contests/abc146/tasks/abc146_b) | [C++ (GCC 9.2.1)](./atcoder/abc146/B.cpp) | `AtCoder` `*200` | Jul/04/2020 18:01 | 
-86 | [A - Can't Wait for Holiday](https://atcoder.jp/contests/abc146/tasks/abc146_a) | [C++ (GCC 9.2.1)](./atcoder/abc146/A.cpp) | `AtCoder` `*100` | Jul/04/2020 17:58 | 
-85 | [B - Palindrome-philia](https://atcoder.jp/contests/abc147/tasks/abc147_b) | [C++ (GCC 9.2.1)](./atcoder/abc147/B.cpp) | `AtCoder` `*200` | Jul/02/2020 21:16 | 
-84 | [A - Blackjack](https://atcoder.jp/contests/abc147/tasks/abc147_a) | [C++ (GCC 9.2.1)](./atcoder/abc147/A.cpp) | `AtCoder` `*100` | Jul/02/2020 21:14 | 
-83 | [F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_f) | [C++ (GCC 9.2.1)](./atcoder/abc148/F.cpp) | `AtCoder` `*600` | Jul/02/2020 20:45 | 
-82 | [D - Brick Break](https://atcoder.jp/contests/abc148/tasks/abc148_d) | [C++ (GCC 9.2.1)](./atcoder/abc148/D.cpp) | `AtCoder` `*400` | Jul/02/2020 03:09 | 
-81 | [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c) | [C++ (GCC 9.2.1)](./atcoder/abc148/C.cpp) | `AtCoder` `*300` | Jul/02/2020 03:02 | 
-80 | [B - Strings with the Same Length](https://atcoder.jp/contests/abc148/tasks/abc148_b) | [C++ (GCC 9.2.1)](./atcoder/abc148/B.cpp) | `AtCoder` `*200` | Jul/02/2020 03:01 | 
-79 | [A - Round One](https://atcoder.jp/contests/abc148/tasks/abc148_a) | [C++ (GCC 9.2.1)](./atcoder/abc148/A.cpp) | `AtCoder` `*100` | Jul/02/2020 02:59 | 
-78 | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [C++ (GCC 9.2.1)](./atcoder/dp/H.cpp) | `AtCoder` `*100` | Jul/02/2020 01:10 | 
-77 | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f) | [C++ (GCC 9.2.1)](./atcoder/dp/F.cpp) | `AtCoder` `*100` | Jul/02/2020 00:34 | 
-76 | [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c) | [C++ (GCC 9.2.1)](./atcoder/abc172/C.cpp) | `AtCoder` `*300` | Jul/01/2020 18:26 | 
-75 | [D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d) | [C++ (GCC 9.2.1)](./atcoder/abc172/D.cpp) | `AtCoder` `*400` | Jul/01/2020 17:09 | 
-74 | [B - Minor Change](https://atcoder.jp/contests/abc172/tasks/abc172_b) | [C++ (GCC 9.2.1)](./atcoder/abc172/B.cpp) | `AtCoder` `*200` | Jul/01/2020 16:43 | 
-73 | [A - Calc](https://atcoder.jp/contests/abc172/tasks/abc172_a) | [C++ (GCC 9.2.1)](./atcoder/abc172/A.cpp) | `AtCoder` `*100` | Jul/01/2020 16:41 | 
-72 | [C - Next Prime](https://atcoder.jp/contests/abc149/tasks/abc149_c) | [C++ (GCC 9.2.1)](./atcoder/abc149/C.cpp) | `AtCoder` `*300` | Jun/26/2020 20:11 | 
-71 | [B - Greedy Takahashi](https://atcoder.jp/contests/abc149/tasks/abc149_b) | [C++ (GCC 9.2.1)](./atcoder/abc149/B.cpp) | `AtCoder` `*200` | Jun/26/2020 20:08 | 
-70 | [A - Strings](https://atcoder.jp/contests/abc149/tasks/abc149_a) | [C++ (GCC 9.2.1)](./atcoder/abc149/A.cpp) | `AtCoder` `*100` | Jun/26/2020 20:07 | 
-69 | [C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c) | [C++ (GCC 9.2.1)](./atcoder/abc150/C.cpp) | `AtCoder` `*300` | Jun/25/2020 18:32 | 
-68 | [B - Count ABC](https://atcoder.jp/contests/abc150/tasks/abc150_b) | [C++ (GCC 9.2.1)](./atcoder/abc150/B.cpp) | `AtCoder` `*200` | Jun/25/2020 18:24 | 
-67 | [A - 500 Yen Coins](https://atcoder.jp/contests/abc150/tasks/abc150_a) | [C++ (GCC 9.2.1)](./atcoder/abc150/A.cpp) | `AtCoder` `*100` | Jun/25/2020 18:19 | 
-66 | [F - Strivore](https://atcoder.jp/contests/abc171/tasks/abc171_f) | [C++ (GCC 9.2.1)](./atcoder/abc171/F.cpp) | `AtCoder` `*600` | Jun/25/2020 18:13 | 
-65 | [C - One Quadrillion and One Dalmatians](https://atcoder.jp/contests/abc171/tasks/abc171_c) | [C++ (GCC 9.2.1)](./atcoder/abc171/C.cpp) | `AtCoder` `*300` | Jun/21/2020 21:14 | 
-64 | [E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e) | [C++ (GCC 9.2.1)](./atcoder/abc171/E.cpp) | `AtCoder` `*500` | Jun/21/2020 18:30 | 
-63 | [D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d) | [C++ (GCC 9.2.1)](./atcoder/abc171/D.cpp) | `AtCoder` `*400` | Jun/21/2020 18:19 | 
-62 | [B - Mix Juice](https://atcoder.jp/contests/abc171/tasks/abc171_b) | [C++ (GCC 9.2.1)](./atcoder/abc171/B.cpp) | `AtCoder` `*200` | Jun/21/2020 18:03 | 
-61 | [A - αlphabet](https://atcoder.jp/contests/abc171/tasks/abc171_a) | [C++ (GCC 9.2.1)](./atcoder/abc171/A.cpp) | `AtCoder` `*100` | Jun/21/2020 18:01 | 
-60 | [E - Max-Min Sums](https://atcoder.jp/contests/abc151/tasks/abc151_e) | [C++ (GCC 9.2.1)](./atcoder/abc151/E.cpp) | `AtCoder` `*500` | Jun/21/2020 16:06 | 
-59 | [D - Maze Master](https://atcoder.jp/contests/abc151/tasks/abc151_d) | [C++ (GCC 9.2.1)](./atcoder/abc151/D.cpp) | `AtCoder` `*400` | Jun/20/2020 19:31 | 
-58 | [C - Welcome to AtCoder](https://atcoder.jp/contests/abc151/tasks/abc151_c) | [C++ (GCC 9.2.1)](./atcoder/abc151/C.cpp) | `AtCoder` `*300` | Jun/20/2020 18:10 | 
-57 | [B - Achieve the Goal](https://atcoder.jp/contests/abc151/tasks/abc151_b) | [C++ (GCC 9.2.1)](./atcoder/abc151/B.cpp) | `AtCoder` `*200` | Jun/20/2020 18:03 | 
-56 | [A - Next Alphabet](https://atcoder.jp/contests/abc151/tasks/abc151_a) | [C++ (GCC 9.2.1)](./atcoder/abc151/A.cpp) | `AtCoder` `*100` | Jun/20/2020 17:58 | 
-55 | [D - Handstand 2](https://atcoder.jp/contests/abc152/tasks/abc152_d) | [C++ (GCC 9.2.1)](./atcoder/abc152/D.cpp) | `AtCoder` `*400` | Jun/20/2020 11:46 | 
-54 | [E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | [C++ (GCC 9.2.1)](./atcoder/abc152/E.cpp) | `AtCoder` `*500` | Jun/19/2020 22:58 | 
-53 | [C - Low Elements](https://atcoder.jp/contests/abc152/tasks/abc152_c) | [C++ (GCC 9.2.1)](./atcoder/abc152/C.cpp) | `AtCoder` `*300` | Jun/19/2020 21:13 | 
-52 | [B - Comparing Strings](https://atcoder.jp/contests/abc152/tasks/abc152_b) | [C++ (GCC 9.2.1)](./atcoder/abc152/B.cpp) | `AtCoder` `*200` | Jun/19/2020 21:06 | 
-51 | [A - AC or WA](https://atcoder.jp/contests/abc152/tasks/abc152_a) | [C++ (GCC 9.2.1)](./atcoder/abc152/A.cpp) | `AtCoder` `*100` | Jun/19/2020 21:03 | 
-50 | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [C++ (GCC 9.2.1)](./atcoder/dp/D.cpp) | `AtCoder` `*100` | Jun/19/2020 16:07 | 
-49 | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [C++14 (GCC 5.4.1)](./atcoder/dp/C.cpp) | `AtCoder` `*100` | Jun/17/2020 21:54 | 
-48 | [D - Caracal vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_d) | [C++14 (GCC 5.4.1)](./atcoder/abc153/D.cpp) | `AtCoder` `*400` | Jun/15/2020 20:16 | 
-47 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [C++14 (GCC 5.4.1)](./atcoder/abc153/C.cpp) | `AtCoder` `*300` | Jun/15/2020 19:55 | 
-46 | [B - Common Raccoon vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_b) | [C++14 (GCC 5.4.1)](./atcoder/abc153/B.cpp) | `AtCoder` `*200` | Jun/15/2020 19:51 | 
-45 | [A - Serval vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_a) | [C++14 (GCC 5.4.1)](./atcoder/abc153/A.cpp) | `AtCoder` `*100` | Jun/15/2020 19:48 | 
-44 | [D - Dice in Line](https://atcoder.jp/contests/abc154/tasks/abc154_d) | [C++14 (GCC 5.4.1)](./atcoder/abc154/D.cpp) | `AtCoder` `*400` | Jun/15/2020 15:26 | 
-43 | [E - Smart Infants](https://atcoder.jp/contests/abc170/tasks/abc170_e) | [C++ (GCC 9.2.1)](./atcoder/abc170/E.cpp) | `AtCoder` `*500` | Jun/15/2020 08:36 | 
-42 | [D - Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d) | [C++ (GCC 9.2.1)](./atcoder/abc170/D.cpp) | `AtCoder` `*400` | Jun/14/2020 18:40 | 
-41 | [C - Forbidden List](https://atcoder.jp/contests/abc170/tasks/abc170_c) | [C++ (GCC 9.2.1)](./atcoder/abc170/C.cpp) | `AtCoder` `*300` | Jun/14/2020 18:13 | 
-40 | [B - Crane and Turtle](https://atcoder.jp/contests/abc170/tasks/abc170_b) | [C++ (GCC 9.2.1)](./atcoder/abc170/B.cpp) | `AtCoder` `*200` | Jun/14/2020 18:05 | 
-39 | [A - Five Variables](https://atcoder.jp/contests/abc170/tasks/abc170_a) | [C++ (GCC 9.2.1)](./atcoder/abc170/A.cpp) | `AtCoder` `*100` | Jun/14/2020 18:01 | 
-38 | [C - Distinct or Not](https://atcoder.jp/contests/abc154/tasks/abc154_c) | [C++14 (GCC 5.4.1)](./atcoder/abc154/C.cpp) | `AtCoder` `*300` | Jun/12/2020 13:10 | 
-37 | [B - I miss you...](https://atcoder.jp/contests/abc154/tasks/abc154_b) | [C++14 (GCC 5.4.1)](./atcoder/abc154/B.cpp) | `AtCoder` `*200` | Jun/12/2020 13:08 | 
-36 | [A - Remaining Balls](https://atcoder.jp/contests/abc154/tasks/abc154_a) | [C++14 (GCC 5.4.1)](./atcoder/abc154/A.cpp) | `AtCoder` `*100` | Jun/12/2020 13:07 | 
-35 | [C - Poll](https://atcoder.jp/contests/abc155/tasks/abc155_c) | [C++14 (GCC 5.4.1)](./atcoder/abc155/C.cpp) | `AtCoder` `*300` | Jun/11/2020 02:54 | 
-34 | [B - Papers, Please](https://atcoder.jp/contests/abc155/tasks/abc155_b) | [C++14 (GCC 5.4.1)](./atcoder/abc155/B.cpp) | `AtCoder` `*200` | Jun/11/2020 02:45 | 
-33 | [A - Poor](https://atcoder.jp/contests/abc155/tasks/abc155_a) | [C++14 (GCC 5.4.1)](./atcoder/abc155/A.cpp) | `AtCoder` `*100` | Jun/11/2020 02:41 | 
-32 | [D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d) | [C++14 (GCC 5.4.1)](./atcoder/abc156/D.cpp) | `AtCoder` `*400` | Jun/02/2020 22:18 | 
-31 | [C - Rally](https://atcoder.jp/contests/abc156/tasks/abc156_c) | [C++14 (GCC 5.4.1)](./atcoder/abc156/C.cpp) | `AtCoder` `*300` | Jun/02/2020 13:23 | 
-30 | [B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b) | [C++14 (GCC 5.4.1)](./atcoder/abc156/B.cpp) | `AtCoder` `*200` | Jun/02/2020 13:11 | 
-29 | [A - Beginner](https://atcoder.jp/contests/abc156/tasks/abc156_a) | [C++14 (GCC 5.4.1)](./atcoder/abc156/A.cpp) | `AtCoder` `*100` | Jun/02/2020 13:10 | 
-28 | [E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e) | [C++ (GCC 9.2.1)](./atcoder/abc169/E.cpp) | `AtCoder` `*500` | Jun/01/2020 23:23 | 
-27 | [D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d) | [C++ (GCC 9.2.1)](./atcoder/abc169/D.cpp) | `AtCoder` `*400` | Jun/01/2020 22:41 | 
-26 | [C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c) | [C++ (GCC 9.2.1)](./atcoder/abc169/C.cpp) | `AtCoder` `*300` | Jun/01/2020 22:03 | 
-25 | [B - Multiplication 2](https://atcoder.jp/contests/abc169/tasks/abc169_b) | [C++ (GCC 9.2.1)](./atcoder/abc169/B.cpp) | `AtCoder` `*200` | Jun/01/2020 20:05 | 
-24 | [A - Multiplication 1](https://atcoder.jp/contests/abc169/tasks/abc169_a) | [C++ (GCC 9.2.1)](./atcoder/abc169/A.cpp) | `AtCoder` `*100` | Jun/01/2020 19:30 | 
-23 | [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e) | [C++14 (GCC 5.4.1)](./atcoder/abc157/E.cpp) | `AtCoder` `*500` | May/22/2020 23:00 | 
-22 | [D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d) | [C++14 (GCC 5.4.1)](./atcoder/abc157/D.cpp) | `AtCoder` `*400` | May/22/2020 20:26 | 
-21 | [C - Guess The Number](https://atcoder.jp/contests/abc157/tasks/abc157_c) | [C++14 (GCC 5.4.1)](./atcoder/abc157/C.cpp) | `AtCoder` `*300` | May/22/2020 19:36 | 
-20 | [B - Bingo](https://atcoder.jp/contests/abc157/tasks/abc157_b) | [C++14 (GCC 5.4.1)](./atcoder/abc157/B.cpp) | `AtCoder` `*200` | May/22/2020 16:05 | 
-19 | [A - Duplex Printing](https://atcoder.jp/contests/abc157/tasks/abc157_a) | [C++14 (GCC 5.4.1)](./atcoder/abc157/A.cpp) | `AtCoder` `*100` | May/22/2020 15:50 | 
-18 | [C - : (Colon)](https://atcoder.jp/contests/abc168/tasks/abc168_c) | [C++ (GCC 9.2.1)](./atcoder/abc168/C.cpp) | `AtCoder` `*300` | May/18/2020 00:26 | 
-17 | [D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d) | [C++ (GCC 9.2.1)](./atcoder/abc168/D.cpp) | `AtCoder` `*400` | May/17/2020 18:32 | 
-16 | [B - ... (Triple Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_b) | [C++ (GCC 9.2.1)](./atcoder/abc168/B.cpp) | `AtCoder` `*200` | May/17/2020 18:05 | 
-15 | [A - ∴ (Therefore)](https://atcoder.jp/contests/abc168/tasks/abc168_a) | [C++ (GCC 9.2.1)](./atcoder/abc168/A.cpp) | `AtCoder` `*100` | May/17/2020 18:03 | 
-14 | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [C++14 (GCC 5.4.1)](./atcoder/dp/B.cpp) | `AtCoder` `*100` | May/15/2020 02:43 | 
-13 | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [C++14 (GCC 5.4.1)](./atcoder/dp/A.cpp) | `AtCoder` `*100` | May/14/2020 19:21 | 
-12 | [D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d) | [C++ (GCC 9.2.1)](./atcoder/abc167/D.cpp) | `AtCoder` `*400` | May/11/2020 12:35 | 
-11 | [B - Easy Linear Programming](https://atcoder.jp/contests/abc167/tasks/abc167_b) | [C++ (GCC 9.2.1)](./atcoder/abc167/B.cpp) | `AtCoder` `*200` | May/11/2020 11:47 | 
-10 | [A - Registration](https://atcoder.jp/contests/abc167/tasks/abc167_a) | [C++ (GCC 9.2.1)](./atcoder/abc167/A.cpp) | `AtCoder` `*100` | May/11/2020 11:41 | 
-9 | [C - Peaks](https://atcoder.jp/contests/abc166/tasks/abc166_c) | [C++ (GCC 9.2.1)](./atcoder/abc166/C.cpp) | `AtCoder` `*300` | May/11/2020 11:21 | 
-8 | [B - Trick or Treat](https://atcoder.jp/contests/abc166/tasks/abc166_b) | [C++ (GCC 9.2.1)](./atcoder/abc166/B.cpp) | `AtCoder` `*200` | May/11/2020 11:04 | 
-7 | [A - A?C](https://atcoder.jp/contests/abc166/tasks/abc166_a) | [C++ (GCC 9.2.1)](./atcoder/abc166/A.cpp) | `AtCoder` `*100` | May/11/2020 10:59 | 
-6 | [B - 1%](https://atcoder.jp/contests/abc165/tasks/abc165_b) | [C++ (GCC 9.2.1)](./atcoder/abc165/B.cpp) | `AtCoder` `*200` | May/09/2020 00:30 | 
-5 | [A - We Love Golf](https://atcoder.jp/contests/abc165/tasks/abc165_a) | [C++ (GCC 9.2.1)](./atcoder/abc165/A.cpp) | `AtCoder` `*100` | May/02/2020 18:12 | 
-4 | [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d) | [C++ (GCC 9.2.1)](./atcoder/abc164/D.cpp) | `AtCoder` `*400` | Apr/28/2020 17:29 | 
-3 | [C - gacha](https://atcoder.jp/contests/abc164/tasks/abc164_c) | [C++ (GCC 9.2.1)](./atcoder/abc164/C.cpp) | `AtCoder` `*300` | Apr/28/2020 16:56 | 
-2 | [B - Battle](https://atcoder.jp/contests/abc164/tasks/abc164_b) | [C++ (GCC 9.2.1)](./atcoder/abc164/B.cpp) | `AtCoder` `*200` | Apr/28/2020 16:53 | 
-1 | [A - Sheep and Wolves](https://atcoder.jp/contests/abc164/tasks/abc164_a) | [C++ (GCC 9.2.1)](./atcoder/abc164/A.cpp) | `AtCoder` `*100` | Apr/28/2020 16:45 | 
+261 | [C - ORXOR](https://atcoder.jp/contests/abc197/tasks/abc197_c) | [C++ (GCC 9.2.1)](./atcoder/abc197/C.cpp) | `AtCoder` `*300` | Mar/29/2021 01:57 | 
+260 | [B - Products of Min-Max](https://atcoder.jp/contests/arc116/tasks/arc116_b) | [C++ (GCC 9.2.1)](./atcoder/arc116/B.cpp) | `AtCoder` `*400` | Mar/29/2021 01:35 | 
+259 | [A - Odd vs Even](https://atcoder.jp/contests/arc116/tasks/arc116_a) | [C++ (GCC 9.2.1)](./atcoder/arc116/A.cpp) | `AtCoder` `*300` | Mar/28/2021 18:12 | 
+258 | [B - Visibility](https://atcoder.jp/contests/abc197/tasks/abc197_b) | [C++ (GCC 9.2.1)](./atcoder/abc197/B.cpp) | `AtCoder` `*200` | Mar/27/2021 18:06 | 
+257 | [A - Rotate](https://atcoder.jp/contests/abc197/tasks/abc197_a) | [C++ (GCC 9.2.1)](./atcoder/abc197/A.cpp) | `AtCoder` `*100` | Mar/27/2021 18:01 | 
+256 | [B - Round Down](https://atcoder.jp/contests/abc196/tasks/abc196_b) | [C++ (GCC 9.2.1)](./atcoder/abc196/B.cpp) | `AtCoder` `*200` | Mar/20/2021 18:03 | 
+255 | [A - Difference Max](https://atcoder.jp/contests/abc196/tasks/abc196_a) | [C++ (GCC 9.2.1)](./atcoder/abc196/A.cpp) | `AtCoder` `*100` | Mar/20/2021 18:01 | 
+254 | [C - Comma](https://atcoder.jp/contests/abc195/tasks/abc195_c) | [C++ (GCC 9.2.1)](./atcoder/abc195/C.cpp) | `AtCoder` `*300` | Mar/13/2021 19:13 | 
+253 | [B - Many Oranges](https://atcoder.jp/contests/abc195/tasks/abc195_b) | [C++ (GCC 9.2.1)](./atcoder/abc195/B.cpp) | `AtCoder` `*200` | Mar/13/2021 19:08 | 
+252 | [D - Shipping Center](https://atcoder.jp/contests/abc195/tasks/abc195_d) | [C++ (GCC 9.2.1)](./atcoder/abc195/D.cpp) | `AtCoder` `*400` | Mar/13/2021 18:56 | 
+251 | [A - Health M Death](https://atcoder.jp/contests/abc195/tasks/abc195_a) | [C++ (GCC 9.2.1)](./atcoder/abc195/A.cpp) | `AtCoder` `*100` | Mar/13/2021 18:01 | 
+250 | [B - 0 or 1 Swap](https://atcoder.jp/contests/abc135/tasks/abc135_b) | [C++ (GCC 9.2.1)](./atcoder/abc135/B.cpp) | `AtCoder` `*200` | Mar/11/2021 08:32 | 
+249 | [A - Harmony](https://atcoder.jp/contests/abc135/tasks/abc135_a) | [C++ (GCC 9.2.1)](./atcoder/abc135/A.cpp) | `AtCoder` `*100` | Mar/11/2021 08:26 | 
+248 | [C - Squared Error](https://atcoder.jp/contests/abc194/tasks/abc194_c) | [C++ (GCC 9.2.1)](./atcoder/abc194/C.cpp) | `AtCoder` `*300` | Mar/11/2021 05:59 | 
+247 | [I - Coins](https://atcoder.jp/contests/dp/tasks/dp_i) | [C++ (GCC 9.2.1)](./atcoder/dp/I.cpp) | `AtCoder` `*100` | Mar/11/2021 02:01 | 
+246 | [E - Mex Min](https://atcoder.jp/contests/abc194/tasks/abc194_e) | [C++ (GCC 9.2.1)](./atcoder/abc194/E.cpp) | `AtCoder` `*500` | Mar/06/2021 19:47 | 
+245 | [B - Job Assignment](https://atcoder.jp/contests/abc194/tasks/abc194_b) | [C++ (GCC 9.2.1)](./atcoder/abc194/B.cpp) | `AtCoder` `*200` | Mar/06/2021 18:20 | 
+244 | [A - I Scream](https://atcoder.jp/contests/abc194/tasks/abc194_a) | [C++ (GCC 9.2.1)](./atcoder/abc194/A.cpp) | `AtCoder` `*100` | Mar/06/2021 18:04 | 
+243 | [C - Build Stairs](https://atcoder.jp/contests/abc136/tasks/abc136_c) | [Java (OpenJDK 11.0.6)](./atcoder/abc136/C.java) | `AtCoder` `*300` | Mar/02/2021 05:28 | 
+242 | [B - Uneven Numbers](https://atcoder.jp/contests/abc136/tasks/abc136_b) | [Java (OpenJDK 11.0.6)](./atcoder/abc136/B.java) | `AtCoder` `*200` | Mar/02/2021 05:18 | 
+241 | [A - Transfer](https://atcoder.jp/contests/abc136/tasks/abc136_a) | [Java (OpenJDK 11.0.6)](./atcoder/abc136/A.java) | `AtCoder` `*100` | Mar/02/2021 05:12 | 
+240 | [C - Unexpressed](https://atcoder.jp/contests/abc193/tasks/abc193_c) | [C++ (GCC 9.2.1)](./atcoder/abc193/C.cpp) | `AtCoder` `*300` | Feb/27/2021 18:39 | 
+239 | [B - Play Snuke](https://atcoder.jp/contests/abc193/tasks/abc193_b) | [C++ (GCC 9.2.1)](./atcoder/abc193/B.cpp) | `AtCoder` `*200` | Feb/27/2021 18:27 | 
+238 | [A - Discount](https://atcoder.jp/contests/abc193/tasks/abc193_a) | [C++ (GCC 9.2.1)](./atcoder/abc193/A.cpp) | `AtCoder` `*100` | Feb/27/2021 18:02 | 
+237 | [C - Green Bin](https://atcoder.jp/contests/abc137/tasks/abc137_c) | [C++ (GCC 9.2.1)](./atcoder/abc137/C.cpp) | `AtCoder` `*300` | Feb/27/2021 17:34 | 
+236 | [B - One Clue](https://atcoder.jp/contests/abc137/tasks/abc137_b) | [C++ (GCC 9.2.1)](./atcoder/abc137/B.cpp) | `AtCoder` `*200` | Feb/27/2021 17:29 | 
+235 | [A - +-x](https://atcoder.jp/contests/abc137/tasks/abc137_a) | [C++ (GCC 9.2.1)](./atcoder/abc137/A.cpp) | `AtCoder` `*100` | Feb/27/2021 17:25 | 
+234 | [E - Strings of Impurity](https://atcoder.jp/contests/abc138/tasks/abc138_e) | [C++ (GCC 9.2.1)](./atcoder/abc138/E.cpp) | `AtCoder` `*500` | Feb/26/2021 00:37 | 
+233 | [D - Ki](https://atcoder.jp/contests/abc138/tasks/abc138_d) | [C++ (GCC 9.2.1)](./atcoder/abc138/D.cpp) | `AtCoder` `*400` | Feb/25/2021 23:32 | 
+232 | [C - Alchemist](https://atcoder.jp/contests/abc138/tasks/abc138_c) | [C++ (GCC 9.2.1)](./atcoder/abc138/C.cpp) | `AtCoder` `*300` | Feb/25/2021 23:15 | 
+231 | [B - Resistors in Parallel](https://atcoder.jp/contests/abc138/tasks/abc138_b) | [C++ (GCC 9.2.1)](./atcoder/abc138/B.cpp) | `AtCoder` `*200` | Feb/25/2021 23:04 | 
+230 | [A - Red or Not](https://atcoder.jp/contests/abc138/tasks/abc138_a) | [C++ (GCC 9.2.1)](./atcoder/abc138/A.cpp) | `AtCoder` `*100` | Feb/25/2021 23:01 | 
+229 | [E - Train](https://atcoder.jp/contests/abc192/tasks/abc192_e) | [C++ (GCC 9.2.1)](./atcoder/abc192/E.cpp) | `AtCoder` `*500` | Feb/20/2021 20:00 | 
+228 | [C - Kaprekar Number](https://atcoder.jp/contests/abc192/tasks/abc192_c) | [C++ (GCC 9.2.1)](./atcoder/abc192/C.cpp) | `AtCoder` `*300` | Feb/20/2021 18:11 | 
+227 | [B - uNrEaDaBlE sTrInG](https://atcoder.jp/contests/abc192/tasks/abc192_b) | [C++ (GCC 9.2.1)](./atcoder/abc192/B.cpp) | `AtCoder` `*200` | Feb/20/2021 18:04 | 
+226 | [A - Star](https://atcoder.jp/contests/abc192/tasks/abc192_a) | [C++ (GCC 9.2.1)](./atcoder/abc192/A.cpp) | `AtCoder` `*100` | Feb/20/2021 18:01 | 
+225 | [C - Digital Graffiti](https://atcoder.jp/contests/abc191/tasks/abc191_c) | [C++ (GCC 9.2.1)](./atcoder/abc191/C.cpp) | `AtCoder` `*300` | Feb/06/2021 20:27 | 
+224 | [E - Come Back Quickly](https://atcoder.jp/contests/abc191/tasks/abc191_e) | [C++ (GCC 9.2.1)](./atcoder/abc191/E.cpp) | `AtCoder` `*500` | Feb/06/2021 19:18 | 
+223 | [B - Remove It](https://atcoder.jp/contests/abc191/tasks/abc191_b) | [C++ (GCC 9.2.1)](./atcoder/abc191/B.cpp) | `AtCoder` `*200` | Feb/06/2021 18:07 | 
+222 | [A - Vanishing Pitch](https://atcoder.jp/contests/abc191/tasks/abc191_a) | [C++ (GCC 9.2.1)](./atcoder/abc191/A.cpp) | `AtCoder` `*100` | Feb/06/2021 18:05 | 
+221 | [F - Shift and Inversions](https://atcoder.jp/contests/abc190/tasks/abc190_f) | [C++ (GCC 9.2.1)](./atcoder/abc190/F.cpp) | `AtCoder` `*600` | Feb/02/2021 19:07 | 
+220 | [D - Staircase Sequences](https://atcoder.jp/contests/abc190/tasks/abc190_d) | [C++ (GCC 9.2.1)](./atcoder/abc190/D.cpp) | `AtCoder` `*400` | Jan/30/2021 20:42 | 
+219 | [C - Bowls and Dishes](https://atcoder.jp/contests/abc190/tasks/abc190_c) | [C++ (GCC 9.2.1)](./atcoder/abc190/C.cpp) | `AtCoder` `*300` | Jan/30/2021 19:46 | 
+218 | [A - Very Very Primitive Game](https://atcoder.jp/contests/abc190/tasks/abc190_a) | [C++ (GCC 9.2.1)](./atcoder/abc190/A.cpp) | `AtCoder` `*100` | Jan/30/2021 18:45 | 
+217 | [B - Magic 3](https://atcoder.jp/contests/abc190/tasks/abc190_b) | [C++ (GCC 9.2.1)](./atcoder/abc190/B.cpp) | `AtCoder` `*200` | Jan/30/2021 18:34 | 
+216 | [D - Logical Expression](https://atcoder.jp/contests/abc189/tasks/abc189_d) | [C++ (GCC 9.2.1)](./atcoder/abc189/D.cpp) | `AtCoder` `*400` | Jan/24/2021 20:33 | 
+215 | [B - Alcoholic](https://atcoder.jp/contests/abc189/tasks/abc189_b) | [Python (3.8.2)](./atcoder/abc189/B.py) | `AtCoder` `*200` | Jan/23/2021 19:36 | 
+214 | [C - Mandarin Orange](https://atcoder.jp/contests/abc189/tasks/abc189_c) | [C++ (GCC 9.2.1)](./atcoder/abc189/C.cpp) | `AtCoder` `*300` | Jan/23/2021 18:32 | 
+213 | [A - Slot](https://atcoder.jp/contests/abc189/tasks/abc189_a) | [C++ (GCC 9.2.1)](./atcoder/abc189/A.cpp) | `AtCoder` `*100` | Jan/23/2021 18:01 | 
+212 | [F - +1-1x2](https://atcoder.jp/contests/abc188/tasks/abc188_f) | [C++ (GCC 9.2.1)](./atcoder/abc188/F.cpp) | `AtCoder` `*600` | Jan/12/2021 17:19 | 
+211 | [E - Peddler](https://atcoder.jp/contests/abc188/tasks/abc188_e) | [C++ (GCC 9.2.1)](./atcoder/abc188/E.cpp) | `AtCoder` `*500` | Jan/12/2021 16:49 | 
+210 | [D - Snuke Prime](https://atcoder.jp/contests/abc188/tasks/abc188_d) | [C++ (GCC 9.2.1)](./atcoder/abc188/D.cpp) | `AtCoder` `*400` | Jan/11/2021 21:41 | 
+209 | [C - ABC Tournament](https://atcoder.jp/contests/abc188/tasks/abc188_c) | [C++ (GCC 9.2.1)](./atcoder/abc188/C.cpp) | `AtCoder` `*300` | Jan/10/2021 22:03 | 
+208 | [B - Orthogonality](https://atcoder.jp/contests/abc188/tasks/abc188_b) | [C++ (GCC 9.2.1)](./atcoder/abc188/B.cpp) | `AtCoder` `*200` | Jan/10/2021 18:04 | 
+207 | [A - Three-Point Shot](https://atcoder.jp/contests/abc188/tasks/abc188_a) | [C++ (GCC 9.2.1)](./atcoder/abc188/A.cpp) | `AtCoder` `*100` | Jan/10/2021 18:02 | 
+206 | [E - Through Path](https://atcoder.jp/contests/abc187/tasks/abc187_e) | [C++ (GCC 9.2.1)](./atcoder/abc187/E.cpp) | `AtCoder` `*500` | Jan/04/2021 15:14 | 
+205 | [D - Choose Me](https://atcoder.jp/contests/abc187/tasks/abc187_d) | [C++ (GCC 9.2.1)](./atcoder/abc187/D.cpp) | `AtCoder` `*400` | Jan/03/2021 17:41 | 
+204 | [C - 1-SAT](https://atcoder.jp/contests/abc187/tasks/abc187_c) | [C++ (GCC 9.2.1)](./atcoder/abc187/C.cpp) | `AtCoder` `*300` | Jan/02/2021 18:21 | 
+203 | [B - Gentle Pairs](https://atcoder.jp/contests/abc187/tasks/abc187_b) | [C++ (GCC 9.2.1)](./atcoder/abc187/B.cpp) | `AtCoder` `*200` | Jan/02/2021 18:07 | 
+202 | [A - Large Digits](https://atcoder.jp/contests/abc187/tasks/abc187_a) | [C++ (GCC 9.2.1)](./atcoder/abc187/A.cpp) | `AtCoder` `*100` | Jan/02/2021 18:01 | 
+201 | [E - Sequence Matching](https://atcoder.jp/contests/abc185/tasks/abc185_e) | [C++ (GCC 9.2.1)](./atcoder/abc185/E.cpp) | `AtCoder` `*500` | Dec/23/2020 07:02 | 
+200 | [D - Sum of difference](https://atcoder.jp/contests/abc186/tasks/abc186_d) | [C++ (GCC 9.2.1)](./atcoder/abc186/D.cpp) | `AtCoder` `*400` | Dec/19/2020 20:34 | 
+199 | [C - Unlucky 7](https://atcoder.jp/contests/abc186/tasks/abc186_c) | [C++ (GCC 9.2.1)](./atcoder/abc186/C.cpp) | `AtCoder` `*300` | Dec/19/2020 18:11 | 
+198 | [B - Blocks on Grid](https://atcoder.jp/contests/abc186/tasks/abc186_b) | [C++ (GCC 9.2.1)](./atcoder/abc186/B.cpp) | `AtCoder` `*200` | Dec/19/2020 18:05 | 
+197 | [A - Brick](https://atcoder.jp/contests/abc186/tasks/abc186_a) | [C++ (GCC 9.2.1)](./atcoder/abc186/A.cpp) | `AtCoder` `*100` | Dec/19/2020 18:00 | 
+196 | [C - Bridge](https://atcoder.jp/contests/abc075/tasks/abc075_c) | [C++ (GCC 9.2.1)](./atcoder/abc075/C.cpp) | `AtCoder` `*300` | Dec/15/2020 05:14 | 
+195 | [D - Stamp](https://atcoder.jp/contests/abc185/tasks/abc185_d) | [C++ (GCC 9.2.1)](./atcoder/abc185/D.cpp) | `AtCoder` `*400` | Dec/13/2020 19:49 | 
+194 | [F - Range Xor Query](https://atcoder.jp/contests/abc185/tasks/abc185_f) | [C++ (GCC 9.2.1)](./atcoder/abc185/F.cpp) | `AtCoder` `*600` | Dec/13/2020 19:01 | 
+193 | [C - Duodecim Ferra](https://atcoder.jp/contests/abc185/tasks/abc185_c) | [C++ (GCC 9.2.1)](./atcoder/abc185/C.cpp) | `AtCoder` `*300` | Dec/13/2020 18:50 | 
+192 | [B - Smartphone Addiction](https://atcoder.jp/contests/abc185/tasks/abc185_b) | [C++ (GCC 9.2.1)](./atcoder/abc185/B.cpp) | `AtCoder` `*200` | Dec/13/2020 18:13 | 
+191 | [A - ABC Preparation](https://atcoder.jp/contests/abc185/tasks/abc185_a) | [C++ (GCC 9.2.1)](./atcoder/abc185/A.cpp) | `AtCoder` `*100` | Dec/13/2020 18:01 | 
+190 | [B - log](https://atcoder.jp/contests/arc109/tasks/arc109_b) | [Python (3.8.2)](./atcoder/arc109/B.py) | `AtCoder` `*400` | Nov/28/2020 19:51 | 
+189 | [A - Hands](https://atcoder.jp/contests/arc109/tasks/arc109_a) | [C++ (GCC 9.2.1)](./atcoder/arc109/A.cpp) | `AtCoder` `*300` | Nov/28/2020 18:48 | 
+188 | [C - Keep Graph Connected](https://atcoder.jp/contests/arc108/tasks/arc108_c) | [C++ (GCC 9.2.1)](./atcoder/arc108/C.cpp) | `AtCoder` `*500` | Nov/27/2020 09:45 | 
+187 | [B - Abbreviate Fox](https://atcoder.jp/contests/arc108/tasks/arc108_b) | [C++ (GCC 9.2.1)](./atcoder/arc108/B.cpp) | `AtCoder` `*400` | Nov/21/2020 18:22 | 
+186 | [A - Sum and Product](https://atcoder.jp/contests/arc108/tasks/arc108_a) | [C++ (GCC 9.2.1)](./atcoder/arc108/A.cpp) | `AtCoder` `*300` | Nov/21/2020 18:02 | 
+185 | [B - Quadruple](https://atcoder.jp/contests/arc107/tasks/arc107_b) | [C++ (GCC 9.2.1)](./atcoder/arc107/B.cpp) | `AtCoder` `*400` | Nov/21/2020 17:01 | 
+184 | [B - Billiards](https://atcoder.jp/contests/abc183/tasks/abc183_b) | [C++ (GCC 9.2.1)](./atcoder/abc183/B.cpp) | `AtCoder` `*200` | Nov/15/2020 22:23 | 
+183 | [D - Water Heater](https://atcoder.jp/contests/abc183/tasks/abc183_d) | [C++ (GCC 9.2.1)](./atcoder/abc183/D.cpp) | `AtCoder` `*400` | Nov/15/2020 18:45 | 
+182 | [C - Travel](https://atcoder.jp/contests/abc183/tasks/abc183_c) | [C++ (GCC 9.2.1)](./atcoder/abc183/C.cpp) | `AtCoder` `*300` | Nov/15/2020 18:14 | 
+181 | [A - ReLU](https://atcoder.jp/contests/abc183/tasks/abc183_a) | [C++ (GCC 9.2.1)](./atcoder/abc183/A.cpp) | `AtCoder` `*100` | Nov/15/2020 18:01 | 
+180 | [D - Wandering](https://atcoder.jp/contests/abc182/tasks/abc182_d) | [C++ (GCC 9.2.1)](./atcoder/abc182/D.cpp) | `AtCoder` `*400` | Nov/08/2020 19:30 | 
+179 | [C - To 3](https://atcoder.jp/contests/abc182/tasks/abc182_c) | [C++ (GCC 9.2.1)](./atcoder/abc182/C.cpp) | `AtCoder` `*300` | Nov/08/2020 18:22 | 
+178 | [B - Almost GCD](https://atcoder.jp/contests/abc182/tasks/abc182_b) | [C++ (GCC 9.2.1)](./atcoder/abc182/B.cpp) | `AtCoder` `*200` | Nov/08/2020 18:06 | 
+177 | [A - twiblr](https://atcoder.jp/contests/abc182/tasks/abc182_a) | [C++ (GCC 9.2.1)](./atcoder/abc182/A.cpp) | `AtCoder` `*100` | Nov/08/2020 18:02 | 
+176 | [D - Hachi](https://atcoder.jp/contests/abc181/tasks/abc181_d) | [C++ (GCC 9.2.1)](./atcoder/abc181/D.cpp) | `AtCoder` `*400` | Nov/01/2020 19:18 | 
+175 | [C - Collinearity](https://atcoder.jp/contests/abc181/tasks/abc181_c) | [C++ (GCC 9.2.1)](./atcoder/abc181/C.cpp) | `AtCoder` `*300` | Nov/01/2020 18:25 | 
+174 | [B - Trapezoid Sum](https://atcoder.jp/contests/abc181/tasks/abc181_b) | [C++ (GCC 9.2.1)](./atcoder/abc181/B.cpp) | `AtCoder` `*200` | Nov/01/2020 18:03 | 
+173 | [A - Heavy Rotation](https://atcoder.jp/contests/abc181/tasks/abc181_a) | [C++ (GCC 9.2.1)](./atcoder/abc181/A.cpp) | `AtCoder` `*100` | Nov/01/2020 18:01 | 
+172 | [A - Simple Math](https://atcoder.jp/contests/arc107/tasks/arc107_a) | [Python (3.8.2)](./atcoder/arc107/A.py) | `AtCoder` `*300` | Oct/31/2020 19:50 | 
+171 | [A - Plus Minus](https://atcoder.jp/contests/arc104/tasks/arc104_a) | [C++ (GCC 9.2.1)](./atcoder/arc104/A.cpp) | `AtCoder` `*100` | Oct/31/2020 17:06 | 
+170 | [S - Digit Sum](https://atcoder.jp/contests/dp/tasks/dp_s) | [C++ (GCC 9.2.1)](./atcoder/dp/S.cpp) | `AtCoder` `*100` | Oct/31/2020 15:57 | 
+169 | [E - Traveling Salesman among Aerial Cities](https://atcoder.jp/contests/abc180/tasks/abc180_e) | [C++ (GCC 9.2.1)](./atcoder/abc180/E.cpp) | `AtCoder` `*500` | Oct/31/2020 14:23 | 
+168 | [D - Takahashi Unevolved](https://atcoder.jp/contests/abc180/tasks/abc180_d) | [C++ (GCC 9.2.1)](./atcoder/abc180/D.cpp) | `AtCoder` `*400` | Oct/31/2020 12:05 | 
+167 | [C - Cream puff](https://atcoder.jp/contests/abc180/tasks/abc180_c) | [C++ (GCC 9.2.1)](./atcoder/abc180/C.cpp) | `AtCoder` `*300` | Oct/31/2020 11:19 | 
+166 | [B - Various distances](https://atcoder.jp/contests/abc180/tasks/abc180_b) | [C++ (GCC 9.2.1)](./atcoder/abc180/B.cpp) | `AtCoder` `*200` | Oct/31/2020 11:15 | 
+165 | [A - box](https://atcoder.jp/contests/abc180/tasks/abc180_a) | [C++ (GCC 9.2.1)](./atcoder/abc180/A.cpp) | `AtCoder` `*100` | Oct/31/2020 11:06 | 
+164 | [B - Values](https://atcoder.jp/contests/arc106/tasks/arc106_b) | [C++ (GCC 9.2.1)](./atcoder/arc106/B.cpp) | `AtCoder` `*400` | Oct/25/2020 03:36 | 
+163 | [A - 106](https://atcoder.jp/contests/arc106/tasks/arc106_a) | [C++ (GCC 9.2.1)](./atcoder/arc106/A.cpp) | `AtCoder` `*300` | Oct/24/2020 18:18 | 
+162 | [A - Fourtune Cookies](https://atcoder.jp/contests/arc105/tasks/arc105_a) | [C++ (GCC 9.2.1)](./atcoder/arc105/A.cpp) | `AtCoder` `*200` | Oct/14/2020 00:11 | 
+161 | [C - A x B + C](https://atcoder.jp/contests/abc179/tasks/abc179_c) | [C++ (GCC 9.2.1)](./atcoder/abc179/C.cpp) | `AtCoder` `*300` | Sep/19/2020 22:38 | 
+160 | [B - Go to Jail](https://atcoder.jp/contests/abc179/tasks/abc179_b) | [C++ (GCC 9.2.1)](./atcoder/abc179/B.cpp) | `AtCoder` `*200` | Sep/19/2020 20:02 | 
+159 | [A - Plural Form](https://atcoder.jp/contests/abc179/tasks/abc179_a) | [C++ (GCC 9.2.1)](./atcoder/abc179/A.cpp) | `AtCoder` `*100` | Sep/19/2020 19:58 | 
+158 | [D - XOR World](https://atcoder.jp/contests/abc121/tasks/abc121_d) | [PyPy3 (7.3.0)](./atcoder/abc121/D.py) | `AtCoder` `*400` | Sep/17/2020 08:24 | 
+157 | [E - Multiplication 4](https://atcoder.jp/contests/abc173/tasks/abc173_e) | [C++ (GCC 9.2.1)](./atcoder/abc173/E.cpp) | `AtCoder` `*500` | Sep/16/2020 19:29 | 
+156 | [E - Logs](https://atcoder.jp/contests/abc174/tasks/abc174_e) | [C++ (GCC 9.2.1)](./atcoder/abc174/E.cpp) | `AtCoder` `*500` | Sep/16/2020 09:55 | 
+155 | [F - Contrast](https://atcoder.jp/contests/abc178/tasks/abc178_f) | [C++ (GCC 9.2.1)](./atcoder/abc178/F.cpp) | `AtCoder` `*600` | Sep/16/2020 06:21 | 
+154 | [E - Dist Max](https://atcoder.jp/contests/abc178/tasks/abc178_e) | [C++ (GCC 9.2.1)](./atcoder/abc178/E.cpp) | `AtCoder` `*500` | Sep/14/2020 23:22 | 
+153 | [D - Redistribution](https://atcoder.jp/contests/abc178/tasks/abc178_d) | [C++ (GCC 9.2.1)](./atcoder/abc178/D.cpp) | `AtCoder` `*400` | Sep/14/2020 22:56 | 
+152 | [C - Ubiquity](https://atcoder.jp/contests/abc178/tasks/abc178_c) | [C++ (GCC 9.2.1)](./atcoder/abc178/C.cpp) | `AtCoder` `*300` | Sep/14/2020 22:52 | 
+151 | [B - Product Max](https://atcoder.jp/contests/abc178/tasks/abc178_b) | [C++ (GCC 9.2.1)](./atcoder/abc178/B.cpp) | `AtCoder` `*200` | Sep/13/2020 18:34 | 
+150 | [A - Not](https://atcoder.jp/contests/abc178/tasks/abc178_a) | [C++ (GCC 9.2.1)](./atcoder/abc178/A.cpp) | `AtCoder` `*100` | Sep/13/2020 18:01 | 
+149 | [E - Coprime](https://atcoder.jp/contests/abc177/tasks/abc177_e) | [C++ (GCC 9.2.1)](./atcoder/abc177/E.cpp) | `AtCoder` `*500` | Aug/29/2020 19:52 | 
+148 | [B - Substring](https://atcoder.jp/contests/abc177/tasks/abc177_b) | [C++ (GCC 9.2.1)](./atcoder/abc177/B.cpp) | `AtCoder` `*200` | Aug/29/2020 18:34 | 
+147 | [C - Sum of product of pairs](https://atcoder.jp/contests/abc177/tasks/abc177_c) | [C++ (GCC 9.2.1)](./atcoder/abc177/C.cpp) | `AtCoder` `*300` | Aug/29/2020 18:29 | 
+146 | [D - Friends](https://atcoder.jp/contests/abc177/tasks/abc177_d) | [C++ (GCC 9.2.1)](./atcoder/abc177/D.cpp) | `AtCoder` `*400` | Aug/29/2020 18:16 | 
+145 | [A - Don't be late](https://atcoder.jp/contests/abc177/tasks/abc177_a) | [C++ (GCC 9.2.1)](./atcoder/abc177/A.cpp) | `AtCoder` `*100` | Aug/29/2020 18:02 | 
+144 | [B - Buffet](https://atcoder.jp/contests/abc140/tasks/abc140_b) | [C++ (GCC 9.2.1)](./atcoder/abc140/B.cpp) | `AtCoder` `*200` | Aug/28/2020 22:24 | 
+143 | [A - Password](https://atcoder.jp/contests/abc140/tasks/abc140_a) | [C++ (GCC 9.2.1)](./atcoder/abc140/A.cpp) | `AtCoder` `*100` | Aug/28/2020 21:45 | 
+142 | [E - Picking Goods](https://atcoder.jp/contests/abc175/tasks/abc175_e) | [C++ (GCC 9.2.1)](./atcoder/abc175/E.cpp) | `AtCoder` `*500` | Aug/25/2020 19:17 | 
+141 | [D - Moving Piece](https://atcoder.jp/contests/abc175/tasks/abc175_d) | [C++ (GCC 9.2.1)](./atcoder/abc175/D.cpp) | `AtCoder` `*400` | Aug/25/2020 18:42 | 
+140 | [E - Bomber](https://atcoder.jp/contests/abc176/tasks/abc176_e) | [C++ (GCC 9.2.1)](./atcoder/abc176/E.cpp) | `AtCoder` `*500` | Aug/23/2020 07:50 | 
+139 | [D - Wizard in Maze](https://atcoder.jp/contests/abc176/tasks/abc176_d) | [C++ (GCC 9.2.1)](./atcoder/abc176/D.cpp) | `AtCoder` `*400` | Aug/23/2020 06:25 | 
+138 | [C - Step](https://atcoder.jp/contests/abc176/tasks/abc176_c) | [C++ (GCC 9.2.1)](./atcoder/abc176/C.cpp) | `AtCoder` `*300` | Aug/23/2020 04:52 | 
+137 | [B - Multiple of 9](https://atcoder.jp/contests/abc176/tasks/abc176_b) | [C++ (GCC 9.2.1)](./atcoder/abc176/B.cpp) | `AtCoder` `*200` | Aug/23/2020 04:47 | 
+136 | [A - Takoyaki](https://atcoder.jp/contests/abc176/tasks/abc176_a) | [C++ (GCC 9.2.1)](./atcoder/abc176/A.cpp) | `AtCoder` `*100` | Aug/23/2020 04:45 | 
+135 | [C - Walking Takahashi](https://atcoder.jp/contests/abc175/tasks/abc175_c) | [C++ (GCC 9.2.1)](./atcoder/abc175/C.cpp) | `AtCoder` `*300` | Aug/16/2020 03:41 | 
+134 | [B - Making Triangle](https://atcoder.jp/contests/abc175/tasks/abc175_b) | [C++ (GCC 9.2.1)](./atcoder/abc175/B.cpp) | `AtCoder` `*200` | Aug/16/2020 03:23 | 
+133 | [A - Rainy Season](https://atcoder.jp/contests/abc175/tasks/abc175_a) | [C++ (GCC 9.2.1)](./atcoder/abc175/A.cpp) | `AtCoder` `*100` | Aug/16/2020 03:18 | 
+132 | [D - Alter Altar](https://atcoder.jp/contests/abc174/tasks/abc174_d) | [C++ (GCC 9.2.1)](./atcoder/abc174/D.cpp) | `AtCoder` `*400` | Aug/02/2020 20:47 | 
+131 | [F - Range Set Query](https://atcoder.jp/contests/abc174/tasks/abc174_f) | [C++ (GCC 9.2.1)](./atcoder/abc174/F.cpp) | `AtCoder` `*600` | Aug/02/2020 18:48 | 
+130 | [C - Repsept](https://atcoder.jp/contests/abc174/tasks/abc174_c) | [C++ (GCC 9.2.1)](./atcoder/abc174/C.cpp) | `AtCoder` `*300` | Aug/02/2020 18:29 | 
+129 | [B - Distance](https://atcoder.jp/contests/abc174/tasks/abc174_b) | [C++ (GCC 9.2.1)](./atcoder/abc174/B.cpp) | `AtCoder` `*200` | Aug/02/2020 18:03 | 
+128 | [A - Air Conditioner](https://atcoder.jp/contests/abc174/tasks/abc174_a) | [C++ (GCC 9.2.1)](./atcoder/abc174/A.cpp) | `AtCoder` `*100` | Aug/02/2020 18:00 | 
+127 | [D - ModSum](https://atcoder.jp/contests/abc139/tasks/abc139_d) | [C++ (GCC 9.2.1)](./atcoder/abc139/D.cpp) | `AtCoder` `*400` | Jul/17/2020 16:46 | 
+126 | [C - Lower](https://atcoder.jp/contests/abc139/tasks/abc139_c) | [C++ (GCC 9.2.1)](./atcoder/abc139/C.cpp) | `AtCoder` `*300` | Jul/17/2020 16:42 | 
+125 | [B - Power Socket](https://atcoder.jp/contests/abc139/tasks/abc139_b) | [C++ (GCC 9.2.1)](./atcoder/abc139/B.cpp) | `AtCoder` `*200` | Jul/17/2020 16:22 | 
+124 | [A - Tenki](https://atcoder.jp/contests/abc139/tasks/abc139_a) | [C++ (GCC 9.2.1)](./atcoder/abc139/A.cpp) | `AtCoder` `*100` | Jul/17/2020 16:06 | 
+123 | [D - Powerful Discount Tickets](https://atcoder.jp/contests/abc141/tasks/abc141_d) | [C++ (GCC 9.2.1)](./atcoder/abc141/D.cpp) | `AtCoder` `*400` | Jul/16/2020 12:48 | 
+122 | [C - Attack Survival](https://atcoder.jp/contests/abc141/tasks/abc141_c) | [C++ (GCC 9.2.1)](./atcoder/abc141/C.cpp) | `AtCoder` `*300` | Jul/16/2020 09:24 | 
+121 | [B - Tap Dance](https://atcoder.jp/contests/abc141/tasks/abc141_b) | [C++ (GCC 9.2.1)](./atcoder/abc141/B.cpp) | `AtCoder` `*200` | Jul/16/2020 09:06 | 
+120 | [A - Weather Prediction](https://atcoder.jp/contests/abc141/tasks/abc141_a) | [C++ (GCC 9.2.1)](./atcoder/abc141/A.cpp) | `AtCoder` `*100` | Jul/16/2020 08:59 | 
+119 | [E - Get Everything](https://atcoder.jp/contests/abc142/tasks/abc142_e) | [C++ (GCC 9.2.1)](./atcoder/abc142/E.cpp) | `AtCoder` `*500` | Jul/15/2020 14:43 | 
+118 | [D - Disjoint Set of Common Divisors](https://atcoder.jp/contests/abc142/tasks/abc142_d) | [C++ (GCC 9.2.1)](./atcoder/abc142/D.cpp) | `AtCoder` `*400` | Jul/15/2020 09:25 | 
+117 | [C - Go to School](https://atcoder.jp/contests/abc142/tasks/abc142_c) | [C++ (GCC 9.2.1)](./atcoder/abc142/C.cpp) | `AtCoder` `*300` | Jul/15/2020 08:43 | 
+116 | [B - Roller Coaster](https://atcoder.jp/contests/abc142/tasks/abc142_b) | [C++ (GCC 9.2.1)](./atcoder/abc142/B.cpp) | `AtCoder` `*200` | Jul/15/2020 08:38 | 
+115 | [A - Odds of Oddness](https://atcoder.jp/contests/abc142/tasks/abc142_a) | [C++ (GCC 9.2.1)](./atcoder/abc142/A.cpp) | `AtCoder` `*100` | Jul/15/2020 08:37 | 
+114 | [G - Longest Path](https://atcoder.jp/contests/dp/tasks/dp_g) | [C++ (GCC 9.2.1)](./atcoder/dp/G.cpp) | `AtCoder` `*100` | Jul/14/2020 18:22 | 
+113 | [E - Knapsack 2](https://atcoder.jp/contests/dp/tasks/dp_e) | [C++ (GCC 9.2.1)](./atcoder/dp/E.cpp) | `AtCoder` `*100` | Jul/14/2020 12:33 | 
+112 | [D - I hate Factorization](https://atcoder.jp/contests/abc166/tasks/abc166_d) | [C++ (GCC 9.2.1)](./atcoder/abc166/D.cpp) | `AtCoder` `*400` | Jul/13/2020 14:25 | 
+111 | [D - Triangles](https://atcoder.jp/contests/abc143/tasks/abc143_d) | [C++ (GCC 9.2.1)](./atcoder/abc143/D.cpp) | `AtCoder` `*400` | Jul/12/2020 12:59 | 
+110 | [C - Slimes](https://atcoder.jp/contests/abc143/tasks/abc143_c) | [C++ (GCC 9.2.1)](./atcoder/abc143/C.cpp) | `AtCoder` `*300` | Jul/12/2020 12:16 | 
+109 | [B - TAKOYAKI FESTIVAL 2019](https://atcoder.jp/contests/abc143/tasks/abc143_b) | [C++ (GCC 9.2.1)](./atcoder/abc143/B.cpp) | `AtCoder` `*200` | Jul/12/2020 12:08 | 
+108 | [A - Curtain](https://atcoder.jp/contests/abc143/tasks/abc143_a) | [C++ (GCC 9.2.1)](./atcoder/abc143/A.cpp) | `AtCoder` `*100` | Jul/12/2020 12:05 | 
+107 | [C - XYZ Triplets](https://atcoder.jp/contests/aising2020/tasks/aising2020_c) | [C++ (GCC 9.2.1)](./atcoder/aising2020/C.cpp) | `AtCoder` `*300` | Jul/11/2020 19:47 | 
+106 | [B - An Odd Problem](https://atcoder.jp/contests/aising2020/tasks/aising2020_b) | [C++ (GCC 9.2.1)](./atcoder/aising2020/B.cpp) | `AtCoder` `*200` | Jul/11/2020 18:03 | 
+105 | [A - Number of Multiples](https://atcoder.jp/contests/aising2020/tasks/aising2020_a) | [C++ (GCC 9.2.1)](./atcoder/aising2020/A.cpp) | `AtCoder` `*100` | Jul/11/2020 18:01 | 
+104 | [C - Walk on Multiplication Table](https://atcoder.jp/contests/abc144/tasks/abc144_c) | [C++ (GCC 9.2.1)](./atcoder/abc144/C.cpp) | `AtCoder` `*300` | Jul/11/2020 11:56 | 
+103 | [B - 81](https://atcoder.jp/contests/abc144/tasks/abc144_b) | [C++ (GCC 9.2.1)](./atcoder/abc144/B.cpp) | `AtCoder` `*200` | Jul/11/2020 11:29 | 
+102 | [A - 9x9](https://atcoder.jp/contests/abc144/tasks/abc144_a) | [C++ (GCC 9.2.1)](./atcoder/abc144/A.cpp) | `AtCoder` `*100` | Jul/11/2020 11:28 | 
+101 | [D - Knight](https://atcoder.jp/contests/abc145/tasks/abc145_d) | [C++ (GCC 9.2.1)](./atcoder/abc145/D.cpp) | `AtCoder` `*400` | Jul/10/2020 07:33 | 
+100 | [C - Average Length](https://atcoder.jp/contests/abc145/tasks/abc145_c) | [C++ (GCC 9.2.1)](./atcoder/abc145/C.cpp) | `AtCoder` `*300` | Jul/10/2020 04:52 | 
+99 | [B - Echo](https://atcoder.jp/contests/abc145/tasks/abc145_b) | [C++ (GCC 9.2.1)](./atcoder/abc145/B.cpp) | `AtCoder` `*200` | Jul/10/2020 04:40 | 
+98 | [A - Circle](https://atcoder.jp/contests/abc145/tasks/abc145_a) | [C++ (GCC 9.2.1)](./atcoder/abc145/A.cpp) | `AtCoder` `*100` | Jul/10/2020 04:36 | 
+97 | [D - Xor Sum 4](https://atcoder.jp/contests/abc147/tasks/abc147_d) | [C++ (GCC 9.2.1)](./atcoder/abc147/D.cpp) | `AtCoder` `*400` | Jul/09/2020 23:50 | 
+96 | [E - Double Factorial](https://atcoder.jp/contests/abc148/tasks/abc148_e) | [C++ (GCC 9.2.1)](./atcoder/abc148/E.cpp) | `AtCoder` `*500` | Jul/09/2020 22:17 | 
+95 | [D - Chat in a Circle](https://atcoder.jp/contests/abc173/tasks/abc173_d) | [C++ (GCC 9.2.1)](./atcoder/abc173/D.cpp) | `AtCoder` `*400` | Jul/08/2020 08:12 | 
+94 | [B - Judge Status Summary](https://atcoder.jp/contests/abc173/tasks/abc173_b) | [C++ (GCC 9.2.1)](./atcoder/abc173/B.cpp) | `AtCoder` `*200` | Jul/08/2020 07:44 | 
+93 | [A - Payment](https://atcoder.jp/contests/abc173/tasks/abc173_a) | [C++ (GCC 9.2.1)](./atcoder/abc173/A.cpp) | `AtCoder` `*100` | Jul/08/2020 07:40 | 
+92 | [C - H and V](https://atcoder.jp/contests/abc173/tasks/abc173_c) | [C++ (GCC 9.2.1)](./atcoder/abc173/C.cpp) | `AtCoder` `*300` | Jul/08/2020 07:35 | 
+91 | [D - Coloring Edges on Tree](https://atcoder.jp/contests/abc146/tasks/abc146_d) | [C++ (GCC 9.2.1)](./atcoder/abc146/D.cpp) | `AtCoder` `*400` | Jul/05/2020 22:44 | 
+90 | [C - HonestOrUnkind2](https://atcoder.jp/contests/abc147/tasks/abc147_c) | [C++ (GCC 9.2.1)](./atcoder/abc147/C.cpp) | `AtCoder` `*300` | Jul/05/2020 20:40 | 
+89 | [C - Buy an Integer](https://atcoder.jp/contests/abc146/tasks/abc146_c) | [C++ (GCC 9.2.1)](./atcoder/abc146/C.cpp) | `AtCoder` `*300` | Jul/04/2020 18:57 | 
+88 | [B - ROT N](https://atcoder.jp/contests/abc146/tasks/abc146_b) | [C++ (GCC 9.2.1)](./atcoder/abc146/B.cpp) | `AtCoder` `*200` | Jul/04/2020 18:01 | 
+87 | [A - Can't Wait for Holiday](https://atcoder.jp/contests/abc146/tasks/abc146_a) | [C++ (GCC 9.2.1)](./atcoder/abc146/A.cpp) | `AtCoder` `*100` | Jul/04/2020 17:58 | 
+86 | [B - Palindrome-philia](https://atcoder.jp/contests/abc147/tasks/abc147_b) | [C++ (GCC 9.2.1)](./atcoder/abc147/B.cpp) | `AtCoder` `*200` | Jul/02/2020 21:16 | 
+85 | [A - Blackjack](https://atcoder.jp/contests/abc147/tasks/abc147_a) | [C++ (GCC 9.2.1)](./atcoder/abc147/A.cpp) | `AtCoder` `*100` | Jul/02/2020 21:14 | 
+84 | [F - Playing Tag on Tree](https://atcoder.jp/contests/abc148/tasks/abc148_f) | [C++ (GCC 9.2.1)](./atcoder/abc148/F.cpp) | `AtCoder` `*600` | Jul/02/2020 20:45 | 
+83 | [D - Brick Break](https://atcoder.jp/contests/abc148/tasks/abc148_d) | [C++ (GCC 9.2.1)](./atcoder/abc148/D.cpp) | `AtCoder` `*400` | Jul/02/2020 03:09 | 
+82 | [C - Snack](https://atcoder.jp/contests/abc148/tasks/abc148_c) | [C++ (GCC 9.2.1)](./atcoder/abc148/C.cpp) | `AtCoder` `*300` | Jul/02/2020 03:02 | 
+81 | [B - Strings with the Same Length](https://atcoder.jp/contests/abc148/tasks/abc148_b) | [C++ (GCC 9.2.1)](./atcoder/abc148/B.cpp) | `AtCoder` `*200` | Jul/02/2020 03:01 | 
+80 | [A - Round One](https://atcoder.jp/contests/abc148/tasks/abc148_a) | [C++ (GCC 9.2.1)](./atcoder/abc148/A.cpp) | `AtCoder` `*100` | Jul/02/2020 02:59 | 
+79 | [H - Grid 1](https://atcoder.jp/contests/dp/tasks/dp_h) | [C++ (GCC 9.2.1)](./atcoder/dp/H.cpp) | `AtCoder` `*100` | Jul/02/2020 01:10 | 
+78 | [F - LCS](https://atcoder.jp/contests/dp/tasks/dp_f) | [C++ (GCC 9.2.1)](./atcoder/dp/F.cpp) | `AtCoder` `*100` | Jul/02/2020 00:34 | 
+77 | [C - Tsundoku](https://atcoder.jp/contests/abc172/tasks/abc172_c) | [C++ (GCC 9.2.1)](./atcoder/abc172/C.cpp) | `AtCoder` `*300` | Jul/01/2020 18:26 | 
+76 | [D - Sum of Divisors](https://atcoder.jp/contests/abc172/tasks/abc172_d) | [C++ (GCC 9.2.1)](./atcoder/abc172/D.cpp) | `AtCoder` `*400` | Jul/01/2020 17:09 | 
+75 | [B - Minor Change](https://atcoder.jp/contests/abc172/tasks/abc172_b) | [C++ (GCC 9.2.1)](./atcoder/abc172/B.cpp) | `AtCoder` `*200` | Jul/01/2020 16:43 | 
+74 | [A - Calc](https://atcoder.jp/contests/abc172/tasks/abc172_a) | [C++ (GCC 9.2.1)](./atcoder/abc172/A.cpp) | `AtCoder` `*100` | Jul/01/2020 16:41 | 
+73 | [C - Next Prime](https://atcoder.jp/contests/abc149/tasks/abc149_c) | [C++ (GCC 9.2.1)](./atcoder/abc149/C.cpp) | `AtCoder` `*300` | Jun/26/2020 20:11 | 
+72 | [B - Greedy Takahashi](https://atcoder.jp/contests/abc149/tasks/abc149_b) | [C++ (GCC 9.2.1)](./atcoder/abc149/B.cpp) | `AtCoder` `*200` | Jun/26/2020 20:08 | 
+71 | [A - Strings](https://atcoder.jp/contests/abc149/tasks/abc149_a) | [C++ (GCC 9.2.1)](./atcoder/abc149/A.cpp) | `AtCoder` `*100` | Jun/26/2020 20:07 | 
+70 | [C - Count Order](https://atcoder.jp/contests/abc150/tasks/abc150_c) | [C++ (GCC 9.2.1)](./atcoder/abc150/C.cpp) | `AtCoder` `*300` | Jun/25/2020 18:32 | 
+69 | [B - Count ABC](https://atcoder.jp/contests/abc150/tasks/abc150_b) | [C++ (GCC 9.2.1)](./atcoder/abc150/B.cpp) | `AtCoder` `*200` | Jun/25/2020 18:24 | 
+68 | [A - 500 Yen Coins](https://atcoder.jp/contests/abc150/tasks/abc150_a) | [C++ (GCC 9.2.1)](./atcoder/abc150/A.cpp) | `AtCoder` `*100` | Jun/25/2020 18:19 | 
+67 | [F - Strivore](https://atcoder.jp/contests/abc171/tasks/abc171_f) | [C++ (GCC 9.2.1)](./atcoder/abc171/F.cpp) | `AtCoder` `*600` | Jun/25/2020 18:13 | 
+66 | [C - One Quadrillion and One Dalmatians](https://atcoder.jp/contests/abc171/tasks/abc171_c) | [C++ (GCC 9.2.1)](./atcoder/abc171/C.cpp) | `AtCoder` `*300` | Jun/21/2020 21:14 | 
+65 | [E - Red Scarf](https://atcoder.jp/contests/abc171/tasks/abc171_e) | [C++ (GCC 9.2.1)](./atcoder/abc171/E.cpp) | `AtCoder` `*500` | Jun/21/2020 18:30 | 
+64 | [D - Replacing](https://atcoder.jp/contests/abc171/tasks/abc171_d) | [C++ (GCC 9.2.1)](./atcoder/abc171/D.cpp) | `AtCoder` `*400` | Jun/21/2020 18:19 | 
+63 | [B - Mix Juice](https://atcoder.jp/contests/abc171/tasks/abc171_b) | [C++ (GCC 9.2.1)](./atcoder/abc171/B.cpp) | `AtCoder` `*200` | Jun/21/2020 18:03 | 
+62 | [A - αlphabet](https://atcoder.jp/contests/abc171/tasks/abc171_a) | [C++ (GCC 9.2.1)](./atcoder/abc171/A.cpp) | `AtCoder` `*100` | Jun/21/2020 18:01 | 
+61 | [E - Max-Min Sums](https://atcoder.jp/contests/abc151/tasks/abc151_e) | [C++ (GCC 9.2.1)](./atcoder/abc151/E.cpp) | `AtCoder` `*500` | Jun/21/2020 16:06 | 
+60 | [D - Maze Master](https://atcoder.jp/contests/abc151/tasks/abc151_d) | [C++ (GCC 9.2.1)](./atcoder/abc151/D.cpp) | `AtCoder` `*400` | Jun/20/2020 19:31 | 
+59 | [C - Welcome to AtCoder](https://atcoder.jp/contests/abc151/tasks/abc151_c) | [C++ (GCC 9.2.1)](./atcoder/abc151/C.cpp) | `AtCoder` `*300` | Jun/20/2020 18:10 | 
+58 | [B - Achieve the Goal](https://atcoder.jp/contests/abc151/tasks/abc151_b) | [C++ (GCC 9.2.1)](./atcoder/abc151/B.cpp) | `AtCoder` `*200` | Jun/20/2020 18:03 | 
+57 | [A - Next Alphabet](https://atcoder.jp/contests/abc151/tasks/abc151_a) | [C++ (GCC 9.2.1)](./atcoder/abc151/A.cpp) | `AtCoder` `*100` | Jun/20/2020 17:58 | 
+56 | [D - Handstand 2](https://atcoder.jp/contests/abc152/tasks/abc152_d) | [C++ (GCC 9.2.1)](./atcoder/abc152/D.cpp) | `AtCoder` `*400` | Jun/20/2020 11:46 | 
+55 | [E - Flatten](https://atcoder.jp/contests/abc152/tasks/abc152_e) | [C++ (GCC 9.2.1)](./atcoder/abc152/E.cpp) | `AtCoder` `*500` | Jun/19/2020 22:58 | 
+54 | [C - Low Elements](https://atcoder.jp/contests/abc152/tasks/abc152_c) | [C++ (GCC 9.2.1)](./atcoder/abc152/C.cpp) | `AtCoder` `*300` | Jun/19/2020 21:13 | 
+53 | [B - Comparing Strings](https://atcoder.jp/contests/abc152/tasks/abc152_b) | [C++ (GCC 9.2.1)](./atcoder/abc152/B.cpp) | `AtCoder` `*200` | Jun/19/2020 21:06 | 
+52 | [A - AC or WA](https://atcoder.jp/contests/abc152/tasks/abc152_a) | [C++ (GCC 9.2.1)](./atcoder/abc152/A.cpp) | `AtCoder` `*100` | Jun/19/2020 21:03 | 
+51 | [D - Knapsack 1](https://atcoder.jp/contests/dp/tasks/dp_d) | [C++ (GCC 9.2.1)](./atcoder/dp/D.cpp) | `AtCoder` `*100` | Jun/19/2020 16:07 | 
+50 | [C - Vacation](https://atcoder.jp/contests/dp/tasks/dp_c) | [C++14 (GCC 5.4.1)](./atcoder/dp/C.cpp) | `AtCoder` `*100` | Jun/17/2020 21:54 | 
+49 | [D - Caracal vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_d) | [C++14 (GCC 5.4.1)](./atcoder/abc153/D.cpp) | `AtCoder` `*400` | Jun/15/2020 20:16 | 
+48 | [C - Fennec vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_c) | [C++14 (GCC 5.4.1)](./atcoder/abc153/C.cpp) | `AtCoder` `*300` | Jun/15/2020 19:55 | 
+47 | [B - Common Raccoon vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_b) | [C++14 (GCC 5.4.1)](./atcoder/abc153/B.cpp) | `AtCoder` `*200` | Jun/15/2020 19:51 | 
+46 | [A - Serval vs Monster](https://atcoder.jp/contests/abc153/tasks/abc153_a) | [C++14 (GCC 5.4.1)](./atcoder/abc153/A.cpp) | `AtCoder` `*100` | Jun/15/2020 19:48 | 
+45 | [D - Dice in Line](https://atcoder.jp/contests/abc154/tasks/abc154_d) | [C++14 (GCC 5.4.1)](./atcoder/abc154/D.cpp) | `AtCoder` `*400` | Jun/15/2020 15:26 | 
+44 | [E - Smart Infants](https://atcoder.jp/contests/abc170/tasks/abc170_e) | [C++ (GCC 9.2.1)](./atcoder/abc170/E.cpp) | `AtCoder` `*500` | Jun/15/2020 08:36 | 
+43 | [D - Not Divisible](https://atcoder.jp/contests/abc170/tasks/abc170_d) | [C++ (GCC 9.2.1)](./atcoder/abc170/D.cpp) | `AtCoder` `*400` | Jun/14/2020 18:40 | 
+42 | [C - Forbidden List](https://atcoder.jp/contests/abc170/tasks/abc170_c) | [C++ (GCC 9.2.1)](./atcoder/abc170/C.cpp) | `AtCoder` `*300` | Jun/14/2020 18:13 | 
+41 | [B - Crane and Turtle](https://atcoder.jp/contests/abc170/tasks/abc170_b) | [C++ (GCC 9.2.1)](./atcoder/abc170/B.cpp) | `AtCoder` `*200` | Jun/14/2020 18:05 | 
+40 | [A - Five Variables](https://atcoder.jp/contests/abc170/tasks/abc170_a) | [C++ (GCC 9.2.1)](./atcoder/abc170/A.cpp) | `AtCoder` `*100` | Jun/14/2020 18:01 | 
+39 | [C - Distinct or Not](https://atcoder.jp/contests/abc154/tasks/abc154_c) | [C++14 (GCC 5.4.1)](./atcoder/abc154/C.cpp) | `AtCoder` `*300` | Jun/12/2020 13:10 | 
+38 | [B - I miss you...](https://atcoder.jp/contests/abc154/tasks/abc154_b) | [C++14 (GCC 5.4.1)](./atcoder/abc154/B.cpp) | `AtCoder` `*200` | Jun/12/2020 13:08 | 
+37 | [A - Remaining Balls](https://atcoder.jp/contests/abc154/tasks/abc154_a) | [C++14 (GCC 5.4.1)](./atcoder/abc154/A.cpp) | `AtCoder` `*100` | Jun/12/2020 13:07 | 
+36 | [C - Poll](https://atcoder.jp/contests/abc155/tasks/abc155_c) | [C++14 (GCC 5.4.1)](./atcoder/abc155/C.cpp) | `AtCoder` `*300` | Jun/11/2020 02:54 | 
+35 | [B - Papers, Please](https://atcoder.jp/contests/abc155/tasks/abc155_b) | [C++14 (GCC 5.4.1)](./atcoder/abc155/B.cpp) | `AtCoder` `*200` | Jun/11/2020 02:45 | 
+34 | [A - Poor](https://atcoder.jp/contests/abc155/tasks/abc155_a) | [C++14 (GCC 5.4.1)](./atcoder/abc155/A.cpp) | `AtCoder` `*100` | Jun/11/2020 02:41 | 
+33 | [D - Bouquet](https://atcoder.jp/contests/abc156/tasks/abc156_d) | [C++14 (GCC 5.4.1)](./atcoder/abc156/D.cpp) | `AtCoder` `*400` | Jun/02/2020 22:18 | 
+32 | [C - Rally](https://atcoder.jp/contests/abc156/tasks/abc156_c) | [C++14 (GCC 5.4.1)](./atcoder/abc156/C.cpp) | `AtCoder` `*300` | Jun/02/2020 13:23 | 
+31 | [B - Digits](https://atcoder.jp/contests/abc156/tasks/abc156_b) | [C++14 (GCC 5.4.1)](./atcoder/abc156/B.cpp) | `AtCoder` `*200` | Jun/02/2020 13:11 | 
+30 | [A - Beginner](https://atcoder.jp/contests/abc156/tasks/abc156_a) | [C++14 (GCC 5.4.1)](./atcoder/abc156/A.cpp) | `AtCoder` `*100` | Jun/02/2020 13:10 | 
+29 | [E - Count Median](https://atcoder.jp/contests/abc169/tasks/abc169_e) | [C++ (GCC 9.2.1)](./atcoder/abc169/E.cpp) | `AtCoder` `*500` | Jun/01/2020 23:23 | 
+28 | [D - Div Game](https://atcoder.jp/contests/abc169/tasks/abc169_d) | [C++ (GCC 9.2.1)](./atcoder/abc169/D.cpp) | `AtCoder` `*400` | Jun/01/2020 22:41 | 
+27 | [C - Multiplication 3](https://atcoder.jp/contests/abc169/tasks/abc169_c) | [C++ (GCC 9.2.1)](./atcoder/abc169/C.cpp) | `AtCoder` `*300` | Jun/01/2020 22:03 | 
+26 | [B - Multiplication 2](https://atcoder.jp/contests/abc169/tasks/abc169_b) | [C++ (GCC 9.2.1)](./atcoder/abc169/B.cpp) | `AtCoder` `*200` | Jun/01/2020 20:05 | 
+25 | [A - Multiplication 1](https://atcoder.jp/contests/abc169/tasks/abc169_a) | [C++ (GCC 9.2.1)](./atcoder/abc169/A.cpp) | `AtCoder` `*100` | Jun/01/2020 19:30 | 
+24 | [E - Simple String Queries](https://atcoder.jp/contests/abc157/tasks/abc157_e) | [C++14 (GCC 5.4.1)](./atcoder/abc157/E.cpp) | `AtCoder` `*500` | May/22/2020 23:00 | 
+23 | [D - Friend Suggestions](https://atcoder.jp/contests/abc157/tasks/abc157_d) | [C++14 (GCC 5.4.1)](./atcoder/abc157/D.cpp) | `AtCoder` `*400` | May/22/2020 20:26 | 
+22 | [C - Guess The Number](https://atcoder.jp/contests/abc157/tasks/abc157_c) | [C++14 (GCC 5.4.1)](./atcoder/abc157/C.cpp) | `AtCoder` `*300` | May/22/2020 19:36 | 
+21 | [B - Bingo](https://atcoder.jp/contests/abc157/tasks/abc157_b) | [C++14 (GCC 5.4.1)](./atcoder/abc157/B.cpp) | `AtCoder` `*200` | May/22/2020 16:05 | 
+20 | [A - Duplex Printing](https://atcoder.jp/contests/abc157/tasks/abc157_a) | [C++14 (GCC 5.4.1)](./atcoder/abc157/A.cpp) | `AtCoder` `*100` | May/22/2020 15:50 | 
+19 | [C - : (Colon)](https://atcoder.jp/contests/abc168/tasks/abc168_c) | [C++ (GCC 9.2.1)](./atcoder/abc168/C.cpp) | `AtCoder` `*300` | May/18/2020 00:26 | 
+18 | [D - .. (Double Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_d) | [C++ (GCC 9.2.1)](./atcoder/abc168/D.cpp) | `AtCoder` `*400` | May/17/2020 18:32 | 
+17 | [B - ... (Triple Dots)](https://atcoder.jp/contests/abc168/tasks/abc168_b) | [C++ (GCC 9.2.1)](./atcoder/abc168/B.cpp) | `AtCoder` `*200` | May/17/2020 18:05 | 
+16 | [A - ∴ (Therefore)](https://atcoder.jp/contests/abc168/tasks/abc168_a) | [C++ (GCC 9.2.1)](./atcoder/abc168/A.cpp) | `AtCoder` `*100` | May/17/2020 18:03 | 
+15 | [B - Frog 2](https://atcoder.jp/contests/dp/tasks/dp_b) | [C++14 (GCC 5.4.1)](./atcoder/dp/B.cpp) | `AtCoder` `*100` | May/15/2020 02:43 | 
+14 | [A - Frog 1](https://atcoder.jp/contests/dp/tasks/dp_a) | [C++14 (GCC 5.4.1)](./atcoder/dp/A.cpp) | `AtCoder` `*100` | May/14/2020 19:21 | 
+13 | [D - Teleporter](https://atcoder.jp/contests/abc167/tasks/abc167_d) | [C++ (GCC 9.2.1)](./atcoder/abc167/D.cpp) | `AtCoder` `*400` | May/11/2020 12:35 | 
+12 | [B - Easy Linear Programming](https://atcoder.jp/contests/abc167/tasks/abc167_b) | [C++ (GCC 9.2.1)](./atcoder/abc167/B.cpp) | `AtCoder` `*200` | May/11/2020 11:47 | 
+11 | [A - Registration](https://atcoder.jp/contests/abc167/tasks/abc167_a) | [C++ (GCC 9.2.1)](./atcoder/abc167/A.cpp) | `AtCoder` `*100` | May/11/2020 11:41 | 
+10 | [C - Peaks](https://atcoder.jp/contests/abc166/tasks/abc166_c) | [C++ (GCC 9.2.1)](./atcoder/abc166/C.cpp) | `AtCoder` `*300` | May/11/2020 11:21 | 
+9 | [B - Trick or Treat](https://atcoder.jp/contests/abc166/tasks/abc166_b) | [C++ (GCC 9.2.1)](./atcoder/abc166/B.cpp) | `AtCoder` `*200` | May/11/2020 11:04 | 
+8 | [A - A?C](https://atcoder.jp/contests/abc166/tasks/abc166_a) | [C++ (GCC 9.2.1)](./atcoder/abc166/A.cpp) | `AtCoder` `*100` | May/11/2020 10:59 | 
+7 | [B - 1%](https://atcoder.jp/contests/abc165/tasks/abc165_b) | [C++ (GCC 9.2.1)](./atcoder/abc165/B.cpp) | `AtCoder` `*200` | May/09/2020 00:30 | 
+6 | [A - We Love Golf](https://atcoder.jp/contests/abc165/tasks/abc165_a) | [C++ (GCC 9.2.1)](./atcoder/abc165/A.cpp) | `AtCoder` `*100` | May/02/2020 18:12 | 
+5 | [D - Multiple of 2019](https://atcoder.jp/contests/abc164/tasks/abc164_d) | [C++ (GCC 9.2.1)](./atcoder/abc164/D.cpp) | `AtCoder` `*400` | Apr/28/2020 17:29 | 
+4 | [C - gacha](https://atcoder.jp/contests/abc164/tasks/abc164_c) | [C++ (GCC 9.2.1)](./atcoder/abc164/C.cpp) | `AtCoder` `*300` | Apr/28/2020 16:56 | 
+3 | [B - Battle](https://atcoder.jp/contests/abc164/tasks/abc164_b) | [C++ (GCC 9.2.1)](./atcoder/abc164/B.cpp) | `AtCoder` `*200` | Apr/28/2020 16:53 | 
+2 | [A - Sheep and Wolves](https://atcoder.jp/contests/abc164/tasks/abc164_a) | [C++ (GCC 9.2.1)](./atcoder/abc164/A.cpp) | `AtCoder` `*100` | Apr/28/2020 16:45 | 
+1 | [E - Divisible Substring](https://atcoder.jp/contests/abc158/tasks/abc158_e) | [C++14 (GCC 5.4.1)](./atcoder/abc158/E.cpp) | `AtCoder` `*500` | Apr/24/2020 21:22 | 
