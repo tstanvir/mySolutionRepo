@@ -8072,6 +8072,26 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF79238195": {
+    "contest_id": 776,
+    "language": "GNU C++17",
+    "path": "codeforces\\776\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Molly's Chemicals",
+    "problem_url": "https://codeforces.com/contest/776/problem/C",
+    "submission_id": "CF79238195",
+    "submission_url": "https://codeforces.com/contest/776/submission/79238195",
+    "tags": [
+      "binary search",
+      "brute force",
+      "data structures",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "May/07/2020 12:31"
+  },
   "CF79340580": {
     "contest_id": 144,
     "language": "GNU C++17",
