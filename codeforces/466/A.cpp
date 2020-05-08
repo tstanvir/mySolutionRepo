@@ -96,13 +96,14 @@ int main()
     #endif*/
     int n,m,a,b;
     while(cin>>n>>m>>a>>b){
-       int ans=highest(int);
-       rep1(i,0,n){
-            int ab=(n-i+m-1)/m;
-            int cur=(a*i)+(ab*b);
-            ans=min(ans,cur);
+       int one=m*a;
+       if(one<b){
+           cout<<n*a<<endl;
        }
-       cout<<ans<<endl;
+       else{
+            int ans=((n/m)*b)+(min((n%m)*a,b));
+            cout<<ans<<endl;
+       }
     }
 
      return 0;
