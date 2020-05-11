@@ -1,4 +1,20 @@
 {
+  "AC13113431": {
+    "contest_id": "abc167",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc167\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Registration",
+    "problem_url": "https://atcoder.jp/contests/abc167/tasks/abc167_a",
+    "submission_id": "AC13113431",
+    "submission_url": "https://atcoder.jp/contests/abc167/submissions/13113431",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "May/11/2020 11:41"
+  },
   "AC13113614": {
     "contest_id": "abc167",
     "language": "C++ (GCC 9.2.1)",
