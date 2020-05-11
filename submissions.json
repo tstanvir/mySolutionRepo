@@ -9250,6 +9250,22 @@
     ],
     "timestamp": "May/09/2020 03:54"
   },
+  "CF79699913": {
+    "contest_id": 1352,
+    "language": "GNU C++17",
+    "path": "codeforces\\1352\\G.cpp",
+    "platform": "Codeforces",
+    "problem_index": "G",
+    "problem_name": "Special Permutation",
+    "problem_url": "https://codeforces.com/contest/1352/problem/G",
+    "submission_id": "CF79699913",
+    "submission_url": "https://codeforces.com/contest/1352/submission/79699913",
+    "tags": [
+      "constructive algorithms",
+      "*1600"
+    ],
+    "timestamp": "May/11/2020 07:57"
+  },
   "CF79701503": {
     "contest_id": 1352,
     "language": "GNU C++17",
