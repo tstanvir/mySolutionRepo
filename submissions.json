@@ -1,4 +1,20 @@
 {
+  "AC13487947": {
+    "contest_id": "abc157",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\abc157\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Simple String Queries",
+    "problem_url": "https://atcoder.jp/contests/abc157/tasks/abc157_e",
+    "submission_id": "AC13487947",
+    "submission_url": "https://atcoder.jp/contests/abc157/submissions/13487947",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "May/22/2020 23:00"
+  },
   "AC13929647": {
     "contest_id": "abc169",
     "language": "C++ (GCC 9.2.1)",
