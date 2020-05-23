@@ -38,7 +38,7 @@ const long long MOD = 1000000007;
 #define sz(a) int(a.size())
 #define ff first
 #define ss second
-//#define endl "\n"
+#define endl "\n"
 #define forch(it,s) for(auto it:s)
 #define each(it,s) for(auto it = s.begin(); it != s.end(); ++it)
 #define rep(i,a) for(int i=0; i<a;i++)
@@ -52,7 +52,7 @@ int dx8[] = {0, 0, 1, 1, 1, -1, -1, -1};
 int dy8[] = {1,-1, 1, -1, 0, 0, -1, 1};
 int dx4[] = {0, 0, 1, -1};
 int dy4[] = {1, -1, 0, 0};
-const int maxx=1000010;
+const int maxx=1000005;
 
 //this fuction sorts vector pair according to first element in descending order.
 bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
@@ -91,7 +91,7 @@ void solve(){
 int n,q;
 vi BIT(maxx,0);
 void update(int idx,int val){
-    while(idx>0 && idx<=n){
+    while(idx<=n){
         BIT[idx]+=val;
         idx+=(idx&-idx);
     }
@@ -120,9 +120,7 @@ int main()
         cin>>arr[i];
         update(arr[i],1);
     }
-    //rep1(i,0,n) cout<<BIT[i]<<" ";
-   // cout<<endl;
-    rep(j,q){
+    rep(i,q){
         int k;
         cin>>k;
         if(k>0){
@@ -130,30 +128,18 @@ int main()
         }
         else{
             k=-k;
-            int cur=0,presentsum=0;
-            int Log=1;
-            while(1){
-                if(1<<(Log+1)>n) break;
-                Log++;
-            }
-            irep(i,Log,0){
-                //cout<<cur<<endl;
-                //cout<<"i: "<<i<<endl;
-                //cout<<"j: "<<j<<endl;
-                if((cur+(1<<i))<=n && (BIT[cur+(1<<i)]+presentsum)<k){
-                       // cout<<"cur: "<<cur<<endl;
-                        //cout<<"present sum: "<<presentsum<<endl;
-                        //cout<<"bit "<<BIT[cur+(1<<i)]<<endl;
-
-                    cur+=(1<<i);
-                    presentsum+=BIT[cur];
+            int l=0,h=n;
+            while(l<h){
+                int mid=(l+(h-l)/2);
+                int val=query(mid);
+                if(val<k){
+                    l=mid+1;
+                }
+                else if(val>=k){
+                    h=mid;
                 }
             }
-          //  cout<<"cur after: "<<cur<<endl;
-            update(cur+1,-1);
-           // cout<<"BIT: "<<endl;
-            //rep1(i,0,n) cout<<BIT[i]<<" ";
-            //cout<<endl;
+            update(l,-1);
         }
     }
     rep1(i,1,n){
