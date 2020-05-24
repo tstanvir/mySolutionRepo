@@ -8072,6 +8072,23 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF81173240": {
+    "contest_id": 32,
+    "language": "GNU C++17",
+    "path": "codeforces\\32\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Borze",
+    "problem_url": "https://codeforces.com/contest/32/problem/B",
+    "submission_id": "CF81173240",
+    "submission_url": "https://codeforces.com/contest/32/submission/81173240",
+    "tags": [
+      "expression parsing",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "May/24/2020 18:02"
+  },
   "CF81173489": {
     "contest_id": 271,
     "language": "GNU C++17",
