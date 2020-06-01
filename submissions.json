@@ -8072,6 +8072,24 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF82259201": {
+    "contest_id": 427,
+    "language": "GNU C++17",
+    "path": "codeforces\\427\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Checkposts",
+    "problem_url": "https://codeforces.com/contest/427/problem/C",
+    "submission_id": "CF82259201",
+    "submission_url": "https://codeforces.com/contest/427/submission/82259201",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "two pointers",
+      "*1700"
+    ],
+    "timestamp": "Jun/02/2020 05:29"
+  },
   "CF82262908": {
     "contest_id": 414,
     "language": "GNU C++17",
