@@ -79,19 +79,15 @@ void solve(){
     vi vec(n);
     rep(i,n) cin>>vec[i];
     vi dec,inc;
-    rep1(i,1,n-1){
+    rep1(i,1,n){
         if(vec[i]<vec[i-1]) dec.pb(i);
         else if(vec[i]>vec[i-1]) inc.pb(i);
     }
     dec.pb(n),inc.pb(n);
-   //forch(it,dec) cout<<it<<" ";
-   // cout<<endl;
     rep(i,m){
         int l,r;
         cin>>l>>r;
-        //cout<<l<<" "<<r<<endl;
         int x=*lower_bound(ALL(dec),l);
-        //cout<<x<<endl;
         if(*(lower_bound(ALL(inc),x))>=r){
             cout<<"Yes"<<endl;
         }
