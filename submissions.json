@@ -1,4 +1,20 @@
 {
+  "AC13947135": {
+    "contest_id": "abc156",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\abc156\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Rally",
+    "problem_url": "https://atcoder.jp/contests/abc156/tasks/abc156_c",
+    "submission_id": "AC13947135",
+    "submission_url": "https://atcoder.jp/contests/abc156/submissions/13947135",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/02/2020 13:23"
+  },
   "AC13962209": {
     "contest_id": "abc156",
     "language": "C++14 (GCC 5.4.1)",
