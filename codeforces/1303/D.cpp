@@ -107,7 +107,7 @@ void solve(){
                 cnt[j-1]+=2;
                 ans++;
             }
-            //assert(cnt[i]);
+            assert(cnt[i]);
             cnt[i]--;
         }
         cnt[i+1]+=cnt[i]/2ll;
