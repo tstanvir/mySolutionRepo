@@ -1,4 +1,20 @@
 {
+  "AC14165756": {
+    "contest_id": "abc155",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\abc155\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Poll",
+    "problem_url": "https://atcoder.jp/contests/abc155/tasks/abc155_c",
+    "submission_id": "AC14165756",
+    "submission_url": "https://atcoder.jp/contests/abc155/submissions/14165756",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/11/2020 02:54"
+  },
   "AC14191494": {
     "contest_id": "abc154",
     "language": "C++14 (GCC 5.4.1)",
