@@ -1,4 +1,20 @@
 {
+  "AC14191536": {
+    "contest_id": "abc154",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\abc154\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Distinct or Not",
+    "problem_url": "https://atcoder.jp/contests/abc154/tasks/abc154_c",
+    "submission_id": "AC14191536",
+    "submission_url": "https://atcoder.jp/contests/abc154/submissions/14191536",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jun/12/2020 13:10"
+  },
   "AC14285170": {
     "contest_id": "abc170",
     "language": "C++ (GCC 9.2.1)",
