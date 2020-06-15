@@ -1,4 +1,20 @@
 {
+  "AC14386868": {
+    "contest_id": "abc154",
+    "language": "C++14 (GCC 5.4.1)",
+    "path": "atcoder\\abc154\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Dice in Line",
+    "problem_url": "https://atcoder.jp/contests/abc154/tasks/abc154_d",
+    "submission_id": "AC14386868",
+    "submission_url": "https://atcoder.jp/contests/abc154/submissions/14386868",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jun/15/2020 15:26"
+  },
   "AC14393726": {
     "contest_id": "abc153",
     "language": "C++14 (GCC 5.4.1)",
