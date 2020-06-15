@@ -92,12 +92,12 @@ ll lg2(ll x){
 void solve(){
     ll x;
     cin>>x;
-    ll lg=1;
+    ll lg=lg2(x);
     //cout<<lg<<endl;
     ll sum=0;
-    while(lg<=x){
-        sum+=lg;
-        lg<<=1;
+    while(lg>=0){
+        sum+=(ll)po(2ll,lg);
+        lg--;
     }
     cout<<sum<<endl;
 }
