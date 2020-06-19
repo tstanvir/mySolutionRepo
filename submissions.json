@@ -1,4 +1,20 @@
 {
+  "AC14479077": {
+    "contest_id": "abc152",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc152\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Flatten",
+    "problem_url": "https://atcoder.jp/contests/abc152/tasks/abc152_e",
+    "submission_id": "AC14479077",
+    "submission_url": "https://atcoder.jp/contests/abc152/submissions/14479077",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jun/19/2020 22:58"
+  },
   "AC14487021": {
     "contest_id": "abc152",
     "language": "C++ (GCC 9.2.1)",
