@@ -92,20 +92,35 @@ ll lg2(ll x){
 }
 int n,w;
 vi wei(maxx),cost(maxx);
-ll dp[maxx];
+ll dp[105][maxx];
+ll sol(ll w,ll item){
+    if(w==0 or item==0) return 0;
+    if(dp[w][item]!=-1) return dp[w][item];
+    if(wei[item-1]<=w) return dp[w][item]=max(cost[item-1]+sol(w-wei[item-1],item-1),sol(w,item-1));
+    return dp[w][item]=sol(w,item-1);
+}
 void solve(){
-    SET(dp);
+    SET2d(dp,105,maxx);
     cin>>n>>w;
     rep(i,n){
         cin>>wei[i]>>cost[i];
     }
     //sort(wei.begin(),wei.begin()+n);
-    rep(i,n){
-        irep(j,w,wei[i]){
-            dp[j]=max(dp[j],cost[i]+dp[j-wei[i]]);
+    rep(i,n+1){
+        rep(j,w+1){
+            if(j==0 or i==0){
+                dp[i][j]=0;
+                continue;
+            }
+            if(wei[i-1]<=j){
+                dp[i][j]=max(cost[i-1]+dp[i-1][j-wei[i-1]],dp[i-1][j]);
+            }
+            else{
+                dp[i][j]=dp[i-1][j];
+            }
         }
     }
-    cout<<dp[w]<<endl;
+    cout<<dp[n][w]<<endl;
 
 
 }
