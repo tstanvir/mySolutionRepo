@@ -1,4 +1,20 @@
 {
+  "AC14494408": {
+    "contest_id": "abc151",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc151\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Next Alphabet",
+    "problem_url": "https://atcoder.jp/contests/abc151/tasks/abc151_a",
+    "submission_id": "AC14494408",
+    "submission_url": "https://atcoder.jp/contests/abc151/submissions/14494408",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jun/20/2020 17:58"
+  },
   "AC14495401": {
     "contest_id": "abc151",
     "language": "C++ (GCC 9.2.1)",
