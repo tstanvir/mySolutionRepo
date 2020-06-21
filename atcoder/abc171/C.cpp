@@ -93,13 +93,20 @@ ll lg26(ll x){
     res-=po(26,(p-1));
     return x-res;
 }
-string sol(ll x){
-    return x<0?"":sol((x/26)-1)+(char)('a'+x%26);
-}
 void solve(){
     ll n;
     cin>>n;
-    cout<<sol(n-1)<<endl;
+    stack<char>st;
+    while(n>0){
+        n--;
+        st.push((char)('a'+(n%26)));
+        n/=26;
+    }
+    while(!st.empty()){
+        cout<<st.top();
+        st.pop();
+    }
+    cout<<endl;
 }
 
 signed main()
