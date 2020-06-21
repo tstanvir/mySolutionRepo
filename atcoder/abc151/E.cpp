@@ -102,15 +102,10 @@ void COMinit(){
     }
 }
 
-ll ncr(ll n,ll k){
-    if (n < k) return 0ll;
-    if (n < 0 or k < 0) return 0ll;
-    ll res=fac[n];
-    //cout<<n<<" "<<fact[n]<<endl;
-    ll denom= (finv[k]%MOD*finv[n-k]%MOD)%MOD;
-    res=(res%MOD*denom%MOD);
-    res%=MOD;
-    return res;
+long long ncr(int n, int k){
+    if (n < k) return 0;
+    if (n < 0 || k < 0) return 0;
+    return fac[n] * (finv[k] * finv[n - k] % MOD) % MOD;
 }
 void solve(){
     COMinit();
