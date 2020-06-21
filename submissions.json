@@ -1,4 +1,20 @@
 {
+  "AC14522690": {
+    "contest_id": "abc151",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc151\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Max-Min Sums",
+    "problem_url": "https://atcoder.jp/contests/abc151/tasks/abc151_e",
+    "submission_id": "AC14522690",
+    "submission_url": "https://atcoder.jp/contests/abc151/submissions/14522690",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jun/21/2020 15:44"
+  },
   "AC14523188": {
     "contest_id": "abc151",
     "language": "C++ (GCC 9.2.1)",

@@ -90,34 +90,35 @@ ll lg2(ll x){
     }
     return res;
 }
-vll fact(maxx),inv(maxx);
-void init(){
-    inv[1]=1;
-    rep1(i,2,maxx-1){
-        inv[i]=(MOD-(MOD/i)*inv[MOD%i]%MOD)%MOD;
-    }
-    fact[0]=1;
-    rep1(i,1,maxx-1){
-        fact[i]=(fact[i-1]*i)%MOD;
-        fact[i]%=MOD;
+vll fac(maxx),finv(maxx),inv(maxx);
+void COMinit(){
+    fac[0] = fac[1] = 1;
+    finv[0] = finv[1] = 1;
+    inv[1] = 1;
+    for (int i = 2; i < maxx; i++){
+        fac[i] = fac[i - 1] * i % MOD;
+        inv[i] = MOD - inv[MOD%i] * (MOD / i) % MOD;
+        finv[i] = finv[i - 1] * inv[i] % MOD;
     }
 }
+
 ll ncr(ll n,ll k){
     if (n < k) return 0ll;
     if (n < 0 or k < 0) return 0ll;
-    ll res=fact[n];
+    ll res=fac[n];
     //cout<<n<<" "<<fact[n]<<endl;
-    ll denom= (Bigmod(fact[k],MOD-2,MOD)+MOD)%MOD*(Bigmod(fact[n-k],MOD-2,MOD)+MOD)%MOD;
-    denom%=MOD;
-    return (res%MOD*denom%MOD)%MOD;
+    ll denom= (finv[k]%MOD*finv[n-k]%MOD)%MOD;
+    res=(res%MOD*denom%MOD);
+    res%=MOD;
+    return res;
 }
 void solve(){
+    COMinit();
     ll n,k;
     cin>>n>>k;
     vll arr(n);
     rep(i,n) cin>>arr[i];
     sort(ALL(arr));
-    init();
     ll ans=0;
     for(ll i=0;i<n;i++){
         ll p,m;
