@@ -90,23 +90,20 @@ ll lg2(ll x){
     }
     return res;
 }
-vll fact(maxx),inv(maxx);
+vll fact(maxx);
 void init(){
     fact[0]=1;
     rep1(i,1,maxx-1){
         fact[i]=(fact[i-1]*i)%MOD;
         fact[i]%=MOD;
     }
-    inv[maxx-1]=Bigmod(fact[maxx-1],MOD-2,MOD);
-    irep(i,maxx-2,0){
-        inv[i]=(inv[i+1]*(i+1))%MOD;
-    }
 }
 ll ncr(ll n,ll k){
     //if(k==0 || n-k==0) return 1;
     ll res=fact[n];
     //cout<<n<<" "<<fact[n]<<endl;
-    ll denom=(inv[k]*inv[n-k])%MOD;
+    ll denom= (Bigmod(fact[k],MOD-2,MOD)+MOD)%MOD*(Bigmod(fact[n-k],MOD-2,MOD)+MOD)%MOD;
+    denom%=MOD;
     return (res%MOD*denom%MOD)%MOD;
 }
 void solve(){
