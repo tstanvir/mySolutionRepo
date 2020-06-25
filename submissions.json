@@ -1,4 +1,20 @@
 {
+  "AC14677209": {
+    "contest_id": "abc150",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc150\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Count ABC",
+    "problem_url": "https://atcoder.jp/contests/abc150/tasks/abc150_b",
+    "submission_id": "AC14677209",
+    "submission_url": "https://atcoder.jp/contests/abc150/submissions/14677209",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/25/2020 18:24"
+  },
   "AC14677444": {
     "contest_id": "abc150",
     "language": "C++ (GCC 9.2.1)",
