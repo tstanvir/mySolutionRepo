@@ -103,8 +103,7 @@ void init(){
     }
 }
 ll ncr(ll n,ll k){
-    if(n<0 or k<0) return 0;
-    if(n<k) return 0;
+    //if(k==0 || n-k==0) return 1;
     ll res=fact[n];
     //cout<<n<<" "<<fact[n]<<endl;
     ll denom=(inv[k]*inv[n-k])%MOD;
@@ -118,10 +117,10 @@ void solve(){
     cin>>s;
     ll n=sz(s);
     ll ans=0;
-    rep1(i,n,k+n){
-        ll res=ncr(n+k,i);
-        res=(res*Bigmod(25ll,n+k-i,MOD))%MOD;
-        ans=(ans+res)%MOD;
+    for(ll i=0;i<=k;i++){
+        ll temp=(Bigmod(26ll,i,MOD)*Bigmod(25ll,k-i,MOD))%MOD;
+        temp=(temp*ncr(n+k-i-1,n-1))%MOD;
+        ans=(ans+temp)%MOD;
     }
     cout<<ans<<endl;
 }
