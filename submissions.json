@@ -1,4 +1,20 @@
 {
+  "AC14893291": {
+    "contest_id": "abc148",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc148\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Round One",
+    "problem_url": "https://atcoder.jp/contests/abc148/tasks/abc148_a",
+    "submission_id": "AC14893291",
+    "submission_url": "https://atcoder.jp/contests/abc148/submissions/14893291",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/02/2020 02:59"
+  },
   "AC14893300": {
     "contest_id": "abc148",
     "language": "C++ (GCC 9.2.1)",
