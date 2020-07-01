@@ -1,4 +1,20 @@
 {
+  "AC14893514": {
+    "contest_id": "abc148",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc148\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Double Factorial",
+    "problem_url": "https://atcoder.jp/contests/abc148/tasks/abc148_e",
+    "submission_id": "AC14893514",
+    "submission_url": "https://atcoder.jp/contests/abc148/submissions/14893514",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/02/2020 03:42"
+  },
   "AC14907565": {
     "contest_id": "abc148",
     "language": "C++ (GCC 9.2.1)",
