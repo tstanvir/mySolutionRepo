@@ -1,4 +1,20 @@
 {
+  "AC14892775": {
+    "contest_id": "dp",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\dp\\H.cpp",
+    "platform": "AtCoder",
+    "problem_index": "H",
+    "problem_name": "Grid 1",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_h",
+    "submission_id": "AC14892775",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/14892775",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/02/2020 01:10"
+  },
   "AC14893291": {
     "contest_id": "abc148",
     "language": "C++ (GCC 9.2.1)",
