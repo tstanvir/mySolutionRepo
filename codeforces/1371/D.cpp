@@ -17,7 +17,7 @@ const long long MOD = 1000000007;
 #define pf printf
 #define sf scanf
 #define ALL(x) x.begin(),x.end()
-#define pb push_back;
+#define pb push_back
 #define IOS ios::sync_with_stdio(false); cin.tie(0);
 #define np std::string::npos
 #define highest(x) numeric_limits<x>::max()
