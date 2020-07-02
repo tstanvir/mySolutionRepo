@@ -1,4 +1,20 @@
 {
+  "AC14908207": {
+    "contest_id": "abc147",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc147\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Blackjack",
+    "problem_url": "https://atcoder.jp/contests/abc147/tasks/abc147_a",
+    "submission_id": "AC14908207",
+    "submission_url": "https://atcoder.jp/contests/abc147/submissions/14908207",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/02/2020 21:14"
+  },
   "AC14908250": {
     "contest_id": "abc147",
     "language": "C++ (GCC 9.2.1)",
