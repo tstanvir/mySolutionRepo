@@ -101,9 +101,9 @@ void solve(){
     ll ans=0;
     for(ll i=0,p=1;i<61;i++,p*=2){
         ll one=0,zero=0;
-        rep(j,n){
-            arr[j]%2ll?one++:zero++;
-            arr[j]/=2ll;
+        rep(i,n){
+            arr[i]%2ll?one++:zero++;
+            arr[i]/=2ll;
         }
         ans+=((one*zero)%MOD*(p%MOD))%MOD;
         ans%=MOD;
