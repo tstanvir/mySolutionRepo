@@ -1,4 +1,20 @@
 {
+  "AC14940671": {
+    "contest_id": "abc146",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc146\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "ROT N",
+    "problem_url": "https://atcoder.jp/contests/abc146/tasks/abc146_b",
+    "submission_id": "AC14940671",
+    "submission_url": "https://atcoder.jp/contests/abc146/submissions/14940671",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/04/2020 18:01"
+  },
   "AC14942031": {
     "contest_id": "abc146",
     "language": "C++ (GCC 9.2.1)",
