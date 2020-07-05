@@ -1,4 +1,20 @@
 {
+  "AC15029144": {
+    "contest_id": "abc146",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc146\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Coloring Edges on Tree",
+    "problem_url": "https://atcoder.jp/contests/abc146/tasks/abc146_d",
+    "submission_id": "AC15029144",
+    "submission_url": "https://atcoder.jp/contests/abc146/submissions/15029144",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/05/2020 22:44"
+  },
   "AC15076614": {
     "contest_id": "abc173",
     "language": "C++ (GCC 9.2.1)",
