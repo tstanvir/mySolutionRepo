@@ -14,7 +14,7 @@ int main()
         cin>>dataset[i];
  
     ll result=0;
-    for(ll i=0;i<62;i++)
+    for(ll i=0,p=1;i<61;i++,p*=2ll)
     {
         long long zeros=0,ones=0;
  
@@ -26,7 +26,7 @@ int main()
                 zeros++;
             dataset[j]/=2ll;
         }
-        result+=((ones*zeros)%MOD*((1ll<<i)%MOD))%MOD;
+        result+=((ones*zeros)%MOD*(p%MOD))%MOD;
       result%=MOD;
  
     }
