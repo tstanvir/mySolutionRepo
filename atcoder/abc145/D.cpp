@@ -120,12 +120,14 @@ void solve(){
         return;
     }
     ll m=(((2*x)-y)/3ll);
-    ll n=(y-m)/2ll;
+    ll n=((2*y)-x)/3ll;
     if(m<0 or n<0) {
         cout<<0<<endl;
         return;
     }
-    cout<<ncr(n+m,n)<<endl;
+    //cout<<"shawwa" <<endl;
+   // cout<<m<<" "<<n<<endl;
+    cout<<ncr(m+n,n)<<endl;
 }
 
 signed main()
