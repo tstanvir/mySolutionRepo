@@ -127,7 +127,7 @@ void solve(){
     }
     //cout<<"shawwa" <<endl;
    // cout<<m<<" "<<n<<endl;
-    cout<<ncr(m+n,n)<<endl;
+    cout<<ncr(m+n,m)<<endl;
 }
 
 signed main()
