@@ -1,4 +1,20 @@
 {
+  "AC15133061": {
+    "contest_id": "abc144",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc144\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "9x9",
+    "problem_url": "https://atcoder.jp/contests/abc144/tasks/abc144_a",
+    "submission_id": "AC15133061",
+    "submission_url": "https://atcoder.jp/contests/abc144/submissions/15133061",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jul/11/2020 11:28"
+  },
   "AC15133079": {
     "contest_id": "abc144",
     "language": "C++ (GCC 9.2.1)",
