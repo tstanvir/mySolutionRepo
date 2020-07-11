@@ -1,4 +1,20 @@
 {
+  "AC15133531": {
+    "contest_id": "abc144",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc144\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Walk on Multiplication Table",
+    "problem_url": "https://atcoder.jp/contests/abc144/tasks/abc144_c",
+    "submission_id": "AC15133531",
+    "submission_url": "https://atcoder.jp/contests/abc144/submissions/15133531",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/11/2020 11:56"
+  },
   "AC15142543": {
     "contest_id": "aising2020",
     "language": "C++ (GCC 9.2.1)",
