@@ -1,4 +1,20 @@
 {
+  "AC15254958": {
+    "contest_id": "abc142",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc142\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Get Everything",
+    "problem_url": "https://atcoder.jp/contests/abc142/tasks/abc142_e",
+    "submission_id": "AC15254958",
+    "submission_url": "https://atcoder.jp/contests/abc142/submissions/15254958",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Jul/15/2020 14:43"
+  },
   "AC15266456": {
     "contest_id": "abc141",
     "language": "C++ (GCC 9.2.1)",
