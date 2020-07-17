@@ -117,7 +117,6 @@ void solve(){
     cin>>n>>m>>k;
     rep(i,n) cin>>vec[i];
     rep(i,m) box[i]=k;
-    /*
     int low=0,hi=n-1;
     int ans=0;
     while(low<=hi){
@@ -130,26 +129,8 @@ void solve(){
         else {
             low=mid+1;
         }
-    }*/
-    //another solution in O(n)
-    reverse(vec.begin(),vec.begin()+n);
-    vi cur_box=box;
-    int cur=0;
-    int cnt=0;
-    int j;
-    for(j=0;j<n and cur<m;){
-       // cout<<"cur: "<<cur_box[cur]<<" "<<vec[j]<<endl;
-        if(cur_box[cur]>=vec[j]){
-            cur_box[cur]-=vec[j];
-            j++;
-            cnt++;
-
-        }
-        else{
-            cur++;
-        }
     }
-    cout<<j<<endl;
+    cout<<ans<<endl;
 }
 
 signed main()
