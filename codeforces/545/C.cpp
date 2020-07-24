@@ -93,31 +93,29 @@ ll lg2(ll x){
 void solve(){
     int n;
     cin>>n;
-    vector<pair<ll,ll>>vec(n);
+    vector<pair<ll,ll>>vec(n+1);
+    vec[n].first=highest(ll);
     rep(i,n){
         cin>>vec[i].ff>>vec[i].ss;
     }
     sort(ALL(vec));
-    set<ll>occu;
-    rep(i,n){
-        occu.insert(vec[i].ff);
-    }
-    int cnt=0;
-    rep(i,n){
-        int l=vec[i].ff-vec[i].ss,r=vec[i].ff+vec[i].ss;
-        auto lo=occu.lower_bound(l);
-        if(*lo==vec[i].ff){
-            cnt++;
-            occu.insert(l);
-        }
-        else{
-            lo=occu.upper_bound(vec[i].ff);
-            if(*lo>r or lo==occu.end()){
-                cnt++;
-                occu.insert(r);
-            }
-        }
+    //deque<ll> occu;
+    //rep(i,n){
+      // occu.pb(vec[i].ff);
+   // }
+    int cnt=1;
+    ll last=vec[0].ff;
 
+    rep1(i,1,n-1){
+        if(vec[i].first-vec[i].ss>last){
+            cnt++;
+            last=vec[i].ff;
+        }
+        else if(vec[i].first+vec[i].ss<vec[i+1].first){
+            cnt++;
+            last=vec[i].first+vec[i].ss;
+        }
+        else last=vec[i].ff;
     }
     cout<<cnt<<endl;
 }
@@ -139,4 +137,6 @@ signed main()
      return 0;
 
 }
-///Alhamdulillah 
+///Alhamdulillah
+
+
