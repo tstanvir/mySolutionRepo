@@ -107,12 +107,12 @@ void solve(){
         pref[i+1]+=pref[i];
     }
     ll cnt=0;
-    map<ll,ll>mm;
-    mm[0]=1;
-    rep1(i,0,n-1){
-        pref[i+1]-=(i+1);
-        cnt+=mm[pref[i+1]];
-        mm[pref[i+1]]++;
+    rep1(i,1,n){
+        for(int j=0;j+i<=n;j++){
+            if(pref[j+i]-pref[j]==i){
+                cnt++;
+            }
+        }
     }
     cout<<cnt<<endl;
 }
