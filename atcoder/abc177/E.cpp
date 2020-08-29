@@ -6,6 +6,8 @@
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
 using namespace __gnu_pbds;
+#pragma GCC optimize("Ofast")
+#pragma GCC target("avx,avx2,fma")
 #define ll long long
 #define pb push_back
 #define mp make_pair
