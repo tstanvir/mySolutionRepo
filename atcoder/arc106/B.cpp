@@ -107,31 +107,28 @@ ll lg2(ll x){
 }
 vll a(maxx),b(maxx);
 struct DSU{
-    vector <int> arr, szz;//p[i]=j means j is the root of  i; //
+    vector <int> p, sz;
     DSU(int n) {
-        arr.resize(n + 1); szz.resize(n + 1, 1);
+        p.resize(n + 1); sz.resize(n + 1, 1);
         for(int i = 1; i <= n; i++) {
-            arr[i] = i;
+            p[i] = i;
         }
     }
-    int root(int i) {
-        while(i!=arr[i]){
-            arr[i]=arr[arr[i]];
-            i=arr[i];
+    int find(int i) {
+        while(i!=p[i]){
+            p[i]=p[p[i]];
+            i=p[i];
         }
         return i;
     }
-    int merge(int a, int b) {
-        int root_a=root(a),root_b=root(b);
-        if(root_a==root_b) return 1;
-        if(szz[root_a]<szz[root_b]){
-            arr[root_a]=arr[root_b];
-            szz[root_b]+=szz[root_a];
+    int merge(int x, int y) {
+        x = find(x);
+        y = find(y);
+        if(x == y) {
+            return 0;
         }
-        else{
-            arr[root_b]=arr[root_a];
-            szz[root_a]+=szz[root_b];
-        }
+        p[x] = y;
+        sz[y] += sz[x];
         return 1;
     }
 };
@@ -149,12 +146,12 @@ void solve(){
     }
     vll c(n+1);
     rep1(i,1,n){
-        int rt=d.root(i);
+        int rt=d.find(i);
         c[rt]+=a[i]-b[i];
     }
     rep1(i,1,n){
         //cout<<d.find(i)<<" "<<c[i]<<endl;
-        if(d.root(i)==i and c[i]){
+        if(d.find(i)==i and c[i]){
             cout<<"No"<<endl;
             return;
         }
