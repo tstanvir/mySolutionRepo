@@ -1,4 +1,20 @@
 {
+  "AC17747585": {
+    "contest_id": "dp",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\dp\\S.cpp",
+    "platform": "AtCoder",
+    "problem_index": "S",
+    "problem_name": "Digit Sum",
+    "problem_url": "https://atcoder.jp/contests/dp/tasks/dp_s",
+    "submission_id": "AC17747585",
+    "submission_url": "https://atcoder.jp/contests/dp/submissions/17747585",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/31/2020 15:57"
+  },
   "AC17748483": {
     "contest_id": "arc104",
     "language": "C++ (GCC 9.2.1)",
