@@ -1,0 +1,10 @@
+inp=input();
+a,b,c=inp.split()
+a=int(a)
+b=int(b)
+c=int(c)
+suma=((1+a)*a)//2
+sumb=((1+b)*b)//2
+sumc=((1+c)*c)//2
+ans=(suma*sumb*sumc)%998244353
+print(ans)
