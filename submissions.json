@@ -1,4 +1,20 @@
 {
+  "AC17748483": {
+    "contest_id": "arc104",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc104\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Plus Minus",
+    "problem_url": "https://atcoder.jp/contests/arc104/tasks/arc104_a",
+    "submission_id": "AC17748483",
+    "submission_url": "https://atcoder.jp/contests/arc104/submissions/17748483",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Oct/31/2020 17:06"
+  },
   "AC17762715": {
     "contest_id": "arc107",
     "language": "Python (3.8.2)",
