@@ -165,7 +165,7 @@ void solve(){
        if(vec[i]==1) continue;
        ll pp=p;
        while(pp>0){
-            //if(pp%vec[i]!=0) break;
+            if(pp%vec[i]!=0) break;
             pp/=vec[i];
             if(pp%q!=0){
                 res=max(res,pp);
