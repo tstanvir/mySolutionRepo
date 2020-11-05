@@ -146,9 +146,22 @@ void solve(){
     ll ans=(mint1o2*2ll);
     a[2]-=mint1o2;
     b[1]-=mint1o2;
-    mint1o2=min(a[1],b[0]+b[1]);
-    a[1]-=mint1o2;
-    ans-=(a[1]*2ll);
+    mint1o2=min(a[2],b[2]);
+    a[2]-=mint1o2,b[2]-=mint1o2;
+    mint1o2=min(a[2],b[0]);
+    a[2]-=mint1o2,b[0]-=mint1o2;
+    mint1o2=min(a[1],b[1]);
+    a[1]-=mint1o2,b[1]-=mint1o2;
+    mint1o2=min(a[1],b[0]);
+    a[1]-=mint1o2,b[0]-=mint1o2;
+    mint1o2=min(a[0],b[0]);
+    a[0]-=mint1o2,b[0]-=mint1o2;
+    mint1o2=min(a[0],b[1]);
+    a[0]-=mint1o2,b[1]-=mint1o2;
+    mint1o2=min(a[0],b[2]);
+    a[0]-=mint1o2,b[2]-=mint1o2;
+    mint1o2=min(a[1],b[2]);
+    ans-=(mint1o2*2ll);
     cout<<ans<<endl;
 }
 
