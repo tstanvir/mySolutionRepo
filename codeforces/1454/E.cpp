@@ -135,118 +135,10 @@ ll lg2(ll x){
 #else
 #define debug(...) 42
 #endif
-struct DSU{
-    vector <int> arr, szz;//arr[i]=j means j is the root of  i; //
-    DSU(int n) {
-        arr.resize(n + 1); szz.resize(n + 1, 1);
-        for(int i = 1; i <= n; i++) {
-            arr[i] = i; //initially ith node's root is i itself
-        }
-    }
-    int root(int i) { //this func returns the root of ith node
-        while(i!=arr[i]){
-            arr[i]=arr[arr[i]];
-            i=arr[i];
-        }
-        return i;
-    }
-    void merge(int a, int b) { //this func merges two nodes a and b.
-        int root_a=root(a),root_b=root(b);
-        if(root_a==root_b) return;
-        if(szz[root_a]<szz[root_b]){
-            arr[root_a]=arr[root_b];
-            szz[root_b]+=szz[root_a];
-        }
-        else{
-            arr[root_b]=arr[root_a];
-            szz[root_a]+=szz[root_b];
-        }
-    }
-};
+
 
 void solve(){
     int n;
-    cin>>n;
-    vi edg[n+1];
-    DSU d(n);
-    pair<int,int>extra;
-    vpii edgs;
-    rep(i,n){
-        int u,v;
-        cin>>u>>v;
-        edgs.pb({u,v});
-        if(d.root(u)==d.root(v)) extra=mp(u,v);
-        else{
-            d.merge(u,v);
-            edg[u].pb(v);
-            edg[v].pb(u);
-        }
-    }
-    vi parent(n+1,-1);
-    function<void(int,int)>dfs=[&](int ch,int par){
-        parent[ch]=par;
-        forch(it,edg[ch]){
-            if(it!=par){
-                dfs(it,ch);
-            }
-        }
-    };
-    int u=extra.ff;
-    dfs(u,-1);
-    int v=extra.ss;
-    int crawl=parent[v];
-    vi path;
-    path.pb(v);
-    vi incyc(n+1);
-    incyc[v]=1;
-    while(crawl!=-1){
-        path.pb(crawl);
-        incyc[crawl]=1;
-        crawl=parent[crawl];
-    }
-    //forch(it,path) debug(it);
-    DSU anod(n);
-    forch(it,edgs){
-        if(!incyc[it.ff] or !incyc[it.ss]){
-            anod.merge(it.ff,it.ss);
-        }
-    }
-    ll ans=n*1ll*(n-1);
-    vi proced(n+1);
-    rep1(i,1,n){
-        int rt=anod.root(i);
-        if(proced[rt]) continue;
-        proced[rt]=1;
-
-        ll val=anod.szz[anod.root(i)];
-        //debug(i,anod.root(i),val);
-        ans-=(val*(val-1)/2);
-    }
-    cout<<ans<<endl;
-}
-
-signed main()
-
-{
-    /*#ifndef ONLINE_JUDGE
-        freopen ("input.txt","r",stdin);
-        freopen ("output.txt","w",stdout);
-    #endif*/
-    IOS;
-    int t;
-    cin>>t;
-    while(t--){
-        solve();
-    }
-
-     return 0;
-
-}
-///Alhamdulillah
-
-/*
-solution 1:
-int n;
     cin>>n;
     vi deg(n+1);
     vi edg[n+1];
@@ -279,14 +171,32 @@ int n;
         }
         subsz[x]=0;
     }
-    rep1(i,1,n){
-        debug(i,subsz[i]);
-    }
     ll ans=0;
     rep1(i,1,n){
          ans+=subsz[i]*1ll*(subsz[i]-1)/2ll;
          ans+=subsz[i]*1ll*(n-subsz[i]);
     }
     cout<<ans<<endl;
-    */
+}
+
+signed main()
+
+{
+    /*#ifndef ONLINE_JUDGE
+        freopen ("input.txt","r",stdin);
+        freopen ("output.txt","w",stdout);
+    #endif*/
+    IOS;
+    int t;
+    cin>>t;
+    while(t--){
+        solve();
+    }
+
+     return 0;
+
+}
+///Alhamdulillah
+
+
 
