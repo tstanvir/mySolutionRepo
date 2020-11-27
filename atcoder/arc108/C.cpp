@@ -164,30 +164,40 @@ struct DSU{
 };
 
 void solve(){
-    // dfs implementation
     int n,m;
     cin>>n>>m;
     vpii edg[n+1];
+    DSU d(n);
     rep(i,m){
         int u,v,c;
         cin>>u>>v>>c;
+        if(d.root(u)==d.root(v)) continue;
+        d.merge(u,v);
         edg[u].pb({v,c});
         edg[v].pb({u,c});
     }
-    vi ans(n+1);
+    int r=d.root(1);
     vi vis(n+1);
-    function<void(int,int,int)>dfs=[&](int ch,int par,int c){
-        vis[ch]=1;
-        if(ans[par]!=c) ans[ch]=c;
-        else ans[ch]=ans[par]==1?n:ans[par]-1;
-        forch(it,edg[ch]){
-            int v=it.ff,cost=it.ss;
+    vi ans(n+1);
+    ans[r]=1;
+    queue<int>q;
+    q.push(r);
+    vis[r]=1;
+    int trace=1;
+    while(!q.empty()){
+        int u=q.front();
+        q.pop();
+        forch(it,edg[u]){
+            int v=it.ff,c=it.ss;
             if(!vis[v]){
-                dfs(v,ch,cost);
+                vis[v]=1;
+                q.push(v);
+                if(ans[u]==c ) ans[v]=ans[u]==1?n:ans[u]-1;
+                else ans[v]=c;
+
             }
         }
-    };
-    dfs(1,0,1);
+    }
     rep1(i,1,n) cout<<ans[i]<<endl;
 
 }
@@ -211,45 +221,5 @@ signed main()
 }
 ///Alhamdulillah
 
-/*
-dsu implementation
 
 
-
-
-int n,m;
-cin>>n>>m;
-vpii edg[n+1];
-DSU d(n);
-rep(i,m){
-    int u,v,c;
-    cin>>u>>v>>c;
-    if(d.root(u)==d.root(v)) continue;
-    d.merge(u,v);
-    edg[u].pb({v,c});
-    edg[v].pb({u,c});
-}
-int r=d.root(1);
-vi vis(n+1);
-vi ans(n+1);
-ans[r]=1;
-queue<int>q;
-q.push(r);
-vis[r]=1;
-int trace=1;
-while(!q.empty()){
-    int u=q.front();
-    q.pop();
-    forch(it,edg[u]){
-        int v=it.ff,c=it.ss;
-        if(!vis[v]){
-            vis[v]=1;
-            q.push(v);
-            if(ans[u]==c ) ans[v]=ans[u]==1?n:ans[u]-1;
-            else ans[v]=c;
-
-        }
-    }
-}
-rep1(i,1,n) cout<<ans[i]<<endl;
-*/
