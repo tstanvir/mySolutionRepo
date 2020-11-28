@@ -155,7 +155,7 @@ struct rmq{
         return ret;
     }
     void prepo(){
-        int col=lg2(maxxx)+1;
+        int col=log2(maxxx)+1;
         for(int i=0;i<maxxx;i++) sparse[i][0]=i; /*the first column of sparse table is equal to the row number because
         the index of the minimum element in range start from ith index to the next 2^j element is the i itself*/
         for(int j=1;j<=col;j++){
@@ -182,7 +182,6 @@ struct rmq{
         */
     }
 };
-
 
 void solve(){
     int n;
