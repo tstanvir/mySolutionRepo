@@ -1,4 +1,20 @@
 {
+  "AC18470679": {
+    "contest_id": "arc109",
+    "language": "Python (3.8.2)",
+    "path": "atcoder\\arc109\\B.py",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "log",
+    "problem_url": "https://atcoder.jp/contests/arc109/tasks/arc109_b",
+    "submission_id": "AC18470679",
+    "submission_url": "https://atcoder.jp/contests/arc109/submissions/18470679",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Nov/28/2020 19:51"
+  },
   "AC18724109": {
     "contest_id": "abc185",
     "language": "C++ (GCC 9.2.1)",
