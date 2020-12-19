@@ -1,4 +1,20 @@
 {
+  "AC18871829": {
+    "contest_id": "abc186",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc186\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Unlucky 7",
+    "problem_url": "https://atcoder.jp/contests/abc186/tasks/abc186_c",
+    "submission_id": "AC18871829",
+    "submission_url": "https://atcoder.jp/contests/abc186/submissions/18871829",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Dec/19/2020 18:11"
+  },
   "AC18894415": {
     "contest_id": "abc186",
     "language": "C++ (GCC 9.2.1)",
