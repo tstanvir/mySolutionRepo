@@ -157,7 +157,7 @@ void solve(){
 				//debug(ans);
 				int j=i+1;
 				while(j<n){
-					rep(k,min(3,p+1)){
+					rep(k,p+1){
 
 						ch='a'+k;
 						if(j>=1 and ans[j-1]==ch) continue;
@@ -181,7 +181,7 @@ void solve(){
 				//debug(ans);
 				int j=i+1;
 				while(j<n){
-					rep(k,min(3,p+1)){
+					rep(k,p+1){
 
 						ch='a'+k;
 						if(j>=1 and ans[j-1]==ch) continue;
@@ -205,7 +205,7 @@ void solve(){
 				//debug(ans);
 				int j=i+1;
 				while(j<n){
-					rep(k,min(3,p+1)){
+					rep(k,p+1){
 
 						ch='a'+k;
 						if(j>=1 and ans[j-1]==ch) continue;
