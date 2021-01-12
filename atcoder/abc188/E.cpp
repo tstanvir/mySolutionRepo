@@ -8,7 +8,7 @@
 	using namespace std;
 	const long long MOD = 1000000007;
 	const double rad=(acos(-1)/180.00);
-	#define IOS ios::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL);
+	#define IOS ios::sync_with_stdio(false);
 	#define SET(x) memset(x, 0, sizeof(x))
 	#define SET2d(x,m,n) memset(x, 0, sizeof(x[0][0]) * m * n)
 	#define SETBOOL(x) memset(x,false,sizeof(x))
@@ -182,15 +182,13 @@
 	        freopen ("output.txt","w",stdout);
 	    #endif
 	    IOS;
-	    ll T=clock();
 	    int t;
 	    t=1;
 	    //cin>>t;
 	    while(t--){
 	        solve();
 	    }
-	 	cerr<<"\n\nTIME: "<<(double)(clock()-T)/CLOCKS_PER_SEC<<" sec\n";
-    	T = clock();
+	 
 	     return 0;
 	 
 	}
