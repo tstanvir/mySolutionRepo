@@ -1,4 +1,20 @@
 {
+  "AC19644184": {
+    "contest_id": "abc189",
+    "language": "Python (3.8.2)",
+    "path": "atcoder\\abc189\\B.py",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Alcoholic",
+    "problem_url": "https://atcoder.jp/contests/abc189/tasks/abc189_b",
+    "submission_id": "AC19644184",
+    "submission_url": "https://atcoder.jp/contests/abc189/submissions/19644184",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jan/23/2021 19:36"
+  },
   "AC19678459": {
     "contest_id": "abc189",
     "language": "C++ (GCC 9.2.1)",
