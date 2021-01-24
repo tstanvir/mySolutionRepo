@@ -143,7 +143,7 @@ void solve(){
 	rep(i,n){
 		string x;
 		cin>>x;
-		if(x=="OR") ans+=(1LL<<(i+1));
+		if(x=="OR") ans+=(1LL<<(ll)(i+1));
 	}
 	cout<<(ans+1ll)<<endl;
 }
