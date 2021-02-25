@@ -1,4 +1,20 @@
 {
+  "AC20486898": {
+    "contest_id": "abc138",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc138\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Resistors in Parallel",
+    "problem_url": "https://atcoder.jp/contests/abc138/tasks/abc138_b",
+    "submission_id": "AC20486898",
+    "submission_url": "https://atcoder.jp/contests/abc138/submissions/20486898",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Feb/25/2021 23:04"
+  },
   "AC20486988": {
     "contest_id": "abc138",
     "language": "C++ (GCC 9.2.1)",
