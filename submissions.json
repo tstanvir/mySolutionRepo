@@ -1,4 +1,20 @@
 {
+  "AC20486988": {
+    "contest_id": "abc138",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc138\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Alchemist",
+    "problem_url": "https://atcoder.jp/contests/abc138/tasks/abc138_c",
+    "submission_id": "AC20486988",
+    "submission_url": "https://atcoder.jp/contests/abc138/submissions/20486988",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Feb/25/2021 23:15"
+  },
   "AC20487110": {
     "contest_id": "abc138",
     "language": "C++ (GCC 9.2.1)",
