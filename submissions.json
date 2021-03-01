@@ -1,4 +1,20 @@
 {
+  "AC20603348": {
+    "contest_id": "abc136",
+    "language": "Java (OpenJDK 11.0.6)",
+    "path": "atcoder\\abc136\\B.java",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Uneven Numbers",
+    "problem_url": "https://atcoder.jp/contests/abc136/tasks/abc136_b",
+    "submission_id": "AC20603348",
+    "submission_url": "https://atcoder.jp/contests/abc136/submissions/20603348",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Mar/02/2021 05:18"
+  },
   "AC20603407": {
     "contest_id": "abc136",
     "language": "Java (OpenJDK 11.0.6)",
