@@ -102,6 +102,7 @@ bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
 void solve(){
     ll n,d;
     cin>>n>>d;
+    d--;
     vpll vec;
     rep(i,n){
         ll a,b;
@@ -109,16 +110,21 @@ void solve(){
         vec.pb({a,b});
     } 
     sort(ALL(vec));
-    
-    ll mx=-1,sum=0,l=0;
-    rep(r,n){
-        ll diff=vec[r].ff-vec[l].ff;
-        while(diff>=d){
-            sum-=vec[l].ss;//eliminating the elements 1 by 1 from the left side.
-            diff=vec[r].ff-vec[++l].ff; 
-        }
-        sum+=vec[r].ss;
-        mx=max(mx,sum);
+    vll pre(n+1);
+    vll v;
+    rep(i,n){
+        pre[i+1]=vec[i].ss;
+        pre[i+1]+=pre[i];
+        v.pb(vec[i].ff);
+    }
+    ll mx=-1;
+    rep(i,n){
+        ll val=vec[i].ff+d;
+       // debug(val);
+        int up=upper_bound(ALL(v),val)-v.begin();
+     //   debug(up);
+      //  debug(pre[up],pre[up-1]);
+        mx=max(mx,pre[up]-pre[i]);
     }
     cout<<mx<<endl;
 }
