@@ -116,7 +116,6 @@ void solve(){
     int last=-1;
     vi vec;
     int tot=0;
-    int lose=0;
     rep(i,n){
     	if(s[i]=='W'){
     		tot++;
@@ -125,31 +124,38 @@ void solve(){
     		}
     		last=i;
     	}
-    	if(s[i]=='L'){
-    		lose++;
-    	}
-    }
-    if(k>=lose){
-    	cout<<2*n-1<<endl;
-    	return;
-    }
-    if(tot==0){
-    	if(k==0) cout<<0<<endl;
-    	else cout<<2*k-1<<endl;
-    	return;
     }
     sort(ALL(vec));
     int szz=sz(vec);
     int win_st=szz+1;
     int ans=0;
-    tot+=k;
     //debug(tot);
     rep(i,szz){
     	if(k>=vec[i]){
     		k-=vec[i];
     		win_st--;
+    		tot+=vec[i];
     	}
-    	else break;
+    	else if(k>0){
+    		tot+=k;
+    		k=0;
+    		break;
+    	}
+    }
+    //debug(tot,win_st);
+    if(k>0){
+    	rep(i,n){
+    		if(s[i]=='L' and k>0) tot++,k--;
+    		else if(s[i]=='W' or k<=0) break;
+    	}
+    	irep(i,n-1,0){
+    		if(s[i]=='L' and k>0) tot++,k--;
+    		else if(s[i]=='W' or k<=0) break;
+    	}
+    }
+    if(tot==0) {
+    	cout<<0<<endl;
+    	return;
     }
     ans=2*tot-win_st;
     cout<<ans<<endl;
