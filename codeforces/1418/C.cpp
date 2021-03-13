@@ -114,6 +114,10 @@ void solve(){
     vi vec(n);
     rep(i,n) cin>>vec[i];
     int dp[n+1][2];
+    if(n==1){
+    	cout<<vec[0]<<endl;
+    	return;
+    }
     dp[0][0]=vec[0];
     dp[0][1]=INF;
     dp[1][0]=vec[0]+vec[1];
