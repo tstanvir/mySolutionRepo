@@ -112,6 +112,10 @@ void solve(){
     string s;
     cin>>s;
     int n=sz(s);
+    vll let(26);
+    rep(i,n){
+    	let[s[i]-'a']++;
+    }
     ll maxi=-1;
     ll cnt[26][26],mm[26];
     SET(cnt),SET(mm);
@@ -123,7 +127,7 @@ void solve(){
     	mm[c]++;
     }
     rep(i,26){
-    	maxi=max(maxi,mm[i]);
+    	maxi=max(maxi,let[i]);
     	rep(j,26){
     		maxi=max(maxi,cnt[i][j]);
     	}
