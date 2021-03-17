@@ -107,7 +107,7 @@ bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
     return a.first>b.first;
 }
 int cs=0,n1,n2,k1,k2,maxK1,maxK2;
-ll dp[105][105][2];
+ll dp[105][105][15][15];
 /*
 if(foot+horse==n1+n2){
 		//debug(s);
@@ -144,20 +144,15 @@ if(foot+horse==n1+n2){
 	return dp[{foot,{horse,s}}]=res;
 	*/
 	
-ll sol(int f,int h,int k){
+ll sol(int f,int h,int kf,int kh){
 	if(f+h==0) return 1;
-	ll& res=dp[f][h][k];
+	ll& res=dp[f][h][kf][kh];
 	if(res!=-1) return res;
 	res=0;
 	ll val1=0;
+	if(f>0 and h>=0 and kf>0) val1=sol(f-1,h,kf-1,k2);
 	ll val2=0;
-	if(k==0){ rep1(i,1,min(f,k1)){
-		val1=modAdd(val1,sol(f-i,h,k^1));
-	
-	}}
-	else {rep1(i,1,min(h,k2)){
-		val2=modAdd(val2,sol(f,h-i,k^1));
-	}}
+	if(f>=0 and h>0 and kh>0) val2=sol(f,h-1,k1,kh-1);
 	res=modAdd(val1,val2);
 	return res;
 }
@@ -165,10 +160,7 @@ void solve(){
     //cout<<"Case "<<++cs<<": ";
     CLR(dp);
     cin>>n1>>n2>>k1>>k2;
-    ll ans=sol(n1,n2,0);
-    CLR(dp);
-    ans=modAdd(ans,sol(n1,n2,1));
-    cout<<ans<<endl;
+    cout<<sol(n1,n2,k1,k2)<<endl;
 }
  
 signed main()
