@@ -131,7 +131,8 @@ void solve(){
     //cout<<"Case "<<++cs<<": ";
     int n,k;
     cin>>n>>k;
-    vll arr(n);
+    map<ll,int>mm;
+    int ans=0;
     rep(i,n){
     	ll x;
     	cin>>x;
@@ -145,17 +146,12 @@ void solve(){
 				lagbe*=spF;
 			}
 		} 
-    	arr[i]=lagbe;
-    }
-    set<ll>st;
-    int ans=0;
-    rep(i,n){
-    	if(st.find(arr[i])!=st.end()){
+    	if(mm[lagbe]>=1){
     		ans++;
-    		st.clear();
-    		st.insert(arr[i]);
+    		mm.clear();
+    		mm[lagbe]++;
     	}
-    	else st.insert(arr[i]);
+    	mm[lagbe]++;
     }
     ans++;
     cout<<ans<<endl;
