@@ -120,15 +120,19 @@ void solve(){
     //cout<<"Case "<<++cs<<": ";
     ll n;
     cin>>n;
-    vll pd;
+    vll divs;
     for(ll i=2;i*i<=n;i++){
-    	int cnt=0;
-    	while(n%i==0)n/=i,cnt++;
-    	if(cnt>0) pd.pb(i);
+    	if(n%i==0){
+    		divs.pb(i);
+    		if(n/i!=i) divs.pb(n/i);
+    	}
     }
-    if(n>=2ll) pd.pb(n);
-    if(sz(pd)==1) cout<<pd[0]<<endl;
-    else cout<<1<<endl;
+    divs.pb(n);
+    ll gc=divs[0];
+    rep1(i,1,sz(divs)-1){
+    	gc=gcd(gc,divs[i]);
+    }
+    cout<<gc<<endl;
 }
  
 signed main()
