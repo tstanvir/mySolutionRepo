@@ -5007,6 +5007,23 @@
     ],
     "timestamp": "Mar/29/2021 01:57"
   },
+  "CF111454923": {
+    "contest_id": 1179,
+    "language": "GNU C++14",
+    "path": "codeforces\\1179\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Valeriy and Deque",
+    "problem_url": "https://codeforces.com/contest/1179/problem/A",
+    "submission_id": "CF111454923",
+    "submission_url": "https://codeforces.com/contest/1179/submission/111454923",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1500"
+    ],
+    "timestamp": "Mar/30/2021 15:12"
+  },
   "CF111455418": {
     "contest_id": 1179,
     "language": "GNU C++14",

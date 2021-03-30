@@ -157,15 +157,14 @@ void solve(){
     	//debug("hello");
     	ll pos;
     	cin>>pos;
-    	pos--;
-    	if(pos<szz){
-    		cout<<ans[pos].ff<<" "<<ans[pos].ss<<endl;
+    	if(pos<=szz){
+    		cout<<ans[pos-1].ff<<" "<<ans[pos-1].ss<<endl;
     	}
     	else{
     		pos-=szz;
     		pos%=(ll)(n-1);
-    		//if(pos==0ll) pos=(n-1);
-    		cout<<maxi<<" "<<dq[pos]<<endl;
+    		if(pos==0ll) pos=(n-1);
+    		cout<<maxi<<" "<<dq[pos-1]<<endl;
     	}
     }
 }
