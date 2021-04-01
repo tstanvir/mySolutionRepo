@@ -8072,6 +8072,22 @@
     ],
     "timestamp": "Mar/31/2021 21:51"
   },
+  "CF111707428": {
+    "contest_id": 1505,
+    "language": "GNU C++14",
+    "path": "codeforces\\1505\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Fibonacci Words",
+    "problem_url": "https://codeforces.com/contest/1505/problem/C",
+    "submission_id": "CF111707428",
+    "submission_url": "https://codeforces.com/contest/1505/submission/111707428",
+    "tags": [
+      "constructive algorithms",
+      "implementation"
+    ],
+    "timestamp": "Apr/01/2021 21:49"
+  },
   "CF111794168": {
     "contest_id": 1147,
     "language": "GNU C++14",
