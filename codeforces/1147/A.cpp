@@ -1,17 +1,3 @@
-// Problem: A. Hide and Seek
-// Contest: Codeforces - Forethought Future Cup - Final Round (Onsite Finalists Only)
-// URL: https://codeforces.com/problemset/problem/1147/A
-// Memory Limit: 256 MB
-// Time Limit: 1000 ms
-// 
-// Powered by CP Editor (https://cpeditor.org)
-
-//#pragma comment(linker, "/stack:200000000")
-//#pragma GCC optimize("Ofast")
-//#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
-
-
-
 #include<bits/stdc++.h>
 #include <ext/pb_ds/assoc_container.hpp>
 #include <ext/pb_ds/tree_policy.hpp>
@@ -19,6 +5,9 @@
 using namespace __gnu_pbds;
 using namespace std;
 
+//#pragma comment(linker, "/stack:200000000")
+//#pragma GCC optimize("Ofast")
+//#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
 
 #define IOS ios::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL);
 #define SET(x) memset(x, 0, sizeof(x))
@@ -84,7 +73,6 @@ void debug_out(vector<string> args, int idx, int LINE_NUM, Head H, Tail... T) {
 
 typedef long long ll;
 typedef unsigned long long ull;
-typedef pair<ll, ll> pll;
 typedef vector<int> vi;
 typedef vector<ll> vll;
 typedef vector<pair<int,int>> vpii;
@@ -115,7 +103,6 @@ ll lcm(ll a, ll b) {return (a*b)/gcd(a,b);}
 double sq(double x) {return x*x;} 
 ll po(ll b,ll p){ ll res=1; while(p){ res*=b; p--;} return res;}
 ll lg2(ll x){ ll res=0; while(x>1){ res++; x/=2ll;} return res;}
-bool get_bit(int mask,int pos) {return mask&(1<<pos);}
 bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
 {
     return a.first>b.first;
@@ -125,26 +112,31 @@ void solve(){
     //cout<<"Case "<<++cs<<": ";
     int n,k;
     cin>>n>>k;
-    vi vis(n+1),fst(n+1,-1),last(n+1,-1);
+    vi vec(k);
+    rep(i,k) cin>>vec[i];
+    if(n==1){
+    	cout<<0<<endl;
+    	return;
+    }
+    set<int>st(ALL(vec));
+    int tot=(n-2)*3+4-sz(st);
+    map<pair<int,int>,int>mm;
+    vi paichi(n+1);
     rep(i,k){
-    	int x;
-    	cin>>x;
-    	if(fst[x]==-1)fst[x]=i;
-    	last[x]=i;
-    	vis[x]=1;
+    	if(paichi[vec[i]-1]){
+    		mm[{vec[i],vec[i]-1}]=1;
+    	}
+    	if(paichi[vec[i]+1]){
+    		mm[{vec[i],vec[i]+1}]=1;
+    	}
+    	paichi[vec[i]]=1;
     }
-    int cnt=0;
-    vpii vec;
     rep1(i,1,n){
-    	if(!vis[i]) cnt++,vec.pb({i,i});
-    	if(i+1<=n and (vis[i]+vis[i+1]<=1 or (vis[i]+vis[i+1]<=2 and last[i+1]<fst[i]))) cnt++,vec.pb({i,i+1});
-    	if(i-1>=1 and (vis[i]+vis[i-1]<=1 or (vis[i]+vis[i-1]<=2 and fst[i]>last[i-1]))) cnt++,vec.pb({i,i-1});
+    	if(i-1>=1 and mm[{i,i-1}]) tot--;
+    	if(i+1<=n and mm[{i,i+1}]) tot--;
     }
-    //forch(it,vec){
-    	//cout<<it.ff<<" "<<it.ss<<endl;
-   //}
-   //cout<<endl;
-    cout<<cnt<<endl;
+    cout<<tot<<endl;
+    
 }
  
 signed main()
@@ -153,7 +145,7 @@ signed main()
     IOS;
     int t;
     t=1;
-   // cin>>t;
+    //cin>>t;
     while(t--){
         solve();
     }
