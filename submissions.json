@@ -5007,6 +5007,22 @@
     ],
     "timestamp": "Mar/29/2021 01:57"
   },
+  "AC21549651": {
+    "contest_id": "abc132",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc132\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Ordinary Number",
+    "problem_url": "https://atcoder.jp/contests/abc132/tasks/abc132_b",
+    "submission_id": "AC21549651",
+    "submission_url": "https://atcoder.jp/contests/abc132/submissions/21549651",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Apr/07/2021 14:00"
+  },
   "AC21549764": {
     "contest_id": "abc131",
     "language": "C++ (GCC 9.2.1)",
