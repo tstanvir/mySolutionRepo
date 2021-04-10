@@ -8153,6 +8153,24 @@
     ],
     "timestamp": "Apr/02/2021 20:40"
   },
+  "CF112431019": {
+    "contest_id": 1504,
+    "language": "GNU C++14",
+    "path": "codeforces\\1504\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Balance the Bits",
+    "problem_url": "https://codeforces.com/contest/1504/problem/C",
+    "submission_id": "CF112431019",
+    "submission_url": "https://codeforces.com/contest/1504/submission/112431019",
+    "tags": [
+      "brute force",
+      "constructive algorithms",
+      "greedy",
+      "*1600"
+    ],
+    "timestamp": "Apr/10/2021 11:52"
+  },
   "CF112471732": {
     "contest_id": 1512,
     "language": "GNU C++14",
