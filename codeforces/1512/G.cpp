@@ -139,21 +139,6 @@ void spf(){
         }
     }
 }
-ll sumOfDiv(int x){
-	ll d=1;
-	while (x != 1) {
-	     ll p = Spf[x];
-	     ll val=1;
-	     while (Spf[x] == p) {
-	         val*=Spf[x];
-	         x /= Spf[x];
-	     }
-     	val*=p;
-     	d*=(val-1);
-     	d/=(p-1);
-	}
-	return d;
-}
 /*ll ok(ll n){
     	ll ans=1;
     	for(ll i=2;i*i<=n;i++){
@@ -193,7 +178,19 @@ signed main()
    	rep1(i,1,maxx-1){
    		ll d=1;
    		ll x=i;
-   		d=sumOfDiv(x);
+   		while (x != 1) {
+	         ll p = Spf[x];
+	         ll val=1;
+	         while (Spf[x] == p) {
+	             val*=Spf[x];
+	             x /= Spf[x];
+	         }
+	        // if(val>1){
+	         	val*=p;
+	         	d*=(val-1);
+	         	d/=(p-1);
+	         //}
+    	}
     	if(d<maxx and vec[d]==-1) vec[d]=i;
    	}
     int t;
