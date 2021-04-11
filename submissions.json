@@ -5007,6 +5007,22 @@
     ],
     "timestamp": "Mar/29/2021 01:57"
   },
+  "AC21690103": {
+    "contest_id": "abc198",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc198\\E.cpp",
+    "platform": "AtCoder",
+    "problem_index": "E",
+    "problem_name": "Unique Color",
+    "problem_url": "https://atcoder.jp/contests/abc198/tasks/abc198_e",
+    "submission_id": "AC21690103",
+    "submission_url": "https://atcoder.jp/contests/abc198/submissions/21690103",
+    "tags": [
+      "AtCoder",
+      "*500"
+    ],
+    "timestamp": "Apr/11/2021 19:37"
+  },
   "AC21692635": {
     "contest_id": "abc198",
     "language": "C++ (GCC 9.2.1)",
