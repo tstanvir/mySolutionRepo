@@ -8520,6 +8520,23 @@
     ],
     "timestamp": "Apr/11/2021 03:52"
   },
+  "CF112747592": {
+    "contest_id": 1513,
+    "language": "GNU C++14",
+    "path": "codeforces\\1513\\A.cpp",
+    "platform": "Codeforces",
+    "problem_index": "A",
+    "problem_name": "Array and Peaks",
+    "problem_url": "https://codeforces.com/contest/1513/problem/A",
+    "submission_id": "CF112747592",
+    "submission_url": "https://codeforces.com/contest/1513/submission/112747592",
+    "tags": [
+      "constructive algorithms",
+      "implementation",
+      "*800"
+    ],
+    "timestamp": "Apr/12/2021 11:19"
+  },
   "CF112882692": {
     "contest_id": 1513,
     "language": "GNU C++14",
