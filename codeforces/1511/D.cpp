@@ -118,26 +118,34 @@ bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
     return a.first>b.first;
 }
 int cs=0;
-int n,k;
-vi edg(26),path,vis(26);
-void dfs(int u){
-	while(edg[u]<k){
-		int v=edg[u]++;
-		dfs(v);
-		path.pb(v);
-	}
-}
 void solve(){
     //cout<<"Case "<<++cs<<": ";
+    int n,k;
     cin>>n>>k;
-    //debug("ok");
-    dfs(0);
-    //debug("ok1");
-    //rep(i,sz(path)) cout<<path[i];
-    //cout<<endl;
-    cout<<"a";
-    rep(i,n-1){
-    	cout<<char(path[i%sz(path)]+'a');
+    string allowed="";
+    rep(i,k){
+    	allowed+='a'+i;
+    }
+    //debug(allowed);
+    string optimal="";
+    rep(i,k)
+    {
+    	optimal+=allowed[i];
+    	rep1(j,i+1,k-1){
+    		optimal+=allowed[i];
+    		optimal+=allowed[j];
+    	}
+    }
+    //debug(optimal);
+    int szz=sz(optimal);
+    int i=-1;
+    string ans=optimal;
+    while(sz(ans)<n){
+    	ans+=optimal[++i];
+    	if(i==szz-1) i=-1;
+    }
+    rep(i,n){
+    	cout<<ans[i];
     }
     cout<<endl;
     
