@@ -5183,6 +5183,22 @@
     ],
     "timestamp": "Apr/11/2021 19:46"
   },
+  "AC21817801": {
+    "contest_id": "jsc2021",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\jsc2021\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Max GCD 2",
+    "problem_url": "https://atcoder.jp/contests/jsc2021/tasks/jsc2021_c",
+    "submission_id": "AC21817801",
+    "submission_url": "https://atcoder.jp/contests/jsc2021/submissions/21817801",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Apr/17/2021 13:47"
+  },
   "AC21828479": {
     "contest_id": "jsc2021",
     "language": "C++ (GCC 9.2.1)",
