@@ -5183,6 +5183,22 @@
     ],
     "timestamp": "Apr/11/2021 19:46"
   },
+  "AC21875158": {
+    "contest_id": "arc117",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc117\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "ARC Wrecker",
+    "problem_url": "https://atcoder.jp/contests/arc117/tasks/arc117_b",
+    "submission_id": "AC21875158",
+    "submission_url": "https://atcoder.jp/contests/arc117/submissions/21875158",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Apr/18/2021 21:11"
+  },
   "CF100000120": {
     "contest_id": 1455,
     "language": "GNU C++17",
