@@ -127,7 +127,7 @@ void build(int treeL,int treeR){
 	//debug(treeL,treeR);
 	mm[pref[treeR+1]-pref[treeL]]=1;
     int mid=(vec[treeL]+vec[treeR])/2;
-    int up=upper_bound(vec.begin()+treeL,vec.begin()+treeR+1,mid)-vec.begin();
+    int up=upper_bound(vec.begin(),vec.begin()+n,mid)-vec.begin();
     up--;
     if(up==-1 or up==treeR) return;	
     build(treeL,up);
