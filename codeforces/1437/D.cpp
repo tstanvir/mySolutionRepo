@@ -124,15 +124,49 @@ void solve(){
     cin>>n;
     vi vec(n);
     rep(i,n) cin>>vec[i];
-    vi dist(n+1);
-    int notunPar=0;
-    rep1(i,1,n-1){
-    	if(i-1>0 and vec[i]<vec[i-1]){
-    		notunPar++;
+    queue<int>q;
+    q.push(vec[0]);
+    int i=1;
+    vi edg[n+1];
+    while(!q.empty() and i<n){
+    	int u=q.front();
+    	q.pop();
+    	edg[u].pb(vec[i]);
+    	q.push(vec[i]);
+    	i++;
+    	while(i<n and vec[i]>vec[i-1]){
+    		edg[u].pb(vec[i]);
+    		q.push(vec[i]);
+    		i++;
     	}
-    	dist[i]=dist[notunPar]+1;
     }
-    cout<<dist[n-1]<<endl;
+    /*rep1(i,1,n){
+    	cout<<i<<" "<<sz(edg[i])<<endl;
+    	forch(v,edg[i]){
+    		cout<<v<<" ";
+    	}
+    	cout<<endl;
+    }*/
+    vi vis(n+1),dist(n+1);
+    while(!q.empty()) q.pop();
+    q.push(1);
+    vis[1]=1;
+    while(!q.empty()){
+    	int u=q.front();
+    	q.pop();
+    	forch(v,edg[u]){
+    		if(!vis[v]){
+    			q.push(v);
+    			vis[v]=1;
+    			dist[v]=dist[u]+1;
+    		}
+    	}
+    }
+    int maxi=-1;
+    rep(i,n+1){
+    	maxi=max(maxi,dist[i]);
+    }
+    cout<<maxi<<endl;
 }
  
 signed main()
