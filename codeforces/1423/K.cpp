@@ -139,9 +139,18 @@ void solve(){
     int up=upper_bound(ALL(primes),n)-primes.begin();
     up--;
     int lo=0,hi=up;
-    int ans=upper_bound(ALL(primes),(int)sqrt(n))-primes.begin();
-    ans--;
-   	//ans=max(ans,0);
+    int ans=-1;
+    while(lo<=hi){
+    	int mid=(lo+hi)/2;
+    	//debug(mid,primes[mid]);
+    	if(primes[mid]*primes[mid]<=n){
+    		ans=mid;
+    		lo=mid+1;
+    	}
+    	else hi=mid-1;
+    }
+   // debug(up,ans);
+   ans=max(ans,0);
     ans=up-ans+1;
     cout<<ans<<endl;
 }
