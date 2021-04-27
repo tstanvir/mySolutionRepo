@@ -135,9 +135,9 @@ void solve(){
     rep1(i,0,z){
     	ll maxi=lowest(int);
     	sum=0;
-    	rep1(j,0,k-2*i){
-    			sum+=vec[j];
-    			if(j+1<n) maxi=max(maxi,vec[j]+vec[j+1]);
+    	rep1(j,1,k-2*i+1){
+    			sum+=vec[j-1];
+    			maxi=max(maxi,vec[j]+vec[j-1]);
     	}
     	if(maxi!=lowest(int)){
     		int t=i;
