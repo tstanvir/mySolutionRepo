@@ -13,11 +13,12 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1412 | [D - Maximum Sum of Products](https://codeforces.com/contest/1519/problem/D) | [GNU C++14](./codeforces/1519/D.cpp) | `brute force` `dp` `implementation` `math` | Apr/30/2021 01:31 | 
-1411 | [C - Berland Regional](https://codeforces.com/contest/1519/problem/C) | [GNU C++14](./codeforces/1519/C.cpp) | `brute force` `greedy` `sortings` `two pointers` | Apr/29/2021 22:31 | 
-1410 | [B - The Cake Is a Lie](https://codeforces.com/contest/1519/problem/B) | [GNU C++14](./codeforces/1519/B.cpp) | `dp` `math` | Apr/29/2021 22:13 | 
-1409 | [A - Red and Blue Beans](https://codeforces.com/contest/1519/problem/A) | [GNU C++14](./codeforces/1519/A.cpp) | `math` | Apr/29/2021 21:31 | 
-1408 | [B - Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | [GNU C++14](./codeforces/1237/B.cpp) | `data structures` `sortings` `two pointers` `*1300` | Apr/29/2021 19:47 | 
+1413 | [D - Maximum Sum of Products](https://codeforces.com/contest/1519/problem/D) | [GNU C++14](./codeforces/1519/D.cpp) | `brute force` `dp` `implementation` `math` | Apr/30/2021 01:31 | 
+1412 | [C - Berland Regional](https://codeforces.com/contest/1519/problem/C) | [GNU C++14](./codeforces/1519/C.cpp) | `brute force` `greedy` `sortings` `two pointers` | Apr/29/2021 22:31 | 
+1411 | [B - The Cake Is a Lie](https://codeforces.com/contest/1519/problem/B) | [GNU C++14](./codeforces/1519/B.cpp) | `dp` `math` | Apr/29/2021 22:13 | 
+1410 | [A - Red and Blue Beans](https://codeforces.com/contest/1519/problem/A) | [GNU C++14](./codeforces/1519/A.cpp) | `math` | Apr/29/2021 21:31 | 
+1409 | [B - Balanced Tunnel](https://codeforces.com/contest/1237/problem/B) | [GNU C++14](./codeforces/1237/B.cpp) | `data structures` `sortings` `two pointers` `*1300` | Apr/29/2021 19:47 | 
+1408 | [C - Constanze's Machine](https://codeforces.com/contest/1245/problem/C) | [GNU C++14](./codeforces/1245/C.cpp) | `dp` `*1400` | Apr/29/2021 19:22 | 
 1407 | [B - ARC Wrecker](https://atcoder.jp/contests/arc117/tasks/arc117_b) | [C++ (GCC 9.2.1)](./atcoder/arc117/B.cpp) | `AtCoder` `*400` | Apr/18/2021 21:11 | 
 1406 | [A - God Sequence](https://atcoder.jp/contests/arc117/tasks/arc117_a) | [C++ (GCC 9.2.1)](./atcoder/arc117/A.cpp) | `AtCoder` `*200` | Apr/18/2021 18:04 | 
 1405 | [D - Divide and Summarize](https://codeforces.com/contest/1461/problem/D) | [GNU C++14](./codeforces/1461/D.cpp) | `binary search` `brute force` `data structures` `divide and conquer` `implementation` `sortings` `*1600` | Apr/18/2021 15:03 | 
