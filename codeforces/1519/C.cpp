@@ -114,17 +114,20 @@ void solve(){
     //cout<<"Case "<<++cs<<": ";
     int n;
     cin>>n;
-    set<int>st;
+    vector<int>st;
     vi u(n);
     rep(i,n){
         cin>>u[i];
-        st.insert(u[i]);
+        st.pb(u[i]);
     }
     vll skill(n);
-    multiset<int>uni[n+1];
+    vector<int>uni[n+1];
     rep(i,n){
         cin>>skill[i];
-        uni[u[i]].insert(skill[i]);
+        uni[u[i]].pb(skill[i]);
+    }
+    rep1(i,1,n){
+    	sort(ALL(uni[i]));
     }
     ll ans1=accumulate(ALL(skill),0ll);
     int maxi=-1;
@@ -132,28 +135,23 @@ void solve(){
         maxi=max(maxi,int(sz(uni[it])));
     }
     vll pref[n+1];
-    forch(it,st){
+    rep1(it,1,n){
         pref[it].pb(0);
         forch(jt,uni[it]){
             pref[it].pb(pref[it].back()+jt);
         }
     }
-    rep1(k,1,n){
-        ll ans=ans1;
-        if(k==1){
-            cout<<ans<<" ";
-        }
-        else if(k>maxi){
-            cout<<0<<" ";
-        }
-        else {
-            forch(it,st){
-                int szz=sz(uni[it]);
-                int last=szz%k;
-                ans-=(pref[it][last]);
-            }
-            cout<<ans<<" ";
-        }
+    vll ans(n);
+    rep1(it,1,n){
+        int szz=sz(uni[it]);
+	    rep1(k,1,szz){
+	        
+	        int last=(szz/k)*k;
+	        ans[k-1]+=(pref[it][szz]-pref[it][szz-last]);
+	    }
+    }
+    rep(i,n){
+    	cout<<ans[i]<<" ";
     }
     cout<<endl;
 }
