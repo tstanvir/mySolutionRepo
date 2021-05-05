@@ -124,15 +124,20 @@ void solve(){
     cin>>n;
     string s;
     cin>>s;
-    string t=s;
-    sort(ALL(t));
-    uniq(t);
-    uniq(s);
-    //debug(t,s);
-    if(sz(t)==sz(s)){
-    	cout<<"YES"<<endl;
+    vi vec[26];
+    rep(i,n){
+    	if(vec[s[i]-'A'].size()==0){
+    		vec[s[i]-'A'].pb(i);
+    	}
+    	else{
+    		if(i-vec[s[i]-'A'].back()>1){
+    			cout<<"NO"<<endl;
+    			return;
+    		}
+    		vec[s[i]-'A'].pb(i);
+    	}
     }
-    else cout<<"NO"<<endl;
+    cout<<"YES"<<endl;
 }
  
 signed main()
