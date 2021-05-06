@@ -9435,6 +9435,23 @@
     ],
     "timestamp": "Apr/30/2021 01:31"
   },
+  "CF115364963": {
+    "contest_id": 1520,
+    "language": "GNU C++17",
+    "path": "codeforces\\1520\\F1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "F1",
+    "problem_name": "Guess the K-th Zero (Easy version)",
+    "problem_url": "https://codeforces.com/contest/1520/problem/F1",
+    "submission_id": "CF115364963",
+    "submission_url": "https://codeforces.com/contest/1520/submission/115364963",
+    "tags": [
+      "binary search",
+      "interactive",
+      "*1600"
+    ],
+    "timestamp": "May/06/2021 06:56"
+  },
   "CF115366351": {
     "contest_id": 1520,
     "language": "GNU C++14",
