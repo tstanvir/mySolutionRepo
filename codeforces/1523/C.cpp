@@ -123,15 +123,22 @@ void solve(){
     int n;
     cin>>n;
     vi vec;
+    vi arr(n);
+    rep(i,n) cin>>arr[i];
     rep(i,n){
     	int a;
-    	cin>>a;
+    	a=arr[i];
     	if(a==1){
     		vec.pb(a);
     	}
     	else{
-    		while(sz(vec) and vec.back()!=a-1) vec.ppb();
-    		vec.ppb();
+    		while(sz(vec)){
+    			if(vec.back()==a-1){
+    				vec.ppb();
+    				break;
+    			}
+    			vec.ppb();
+    		}
     		vec.pb(a);
     	}
     	rep(j,sz(vec)){
