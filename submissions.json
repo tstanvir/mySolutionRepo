@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC23257597": {
+    "contest_id": "abc204",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc204\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Rock-paper-scissors",
+    "problem_url": "https://atcoder.jp/contests/abc204/tasks/abc204_a",
+    "submission_id": "AC23257597",
+    "submission_url": "https://atcoder.jp/contests/abc204/submissions/23257597",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Jun/06/2021 19:57"
+  },
   "AC23259234": {
     "contest_id": "abc204",
     "language": "C++ (GCC 9.2.1)",
