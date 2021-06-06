@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC23256076": {
+    "contest_id": "abc204",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc204\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Nuts",
+    "problem_url": "https://atcoder.jp/contests/abc204/tasks/abc204_b",
+    "submission_id": "AC23256076",
+    "submission_url": "https://atcoder.jp/contests/abc204/submissions/23256076",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/06/2021 19:43"
+  },
   "AC23257597": {
     "contest_id": "abc204",
     "language": "C++ (GCC 9.2.1)",
