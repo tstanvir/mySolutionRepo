@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC23580351": {
+    "contest_id": "abc206",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc206\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Savings",
+    "problem_url": "https://atcoder.jp/contests/abc206/tasks/abc206_b",
+    "submission_id": "AC23580351",
+    "submission_url": "https://atcoder.jp/contests/abc206/submissions/23580351",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jun/19/2021 18:06"
+  },
   "AC23586067": {
     "contest_id": "abc206",
     "language": "C++ (GCC 9.2.1)",
