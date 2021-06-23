@@ -127,19 +127,32 @@ int n;
 void solve(){
     //cout<<"Case "<<++cs<<": ";
     cin>>n;
-    minpq q;
-    ll sum=0;
-    rep(i,n) {
-        int x;
-        cin>>x;
-        sum+=x;
-        q.push(x);
-        while(sum<0){
-            sum-=q.top();
-            q.pop();
+    rep(i,n) cin>>arr[ i];
+    rep(i,n+1){
+        dp[i]=lowest(int);
+    }
+    dp[0]=0;
+    rep1(pos,1,n){
+        auto old=dp;
+        rep1(k,1,pos){
+            if(arr[pos-1]+old[k-1]>=0){
+                dp[k]=max(old[k-1]+arr[pos-1],old[k]);
+            }
+            else dp[k]=old[k];
         }
     }
-    cout<<sz(q)<<endl;
+    // rep(i,n+1)
+    // {
+    //         cout<<dp[i]<<" ";
+    // }
+    // cout<<endl;
+    irep(i,n,0){
+        //debug(dp[n][i]);
+        if(dp[i]>=0) {
+            cout<<i<<endl;
+            return;
+        }
+    }
 }
  
 signed main()
