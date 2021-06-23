@@ -121,7 +121,7 @@ bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
 }
 int cs=0;
 ll arr[2005];
-array<ll,2005>dp;
+ll dp[2005][2005];
 int n;
 
 void solve(){
@@ -129,26 +129,32 @@ void solve(){
     cin>>n;
     rep(i,n) cin>>arr[ i];
     rep(i,n+1){
-        dp[i]=lowest(int);
-    }
-    dp[0]=0;
-    rep1(pos,1,n){
-        auto old=dp;
-        rep1(k,1,pos){
-            if(arr[pos-1]+old[k-1]>=0){
-                dp[k]=max(old[k-1]+arr[pos-1],old[k]);
-            }
-            else dp[k]=old[k];
+        rep(j,n+1){
+            dp[i][j]=lowest(int);
         }
     }
-    // rep(i,n+1)
-    // {
-    //         cout<<dp[i]<<" ";
-    // }
-    // cout<<endl;
+    rep(i,n+1){
+        dp[i][0]=0;
+        //dp[0][i]=0;
+    }
+    rep1(pos,1,n){
+        rep1(k,1,pos){
+            if(arr[pos-1]+dp[pos-1][k-1]>=0){
+                dp[pos][k]=max(dp[pos-1][k-1]+arr[pos-1],dp[pos-1][k]);
+            }
+            else dp[pos][k]=dp[pos-1][k];
+        }
+    }
+   /* rep(i,n+1)
+    {
+        rep(j,n+1){
+            cout<<dp[i][j]<<" ";
+        }
+        cout<<endl;
+    }*/
     irep(i,n,0){
         //debug(dp[n][i]);
-        if(dp[i]>=0) {
+        if(dp[n][i]>=0) {
             cout<<i<<endl;
             return;
         }
