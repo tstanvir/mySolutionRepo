@@ -127,7 +127,7 @@ void solve(){
     vi vec(n+1);
     rep1(i,1,n) cin>>vec[i];
     ll ans=0;
-    map<pll,int>mm;
+    set<int>st[2*n+5];
     rep1(i,1,n){
         int r=2*i-1;
         int vecj=1;
@@ -135,10 +135,10 @@ void solve(){
             //debug(cnt,mm[cnt],j,vec[i]);
             //debug(i,l);
             int j=l-i;
-            ans+=mm[{vecj,j}];
+            ans+=st[vecj].find(j)!=st[vecj].end();
         }
         //debug(i,ans);
-        mm[{vec[i],i}]++;
+        st[vec[i]].insert(i);
     }
     cout<<ans<<endl;
 }
