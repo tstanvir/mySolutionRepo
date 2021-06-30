@@ -163,20 +163,17 @@ void solve(){
         }
     }
     sort(ALL(vec));
-    vi dp(b+1);
-    //SET(dp);
-
     rep(i,sz(vec)){
-        vi old=dp;
-        rep1(j,vec[i],b){
-            dp[j]=max(old[j-vec[i]]+1,old[j]);
+        if(vec[i]<=b){
+            b-=vec[i];
+        }
+        else {
+            cout<<i<<endl;
+            return;
         }
     }
-    int ans=0;
-    rep1(i,1,b){
-        ans=max(ans,dp[i]);
-    }
-    cout<<ans<<endl;
+    cout<<sz(vec)<<endl;
+
 }
  
 signed main()
