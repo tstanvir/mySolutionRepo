@@ -9681,6 +9681,24 @@
     ],
     "timestamp": "May/21/2021 17:04"
   },
+  "CF121331347": {
+    "contest_id": 1542,
+    "language": "GNU C++14",
+    "path": "codeforces\\1542\\B.cpp",
+    "platform": "Codeforces",
+    "problem_index": "B",
+    "problem_name": "Plus and Multiply",
+    "problem_url": "https://codeforces.com/contest/1542/problem/B",
+    "submission_id": "CF121331347",
+    "submission_url": "https://codeforces.com/contest/1542/submission/121331347",
+    "tags": [
+      "constructive algorithms",
+      "math",
+      "number theory",
+      "*1500"
+    ],
+    "timestamp": "Jul/04/2021 22:11"
+  },
   "CF121482958": {
     "contest_id": 1515,
     "language": "GNU C++14",
