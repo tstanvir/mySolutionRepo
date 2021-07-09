@@ -168,13 +168,11 @@ void solve(){
 			col*=10;
 			col+=(s[i]-'0');
 		}
-		//col--;
 		string ans="";
 		while(col>0){
-			col--;
 			int val=col%26;
-			// if(val==0) val=26;
-			// val--;
+			if(val==0) val=26,col--;
+			val--;
 			ans+=('A'+val);
 			col/=26;
 		}
