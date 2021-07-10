@@ -9681,6 +9681,23 @@
     ],
     "timestamp": "May/21/2021 17:04"
   },
+  "CF121944713": {
+    "contest_id": 1547,
+    "language": "GNU C++14",
+    "path": "codeforces\\1547\\C.cpp",
+    "platform": "Codeforces",
+    "problem_index": "C",
+    "problem_name": "Pair Programming",
+    "problem_url": "https://codeforces.com/contest/1547/problem/C",
+    "submission_id": "CF121944713",
+    "submission_url": "https://codeforces.com/contest/1547/submission/121944713",
+    "tags": [
+      "greedy",
+      "two pointers",
+      "*1100"
+    ],
+    "timestamp": "Jul/10/2021 21:13"
+  },
   "CF121957905": {
     "contest_id": 1547,
     "language": "GNU C++14",
