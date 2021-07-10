@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC24131253": {
+    "contest_id": "abc209",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc209\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Collision",
+    "problem_url": "https://atcoder.jp/contests/abc209/tasks/abc209_d",
+    "submission_id": "AC24131253",
+    "submission_url": "https://atcoder.jp/contests/abc209/submissions/24131253",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Jul/10/2021 18:42"
+  },
   "AC24131948": {
     "contest_id": "abc209",
     "language": "C++ (GCC 9.2.1)",
