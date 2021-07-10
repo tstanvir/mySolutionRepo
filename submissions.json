@@ -9681,6 +9681,27 @@
     ],
     "timestamp": "May/21/2021 17:04"
   },
+  "CF122005725": {
+    "contest_id": 1547,
+    "language": "GNU C++14",
+    "path": "codeforces\\1547\\E.cpp",
+    "platform": "Codeforces",
+    "problem_index": "E",
+    "problem_name": "Air Conditioners",
+    "problem_url": "https://codeforces.com/contest/1547/problem/E",
+    "submission_id": "CF122005725",
+    "submission_url": "https://codeforces.com/contest/1547/submission/122005725",
+    "tags": [
+      "data structures",
+      "dp",
+      "implementation",
+      "shortest paths",
+      "sortings",
+      "two pointers",
+      "*1500"
+    ],
+    "timestamp": "Jul/10/2021 23:09"
+  },
   "CF122727813": {
     "contest_id": 514,
     "language": "GNU C++14",
