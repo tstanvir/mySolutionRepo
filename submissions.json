@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC24497946": {
+    "contest_id": "abc211",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc211\\B.cpp",
+    "platform": "AtCoder",
+    "problem_index": "B",
+    "problem_name": "Cycle Hit",
+    "problem_url": "https://atcoder.jp/contests/abc211/tasks/abc211_b",
+    "submission_id": "AC24497946",
+    "submission_url": "https://atcoder.jp/contests/abc211/submissions/24497946",
+    "tags": [
+      "AtCoder",
+      "*200"
+    ],
+    "timestamp": "Jul/24/2021 18:20"
+  },
   "AC24504460": {
     "contest_id": "abc211",
     "language": "C++ (GCC 9.2.1)",
