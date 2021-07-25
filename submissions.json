@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC24538122": {
+    "contest_id": "arc124",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\arc124\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "LR Constraints",
+    "problem_url": "https://atcoder.jp/contests/arc124/tasks/arc124_a",
+    "submission_id": "AC24538122",
+    "submission_url": "https://atcoder.jp/contests/arc124/submissions/24538122",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Jul/25/2021 18:20"
+  },
   "AC24549495": {
     "contest_id": "arc124",
     "language": "C++ (GCC 9.2.1)",
