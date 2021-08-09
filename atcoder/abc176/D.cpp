@@ -1,210 +1,188 @@
-/// Bismillahir Rahmanir Rahim
-//Author: Tanvir Hussain
-//ICE,NSTU
+// Problem: D - Wizard in Maze
+// Contest: AtCoder - AtCoder Beginner Contest 176
+// URL: https://atcoder.jp/contests/abc176/tasks/abc176_d
+// Memory Limit: 1024 MB
+// Time Limit: 2000 ms
+// 
+// Powered by CP Editor (https://cpeditor.org)
+
 #include<bits/stdc++.h>
-#include <ext/pb_ds/assoc_container.hpp>
-#include <ext/pb_ds/tree_policy.hpp>
-using namespace __gnu_pbds;
+//#include <ext/pb_ds/assoc_container.hpp>
+//#include <ext/pb_ds/tree_policy.hpp>
+
+//find_by_order(k): It returns to an iterator to the kth element 
+//(counting from zero) in the set in O(logn) time.
+//To find the first element k must be zero.
+
+// order_of_key(k) : It returns to the number of items that 
+// are strictly smaller than our item k in O(logn) time.
+
+//using namespace __gnu_pbds;
 using namespace std;
-const long long MOD = 1000000007;
-#pragma GCC optimize("Ofast")
-#pragma GCC target("avx,avx2,fma")
+
+//#pragma comment(linker, "/stack:200000000")
+//#pragma GCC optimize("Ofast")
+//#pragma GCC target("sse,sse2,sse3,ssse3,sse4,popcnt,abm,mmx,avx,tune=native")
+
+#define IOS ios::sync_with_stdio(false),cin.tie(NULL),cout.tie(NULL);
 #define SET(x) memset(x, 0, sizeof(x))
-#define SET2d(x,m,n) memset(x, 0, sizeof(x[0][0]) * m * n)
-#define SETBOOL(x) memset(x,false,sizeof(x))
 #define CLR(x) memset(x, -1, sizeof(x))
-#define CLR2d(x,m,n) memset(x, -1, sizeof(x[0][0]) * m * n)
 #define mp make_pair
-#define PII pair<int, int>
-#define pf printf
-#define sf scanf
 #define ALL(x) x.begin(),x.end()
 #define pb push_back
-#define IOS ios::sync_with_stdio(false); cin.tie(0);
-#define np std::string::npos
+#define ppb pop_back
 #define highest(x) numeric_limits<x>::max()
 #define lowest(x) numeric_limits<x>::min()
-#define Inf INFINITY
 #define minv(v) *min_element(v.begin(),v.end())
 #define maxv(v) *max_element(v.begin(),v.end())
-#define cases(cs,t) for(int cs=1;cs<=t;cs++)
 #define PI acos(-1)
-#define no1 __builtin_popcount
-#define BOUNDARY(i, j) ((i >= 0 && i < row) && (j >= 0 && j < column))
+#define border(i, j , row, column) ((i >= 0 && i < row) && (j >= 0 && j < column))
 #define uniq(vec) vec.resize(distance(vec.begin(),unique(vec.begin(),vec.end())))
-#define ordered_set tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update>
 #define sz(a) int(a.size())
 #define ff first
 #define ss second
 #define endl "\n"
 #define forch(it,s) for(auto it:s)
-#define each(it,s) for(auto it = s.begin(); it != s.end(); ++it)
 #define rep(i,a) for(int i=0; i<a;i++)
 #define rep1(i,a,b) for(int i=(a);i<=(b);++i)
 #define irep(i,b,a) for(int i=(b);i>=(a);--i)
-#define bits(n) __builtin_popcount(n)
+#define no1(n) __builtin_popcount(n)
 #define maxpq priority_queue<int>
 #define minpq priority_queue<int, vector<int>, greater<int> >
+#define di deque<int>
+#define dll deque<ll>
+#define pf push_front
+#define ppf pop_front
+#define preci cout<<fixed<<setprecision(9);
 
+ 
+ 
+vector<string> vec_splitter(string s) {
+    s += ',';
+    vector<string> res;
+    while(!s.empty()) {
+        res.push_back(s.substr(0, s.find(',')));
+        s = s.substr(s.find(',') + 1);
+    }
+    return res;
+}
+void debug_out(
+vector<string> __attribute__ ((unused)) args,
+__attribute__ ((unused)) int idx,
+__attribute__ ((unused)) int LINE_NUM) { cerr << endl; }
+template <typename Head, typename... Tail>
+void debug_out(vector<string> args, int idx, int LINE_NUM, Head H, Tail... T) {
+    if(idx > 0) cerr << ", "; else cerr << "Line(" << LINE_NUM << ") ";
+    stringstream ss; ss << H;
+    cerr << args[idx] << " = " << ss.str();
+    debug_out(args, idx + 1, LINE_NUM, T...);
+}
 
-int gcd(int a, int b) { if (a == 0) return b; return gcd(b % a, a);}
+#define XOX
+#ifdef XOX
+#define debug(...) debug_out(vec_splitter(#__VA_ARGS__), 0, __LINE__, __VA_ARGS__)
+#else
+#define debug(...) 42
+#endif
+ 
+ 
+
 typedef long long ll;
+typedef unsigned long long ull;
+typedef pair<int, int> pll;
 typedef vector<int> vi;
 typedef vector<ll> vll;
 typedef vector<pair<int,int>> vpii;
-typedef tree<pair<int, int>,null_type,less<pair<int, int>>,rb_tree_tag,tree_order_statistics_node_update> ordered_multiset;
+typedef vector<pair<ll,ll>> vpll;
+//typedef tree<pair<int, int>,null_type,less<pair<int, int>>,rb_tree_tag,tree_order_statistics_node_update> omst;
+//typedef tree<int, null_type,less<int>, rb_tree_tag,tree_order_statistics_node_update> ost; 
 int dx8[] = {0, 0, 1, 1, 1, -1, -1, -1};
 int dy8[] = {1,-1, 1, -1, 0, 0, -1, 1};
 int dx4[] = {0, 0, 1, -1};
 int dy4[] = {1, -1, 0, 0};
-int bal4[]={1,1,-1,-1};
-int byl4[]={1,-1,-1,1};
 const int maxx=100005;
-map<pair<int,int>,int>nishiddo;
-int dx25[25],dy25[25];
+const long long MOD = 1000000007;
+const double rad=(acos(-1)/180.00);
+const int INF    = 0x3f3f3f3f;
+const ll LL_INF  = 0x3f3f3f3f3f3f3f3f;
+const ll negInf=-1e18;
+const ll posInf=1e18;
+#define EPS  0.000000001
 
-//this fuction sorts vector pair according to first element in descending order.
+ 
+inline void normal(ll &a) { a %= MOD; (a < 0) && (a += MOD); }
+inline ll modMul(ll a, ll b) { a %= MOD, b %= MOD; normal(a), normal(b); return (a*b)%MOD; }
+inline ll modAdd(ll a, ll b) { a %= MOD, b %= MOD; normal(a), normal(b); return (a+b)%MOD; }
+inline ll modSub(ll a, ll b) { a %= MOD, b %= MOD; normal(a), normal(b); a -= b; normal(a); return a; }
+inline ll modPow(ll b, ll p) { ll r = 1; while(p) { if(p&1) r = modMul(r, b); b = modMul(b, b); p >>= 1; } return r; }
+inline ll modInverse(ll a) { return modPow(a, MOD-2); }  /// When MOD is prime.
+inline ll modDiv(ll a, ll b) { return modMul(a, modInverse(b)); }
+ll gcd(ll a, ll b) { if (a == 0) return b; return gcd(b % a, a);}
+ll lcm(ll a, ll b) {return (a*b)/gcd(a,b);}
+double sq(double x) {return x*x;} 
+ll po(ll b,ll p){ ll res=1; while(p){ res*=b; p--;} return res;}
+ll lg2(ll x){ ll res=0; while(x>1){ res++; x/=2ll;} return res;}
+bool get_bit(int mask,int pos) {return mask&(1<<pos);}
 bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
 {
     return a.first>b.first;
 }
-
-template<typename T>inline T Bigmod(T base, T power, T MOD){
-    T ret=1;
-    while(power)
-    {
-        if(power & 1)ret=(ret*base)%MOD;
-        base=(base*base)%MOD;
-        power>>=1;
-    }
-    return ret;
-}
-double sq(double x) {return x*x;}
-ll po(ll b,ll p){
-    ll res=1;
-    while(p){
-        res*=b;
-        p--;
-    }
-    return res;
-}
-ll lg2(ll x){
-    ll res=0;
-    while(x>1){
-        res++;
-        x/=2ll;
-    }
-    return res;
-}
-ll n,m,srcx,srcy,destx,desty,dist[1003][1003],vis[1005][1005];
-string s[1005];
-void bfs(int x,int y){
-    deque<pair<pair<int,int>,int>>q;
-    dist[x][y]=0;
-    q.pb({{x,y},0});
-    while(!q.empty()){
-        pair<pair<int,int>,int>u=*q.begin();
-        q.erase(q.begin());
-        //cout<<"cords: "<<u.ff.ff<<" "<<u.ff.ss<<endl;
-        if(u.ff.ff==destx and u.ff.ss==desty) return;
-        if(vis[u.ff.ff][u.ff.ss]) continue;
-        vis[u.ff.ff][u.ff.ss]=1;
-        rep1(i,-2,2){
-            rep1(j,-2,2){
-                if(nishiddo[{i,j}]){
-                    int newx=u.ff.ff+i,newy=u.ff.ss+j;
-                    if(newx>=0 and newx<n and newy>=0 and newy<m and s[newx][newy]=='.'){
-                        if(u.ss<dist[newx][newy])
-                            {
-                                dist[newx][newy]=u.ss;
-                                q.push_front({{newx,newy},u.ss});
-                            }
-                    }
-                }
-                else{
-                    if(i==0 and j==0) continue;
-                        int newx1=u.ff.ff+i,newy1=u.ff.ss+j;
-                        //cout<<newx1<<" "<<newy1<<endl;
-
-                        if(newx1>=0 and newx1<n and newy1>=0 and newy1<m and s[newx1][newy1]=='.'){
-                            if(u.ss+1<dist[newx1][newy1]) {
-                                    dist[newx1][newy1]=u.ss+1;
-                                    q.pb({{newx1,newy1},dist[newx1][newy1]});
-                            }
-                        }
-
-                }
-            }
-        }
-
-    }
-}
+int cs=0;
 void solve(){
-    rep(i,4){
-        nishiddo[{dx4[i],dy4[i]}]=1;
-    }
-    rep(i,1003){
-        rep(j,1003) dist[i][j]=highest(int);
-    }
+    //cout<<"Case "<<++cs<<": ";
+    int n,m;
     cin>>n>>m;
-    cin>>srcx>>srcy;
-    srcx--,srcy--;
-    cin>>destx>>desty;
-    destx--,desty--;
+    int sx,sy,dx,dy;
+    cin>>sx>>sy>>dx>>dy;
+    sx--,sy--,dx--,dy--;
+    string s[n];
     rep(i,n) cin>>s[i];
-    bfs(srcx,srcy);
-    if(dist[destx][desty]==highest(int)) cout<<-1<<endl;
-    else cout<<dist[destx][desty]<<endl;
+    int dist[n][m];
+    rep(i,n)rep(j,m){
+    	dist[i][j]=INF;
+    }
+    dist[sx][sy]=0;
+    deque<pll>q;
+    q.push_front({sx,sy});
+    while(!q.empty()){
+    	auto [x,y]=q.front();
+    	int d=dist[x][y];
+    	q.pop_front();
+    	rep1(i,-2,2)rep1(j,-2,2){
+    		int dx=abs(i)+abs(j);
+    		int newx=x+i,newy=y+j;
+    		if(border(newx,newy,n,m)){
+    			int &val=dist[newx][newy];
+    			if(dx==1){
+    				if(d<val and s[newx][newy]=='.'){
+    					val=d;
+    					q.push_front({newx,newy});
+    				}
+    			}
+    			else if(d+1<val and s[newx][newy]=='.'){
+    				val=d+1;
+    				q.push_back({newx,newy});
+    			}
+    		}
+    	}
+    }
+    if(dist[dx][dy]==INF) {
+    	cout<<-1<<endl;
+    	return;
+    }
+    cout<<dist[dx][dy]<<endl;
 }
-
+ 
 signed main()
-
+ 
 {
     IOS;
-    /*#ifndef ONLINE_JUDGE
-        freopen ("input.txt","r",stdin);
-        freopen ("output.txt","w",stdout);
-    #endif*/
     int t;
     t=1;
+   // cin>>t;
     while(t--){
         solve();
     }
-
-     return 0;
-
+    return 0;
+ 
 }
-///Alhamdulillah
-/*
-if(nishiddo[{i,j}]==0){
-                            int newx=u.ff.ff+dx8[i],newy=u.ff.ss+dy8[i];
-
-                            if(newx>=0 and newx<n and newy>=0 and newy<m and s[newx][newy]=='.'){
-                                if(u.ss+1<dist[newx][newy]) {
-                                        dist[newx][newy]=u.ss+1;
-                                        q.pb({{newx,newy},dist[newx][newy]});
-                                }
-                            }
-                    }
-            else {
-                    int newx=u.ff.ff+dx8[i],newy=u.ff.ss+dy8[i];
-                    if(newx>=0 and newx<n and newy>=0 and newy<m and s[newx][newy]=='.'){
-                        if(u.ss<dist[newx][newy])
-                            {
-                                dist[newx][newy]=u.ss;
-                                q.push_front({{newx,newy},u.ss});
-                            }
-                    }
-            }
-                if(i!=0 and j!=0){
-                    int newx1=u.ff.ff+i,newy1=u.ff.ss+j;
-                    //cout<<newx1<<" "<<newy1<<endl;
-
-                    if(newx1>=0 and newx1<n and newy1>=0 and newy1<m and s[newx1][newy1]=='.'){
-                        if(u.ss+1<dist[newx1][newy1]) {
-                                dist[newx1][newy1]=u.ss+1;
-                                q.pb({{newx1,newy1},dist[newx1][newy1]});
-                        }
-                    }
-                }
-*/
