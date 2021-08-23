@@ -133,7 +133,13 @@ void solve(){
     ll bt=0;	
     ll n;
     cin>>n;
-    cout<<lg2(n)<<endl;
+    while(1){
+    	if((1ll<<bt)>n){
+    		break;
+    	}
+    	bt++;
+    }
+    cout<<bt-1<<endl;
 }
  
 signed main()
