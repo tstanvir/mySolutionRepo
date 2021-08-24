@@ -158,30 +158,8 @@ ll sol(int ind,int t,int mask){
 void solve(){
     //cout<<"Case "<<++cs<<": ";
     cin>>n>>s;
-    //CLR(dp);
-    //cout<<sol(0,0,0)<<endl;
-    rep1(i,1,n){
-    	rep(u,maxx){
-    		rep(t,10){
-    			dp[i][t][u]=modAdd(dp[i][t][u],dp[i-1][t][u]);
-    			if(t==s[i-1]-'A'){
-    				dp[i][t][u]=modAdd(dp[i][t][u],dp[i-1][t][u]);
-    			}
-    			else if((u&(1<<(s[i-1]-'A')))==0){
-    				dp[i][s[i-1]-'A'][u|(1<<(s[i-1]-'A'))]=modAdd(dp[i][s[i-1]-'A'][u|(1<<(s[i-1]-'A'))],dp[i-1][t][u]);
-    			}
-    		}
-    	}
-    	dp[i][s[i-1]-'A'][(1<<(s[i-1]-'A'))]++;
-    	normal(dp[i][s[i-1]-'A'][(1<<(s[i-1]-'A'))]);
-    }
-    ll ans=0;
-    rep1(u,0,maxx-1){
-    	rep(t,10){
-    		ans=modAdd(ans,dp[n][t][u]);
-    	}
-    }
-    cout<<ans<<endl;
+    CLR(dp);
+    cout<<sol(0,0,0)<<endl;
 }
  
 signed main()
