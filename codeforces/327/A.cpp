@@ -148,11 +148,17 @@ void solve(){
     	if(vec[i]==0) b[i]=1;
     	else b[i]=-1;
     }
-    int cur=b[0];
-    maxi=max(maxi,cur);
-    rep1(i,1,n-1){
-    	cur=max(b[i],cur+b[i]);
-    	maxi=max(maxi,cur);
+    rep1(i,1,n){
+    	int s=0;
+    	rep(j,i){
+    		s+=b[j];
+    	}
+    	maxi=max(maxi,s);
+    	rep1(j,i,n-1){
+    		s+=b[j];
+    		s-=b[j-i];
+    		maxi=max(maxi,s);
+    	}
     }
     cout<<maxi+pref[n]<<endl;
 }
