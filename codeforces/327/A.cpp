@@ -138,29 +138,24 @@ void solve(){
     	cout<<(vec[n-1]^1)<<endl;
     	return;
     }
-    int maxi=lowest(int);
+    int maxi=0;
     vi pref(n+1);
     rep1(i,1,n){
     	pref[i]=pref[i-1]+vec[i-1];
     }
-    vi b(n);
-    rep(i,n){
-    	if(vec[i]==0) b[i]=1;
-    	else b[i]=-1;
-    }
     rep1(i,1,n){
-    	int s=0;
-    	rep(j,i){
-    		s+=b[j];
-    	}
-    	maxi=max(maxi,s);
-    	rep1(j,i,n-1){
-    		s+=b[j];
-    		s-=b[j-i];
-    		maxi=max(maxi,s);
+    	rep1(j,1,n-i+1){
+    		int l=j,r=j+i-1;
+    		int inside=(i)-(pref[r]-pref[l-1]);
+    		int outside=pref[l-1]+pref[n]-pref[r];
+    		maxi=max(maxi,inside+outside);
+    		if(maxi==24)
+    		{
+    			//cout<<l<<" "<<r<<endl;
+    		}
     	}
     }
-    cout<<maxi+pref[n]<<endl;
+    cout<<maxi<<endl;
 }
  
 signed main()
