@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC25489820": {
+    "contest_id": "abc216",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc216\\D.cpp",
+    "platform": "AtCoder",
+    "problem_index": "D",
+    "problem_name": "Pair of Balls",
+    "problem_url": "https://atcoder.jp/contests/abc216/tasks/abc216_d",
+    "submission_id": "AC25489820",
+    "submission_url": "https://atcoder.jp/contests/abc216/submissions/25489820",
+    "tags": [
+      "AtCoder",
+      "*400"
+    ],
+    "timestamp": "Aug/31/2021 20:32"
+  },
   "AC25492450": {
     "contest_id": "abc216",
     "language": "C++ (GCC 9.2.1)",
