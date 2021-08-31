@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC25488712": {
+    "contest_id": "abc216",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc216\\A.cpp",
+    "platform": "AtCoder",
+    "problem_index": "A",
+    "problem_name": "Signed Difficulty",
+    "problem_url": "https://atcoder.jp/contests/abc216/tasks/abc216_a",
+    "submission_id": "AC25488712",
+    "submission_url": "https://atcoder.jp/contests/abc216/submissions/25488712",
+    "tags": [
+      "AtCoder",
+      "*100"
+    ],
+    "timestamp": "Aug/31/2021 19:43"
+  },
   "AC25488779": {
     "contest_id": "abc216",
     "language": "C++ (GCC 9.2.1)",
