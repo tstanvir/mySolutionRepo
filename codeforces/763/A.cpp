@@ -1,7 +1,7 @@
-// Problem: A. Timofey and a tree
-// Contest: Codeforces - Codeforces Round #395 (Div. 1)
-// URL: https://codeforces.com/problemset/problem/763/A
-// Memory Limit: 256 MB
+// Problem: A - Timofey and a tree
+// Contest: Virtual Judge - Team nstu_sararararah practice contest
+// URL: https://vjudge.net/contest/457004#problem/A
+// Memory Limit: 262 MB
 // Time Limit: 2000 ms
 // 
 // Powered by CP Editor (https://cpeditor.org)
@@ -128,34 +128,94 @@ bool sortinrev(const pair<int,int> &a,const pair<int,int> &b)
     return a.first>b.first;
 }
 int cs=0;
+int n;
+vi edg[maxx],col(maxx);
+int cand1=-1,cand2=-1;
+bool dfs(int u,int par){
+	bool ok=1;
+	forch(v,edg[u]){
+		if(v!=par){
+			ok&=dfs(v,u);
+		}
+	}
+	if(par==cand1){
+		return ok;
+	}
+	if(par==n) return ok;
+	if( par!=cand1){
+		return col[par]==col[u] and ok;
+	}
+	
+}
+bool dfs1(int u,int par){
+	//debug(u,par,sz(edg[u]));
+	bool ok=1;
+	forch(v,edg[u]){
+		//debug(v,par);
+		if(v!=par){
+			//debug("hello");
+			ok&=dfs1(v,u);
+		}
+	}
+	//debug(u,par);
+	if(par==cand2)
+	{
+		return ok;
+	}
+	if(par==n) return ok;
+	if( par!=cand2){
+		return col[par]==col[u] and ok;
+	}
+	
+}
 void solve(){
     //cout<<"Case "<<++cs<<": ";
-    int n;
     cin>>n;
-    vi u(n-1),v(n-1);
     rep(i,n-1){
-    	cin>>u[i]>>v[i];
-    	u[i]--,v[i]--;
-    }
-    vi col(n);
-    rep(i,n) cin>>col[i];
-    vi degree(n);
-    int mismatched=0;
-    rep(i,n-1){
-    	if(col[u[i]]!=col[v[i]]){
-    		mismatched++;
-    		degree[u[i]]++;
-    		degree[v[i]]++;
-    	}
+    	int u,v;
+    	cin>>u>>v;
+    	u--,v--;
+    	edg[u].pb(v);
+    	edg[v].pb(u);
     }
     rep(i,n){
-    	if(degree[i]==mismatched){
-    		cout<<"YES"<<endl;
-    		cout<<i+1<<endl;
-    		return;
-    	}
+    	cin>>col[i];
     }
-    cout<<"NO"<<endl;
+    
+    rep(i,n){
+    	bool ok=0;
+    	forch(it,edg[i]){
+    		if(col[i]!=col[it]){
+    			cand1=i;
+    			cand2=it;
+    			ok=1;
+    			break;
+    		}
+    	}
+    	if(ok) break;
+    }
+   // debug(cand1,cand2);
+    if(cand1!=-1 or cand2!=-1){
+    	if(cand1!=-1){
+    		if(dfs(cand1,n)){
+    			cout<<"YES"<<endl;
+    			cout<<cand1+1<<endl;
+    			return;
+    		}
+    	}
+    	if(cand2!=-1){
+    		if(dfs1(cand2,n)){
+    			cout<<"YES"<<endl;
+    			cout<<cand2+1<<endl;
+    			return;
+    		}
+    	}
+    	cout<<"NO"<<endl;
+    }
+    else{
+    	cout<<"YES"<<endl;
+    	cout<<1<<endl;
+    }
 }
  
 signed main()
