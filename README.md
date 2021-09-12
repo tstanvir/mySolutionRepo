@@ -13,12 +13,13 @@ A repository to keep track of problem solving practice, containing solutions fro
 
 | # | Title | Solution | Tags | Submitted |
 |---| ----- | -------- | ---- | --------- |
-1450 | [E - Buds Re-hanging](https://codeforces.com/contest/1566/problem/E) | [GNU C++14](./codeforces/1566/E.cpp) | `constructive algorithms` `dfs and similar` `dp` `greedy` `trees` | Sep/14/2021 03:00 | 
-1449 | [D2 - Seating Arrangements (hard version) ](https://codeforces.com/contest/1566/problem/D2) | [GNU C++14](./codeforces/1566/D2.cpp) | `data structures` `greedy` `implementation` `sortings` `two pointers` | Sep/13/2021 03:26 | 
-1448 | [D1 - Seating Arrangements (easy version) ](https://codeforces.com/contest/1566/problem/D1) | [GNU C++14](./codeforces/1566/D1.cpp) | `data structures` `greedy` `sortings` | Sep/12/2021 21:46 | 
-1447 | [C - MAX-MEX Cut](https://codeforces.com/contest/1566/problem/C) | [GNU C++14](./codeforces/1566/C.cpp) | `bitmasks` `constructive algorithms` `dp` `greedy` | Sep/12/2021 21:22 | 
-1446 | [A - Median Maximization](https://codeforces.com/contest/1566/problem/A) | [GNU C++14](./codeforces/1566/A.cpp) | `greedy` `math` | Sep/12/2021 20:50 | 
-1445 | [B - MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | [GNU C++14](./codeforces/1566/B.cpp) | `bitmasks` `constructive algorithms` `dp` `greedy` | Sep/12/2021 20:50 | 
+1451 | [E - Buds Re-hanging](https://codeforces.com/contest/1566/problem/E) | [GNU C++14](./codeforces/1566/E.cpp) | `constructive algorithms` `dfs and similar` `dp` `greedy` `trees` | Sep/14/2021 03:00 | 
+1450 | [D2 - Seating Arrangements (hard version) ](https://codeforces.com/contest/1566/problem/D2) | [GNU C++14](./codeforces/1566/D2.cpp) | `data structures` `greedy` `implementation` `sortings` `two pointers` | Sep/13/2021 03:26 | 
+1449 | [D1 - Seating Arrangements (easy version) ](https://codeforces.com/contest/1566/problem/D1) | [GNU C++14](./codeforces/1566/D1.cpp) | `data structures` `greedy` `sortings` | Sep/12/2021 21:46 | 
+1448 | [C - MAX-MEX Cut](https://codeforces.com/contest/1566/problem/C) | [GNU C++14](./codeforces/1566/C.cpp) | `bitmasks` `constructive algorithms` `dp` `greedy` | Sep/12/2021 21:22 | 
+1447 | [A - Median Maximization](https://codeforces.com/contest/1566/problem/A) | [GNU C++14](./codeforces/1566/A.cpp) | `greedy` `math` | Sep/12/2021 20:50 | 
+1446 | [B - MIN-MEX Cut](https://codeforces.com/contest/1566/problem/B) | [GNU C++14](./codeforces/1566/B.cpp) | `bitmasks` `constructive algorithms` `dp` `greedy` | Sep/12/2021 20:50 | 
+1445 | [C - Jury Meeting](https://codeforces.com/contest/1569/problem/C) | [GNU C++14](./codeforces/1569/C.cpp) | `combinatorics` `math` | Sep/12/2021 19:23 | 
 1444 | [B2 - Palindrome Game (hard version)](https://codeforces.com/contest/1527/problem/B2) | [GNU C++14](./codeforces/1527/B2.cpp) | `constructive algorithms` `games` `*1900` | May/21/2021 17:04 | 
 1443 | [C - Sequence Pair Weight](https://codeforces.com/contest/1527/problem/C) | [GNU C++14](./codeforces/1527/C.cpp) | `hashing` `implementation` `math` `*1600` | May/21/2021 07:46 | 
 1442 | [B1 - Palindrome Game (easy version)](https://codeforces.com/contest/1527/problem/B1) | [GNU C++14](./codeforces/1527/B1.cpp) | `constructive algorithms` `games` `*1200` | May/21/2021 07:42 | 
