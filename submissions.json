@@ -9681,6 +9681,23 @@
     ],
     "timestamp": "May/21/2021 17:04"
   },
+  "CF128638362": {
+    "contest_id": 1566,
+    "language": "GNU C++14",
+    "path": "codeforces\\1566\\D1.cpp",
+    "platform": "Codeforces",
+    "problem_index": "D1",
+    "problem_name": "Seating Arrangements (easy version) ",
+    "problem_url": "https://codeforces.com/contest/1566/problem/D1",
+    "submission_id": "CF128638362",
+    "submission_url": "https://codeforces.com/contest/1566/submission/128638362",
+    "tags": [
+      "data structures",
+      "greedy",
+      "sortings"
+    ],
+    "timestamp": "Sep/12/2021 21:46"
+  },
   "CF128678120": {
     "contest_id": 1566,
     "language": "GNU C++14",
