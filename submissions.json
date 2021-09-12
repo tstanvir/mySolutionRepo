@@ -5343,6 +5343,22 @@
     ],
     "timestamp": "Apr/25/2021 04:27"
   },
+  "AC25806415": {
+    "contest_id": "abc218",
+    "language": "C++ (GCC 9.2.1)",
+    "path": "atcoder\\abc218\\C.cpp",
+    "platform": "AtCoder",
+    "problem_index": "C",
+    "problem_name": "Shapes",
+    "problem_url": "https://atcoder.jp/contests/abc218/tasks/abc218_c",
+    "submission_id": "AC25806415",
+    "submission_url": "https://atcoder.jp/contests/abc218/submissions/25806415",
+    "tags": [
+      "AtCoder",
+      "*300"
+    ],
+    "timestamp": "Sep/12/2021 13:59"
+  },
   "CF100000120": {
     "contest_id": 1455,
     "language": "GNU C++17",
